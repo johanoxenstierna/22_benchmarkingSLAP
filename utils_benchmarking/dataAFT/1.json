@@ -1,0 +1,31 @@
+{
+ "_meta": {
+  "warehouse": {
+   "tag": "NR1",
+   "uuid": ""
+  },
+  "saveInBQ": false,
+  "requestName": "1",
+  "save_in_gui_test": true
+ },
+ "requestType": "pickroute",
+ "requestData": {
+  "origin": "0",
+  "destination": "1",
+  "mobileUnitId": "",
+  "pickRoundId": "c3_5e00_2",
+  "userId": "",
+  "picksInfo": {
+   "locations": [
+    "19",
+    "39",
+    "13"
+   ],
+   "SKUs": [
+    "4",
+    "5",
+    "6"
+   ]
+  }
+ }
+}

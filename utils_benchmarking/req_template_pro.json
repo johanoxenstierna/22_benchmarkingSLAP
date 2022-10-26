@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "warehouse": {"tag": "", "uuid": ""},
+    "saveInBQ": false
+  },
+  "requestType": "pickroute",
+  "requestData": {
+        "origin": "0",
+        "destination": "1",
+        "mobileUnitId": "",
+        "pickRoundId": "",
+        "userId": "",
+        "picksInfo": {
+          "locations": [],
+          "SKUs": []
+        }
+    }
+}

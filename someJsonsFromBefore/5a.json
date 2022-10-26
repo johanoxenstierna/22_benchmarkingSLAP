@@ -1,0 +1,25 @@
+{
+    "_meta": {
+        "warehouse": {
+            "tag": "EROSKI",
+            "uuid": ""
+        },
+        "saveInBQ": false
+    },
+    "requestType": "storageassignment",
+    "requestData": {
+        "origin": "EROSKI_START",
+        "destination": "EROSKI_STOP",
+        "computationalTime": "minimal",
+        "SKUsToSlot": "optimizedSelectionPickingLog",
+        "comment_to_above": "The SKUs above are also number of swaps reqpickbatch_success_202204256.json\nreqpickbatch_success_2022042526.jsonsought. OBS currently the code DOES NOT enforce the pre-specified zone for the swapping scenario.",
+        "optimizationType": {
+            "analysisOnly": false
+        },
+        "assignmentOptions": {
+            "openLocations": "SKUsToSlot",
+            "evaluationData": "./model/storage_assignment/pickingLogExample/",
+            "assignmentType": "swaps"
+        }
+    }
+}

@@ -1,0 +1,864 @@
+{
+    "distanceOrderPicking": 16658.67,
+    "distanceRelocation": 3613.07,
+    "distanceSaved": 3603.9,
+    "distanceTotal": 20271.74,
+    "numberOfLocationChangesProposed": 170,
+    "relocationPath": [
+        "X4-D14-3D",
+        "X4-O17-3A",
+        "X4-F10-1C",
+        "X4-C12-1A",
+        "X4-N17-3C",
+        "X4-N17-3E",
+        "X4-O13-2A",
+        "X4-P14-3C",
+        "X4-C12-3C",
+        "X4-C15-3A",
+        "X4-D12-2A",
+        "X4-C13-2D",
+        "X4-C14-2D",
+        "X4-O18-3C",
+        "X4-E17-3C",
+        "X4-C14-2A",
+        "X4-L12-3A",
+        "X4-N10-1C",
+        "X4-K10-3F",
+        "X4-M10-2C",
+        "X4-C11-2C",
+        "X4-C16-2C",
+        "X4-C15-1A",
+        "X4-R18-3D",
+        "X4-R17-2E",
+        "X4-D11-2B",
+        "X4-D16-2G",
+        "X4-D15-1D",
+        "X4-E17-1F",
+        "X4-R17-2B",
+        "X4-C14-2E",
+        "X4-C13-2B",
+        "X4-D10-3A",
+        "X4-C15-3D",
+        "X4-D11-3A",
+        "X4-C13-3A",
+        "X4-C13-3B",
+        "X4-K11-1F",
+        "X4-N12-2F",
+        "X4-N13-2B",
+        "X4-D14-2E",
+        "X4-L11-1B",
+        "X4-L17-2D",
+        "X4-M11-3A",
+        "X4-M14-1C",
+        "X4-R13-3B",
+        "X4-D13-2A",
+        "X4-M13-3E",
+        "X4-G18-2E",
+        "X4-E12-3B",
+        "X4-D13-3B",
+        "X4-M18-1C",
+        "X4-H17-3B",
+        "X4-C16-3C",
+        "X4-C15-3E",
+        "X4-D16-2A",
+        "X4-H15-2B",
+        "X4-C15-2B",
+        "X4-H16-2A",
+        "X4-E10-3D",
+        "X4-E14-2B",
+        "X4-O13-3E",
+        "X4-P11-3F",
+        "X4-O13-3G",
+        "X4-O10-1A",
+        "X4-L14-2F",
+        "X4-N17-1C",
+        "X4-D12-3B",
+        "X4-C11-1C",
+        "X4-J10-2D",
+        "X4-D11-3B",
+        "X4-C11-1B",
+        "X4-H10-2D",
+        "X4-L16-2A",
+        "X4-H17-2B",
+        "X4-L15-2B",
+        "X4-C15-2D",
+        "X4-D16-2F",
+        "X4-Q14-2C",
+        "X4-N17-3H",
+        "X4-H17-1A",
+        "X4-E10-2A",
+        "X4-D13-3C",
+        "X4-M10-1F",
+        "X4-L15-3C",
+        "X4-M16-2F",
+        "X4-E18-3C",
+        "X4-B14-1A",
+        "X4-C11-2A",
+        "X4-C11-1F",
+        "X4-C15-3C",
+        "X4-D18-1A",
+        "X4-N15-1A",
+        "X4-K10-2E",
+        "X4-Q10-1E",
+        "X4-R17-3F",
+        "X4-R18-3B",
+        "X4-O15-2B",
+        "X4-D17-2B",
+        "X4-C18-2A",
+        "X4-C13-3C",
+        "X4-A17-2D",
+        "X4-K13-1D",
+        "X4-M12-2I",
+        "X4-C15-2C",
+        "X4-D18-2A",
+        "X4-D17-3B",
+        "X4-D16-2D",
+        "X4-H18-2A",
+        "X4-C14-2F",
+        "X4-C17-3A",
+        "X4-G18-1D",
+        "X4-R16-2D",
+        "X4-M17-3E",
+        "X4-M14-3A",
+        "X4-N16-1E",
+        "X4-P14-2B",
+        "X4-M17-3A",
+        "X4-F17-1D",
+        "X4-P17-3B",
+        "X4-H11-2A",
+        "X4-M14-2B",
+        "X4-M14-3G",
+        "X4-M12-3B",
+        "X4-C15-3B",
+        "X4-C17-1A",
+        "X4-C11-2B",
+        "X4-G10-2D",
+        "X4-G14-1A",
+        "X4-E18-1E",
+        "X4-F14-2E",
+        "X4-L11-1C",
+        "X4-H10-2B",
+        "X4-D14-3B",
+        "X4-N16-2E",
+        "X4-O10-1G",
+        "X4-P11-3B",
+        "X4-P16-2C",
+        "X4-P16-3A",
+        "X4-C11-3C",
+        "X4-G10-3B",
+        "X4-G10-1B",
+        "X4-R17-2D",
+        "X4-K10-3A",
+        "X4-M12-1D",
+        "X4-R17-2C",
+        "X4-C15-2A",
+        "X4-L10-1D",
+        "X4-C12-2B",
+        "X4-O14-2B",
+        "X4-G15-3A",
+        "X4-K12-1B",
+        "X4-D18-2B",
+        "X4-C18-3E",
+        "X4-R17-3H",
+        "X4-J10-2A",
+        "X4-G10-1E",
+        "X4-D15-2C",
+        "X4-D14-3D",
+        "X4-D14-2C",
+        "X4-C14-2B",
+        "X4-C11-1D",
+        "X4-C16-2A",
+        "X4-D14-2C",
+        "X4-D16-3D",
+        "X4-P16-1G",
+        "X4-Q14-3F",
+        "X4-D18-3C",
+        "X4-D16-3D",
+        "X4-C12-3A",
+        "X4-D17-3C",
+        "X4-B16-3B",
+        "X4-C12-3A"
+    ],
+    "slottedSKUs": {
+        "01004PEW": {
+            "rawLocCurrent": "X4-M12-2I",
+            "rawLocOriginal": "X4-K13-1D"
+        },
+        "0715715HBG": {
+            "rawLocCurrent": "X4-D14-3B",
+            "rawLocOriginal": "X4-H10-2B"
+        },
+        "100PAL001003": {
+            "rawLocCurrent": "X4-D18-3C",
+            "rawLocOriginal": "X4-Q14-3F"
+        },
+        "100PAL001451": {
+            "rawLocCurrent": "X4-N12-2F",
+            "rawLocOriginal": "X4-K11-1F"
+        },
+        "10449T932071": {
+            "rawLocCurrent": "X4-N10-1C",
+            "rawLocOriginal": "X4-L12-3A"
+        },
+        "110639": {
+            "rawLocCurrent": "X4-C18-2A",
+            "rawLocOriginal": "X4-D17-2B"
+        },
+        "111-04890HBH": {
+            "rawLocCurrent": "X4-C14-2F",
+            "rawLocOriginal": "X4-H18-2A"
+        },
+        "126131": {
+            "rawLocCurrent": "X4-D10-3A",
+            "rawLocOriginal": "X4-C13-2B"
+        },
+        "130653": {
+            "rawLocCurrent": "X4-G14-1A",
+            "rawLocOriginal": "X4-G10-2D"
+        },
+        "136140": {
+            "rawLocCurrent": "X4-D12-3B",
+            "rawLocOriginal": "X4-N17-1C"
+        },
+        "138629": {
+            "rawLocCurrent": "X4-C16-3C",
+            "rawLocOriginal": "X4-H17-3B"
+        },
+        "138987": {
+            "rawLocCurrent": "X4-K10-3F",
+            "rawLocOriginal": "X4-N10-1C"
+        },
+        "140271-067": {
+            "rawLocCurrent": "X4-H10-2D",
+            "rawLocOriginal": "X4-C11-1B"
+        },
+        "141628": {
+            "rawLocCurrent": "X4-P14-3C",
+            "rawLocOriginal": "X4-O13-2A"
+        },
+        "141635": {
+            "rawLocCurrent": "X4-J10-2D",
+            "rawLocOriginal": "X4-C11-1C"
+        },
+        "141654": {
+            "rawLocCurrent": "X4-B16-3B",
+            "rawLocOriginal": "X4-D17-3C"
+        },
+        "141950": {
+            "rawLocCurrent": "X4-M11-3A",
+            "rawLocOriginal": "X4-L17-2D"
+        },
+        "145063": {
+            "rawLocCurrent": "X4-N16-2E",
+            "rawLocOriginal": "X4-D14-3B"
+        },
+        "150873": {
+            "rawLocCurrent": "X4-O14-2B",
+            "rawLocOriginal": "X4-C12-2B"
+        },
+        "1603631-1SPK": {
+            "rawLocCurrent": "X4-H11-2A",
+            "rawLocOriginal": "X4-P17-3B"
+        },
+        "161107815671": {
+            "rawLocCurrent": "X4-C15-2C",
+            "rawLocOriginal": "X4-M12-2I"
+        },
+        "164831": {
+            "rawLocCurrent": "X4-R17-2D",
+            "rawLocOriginal": "X4-G10-1B"
+        },
+        "167797": {
+            "rawLocCurrent": "X4-C15-2A",
+            "rawLocOriginal": "X4-R17-2C"
+        },
+        "167835": {
+            "rawLocCurrent": "X4-G10-2D",
+            "rawLocOriginal": "X4-C11-2B"
+        },
+        "169911": {
+            "rawLocCurrent": "X4-C14-2E",
+            "rawLocOriginal": "X4-R17-2B"
+        },
+        "17120T8A1071": {
+            "rawLocCurrent": "X4-N17-1C",
+            "rawLocOriginal": "X4-L14-2F"
+        },
+        "171669": {
+            "rawLocCurrent": "X4-G10-3B",
+            "rawLocOriginal": "X4-C11-3C"
+        },
+        "172107": {
+            "rawLocCurrent": "X4-H18-2A",
+            "rawLocOriginal": "X4-D16-2D"
+        },
+        "17350T8A5071": {
+            "rawLocCurrent": "X4-M13-3E",
+            "rawLocOriginal": "X4-D13-2A"
+        },
+        "173608": {
+            "rawLocCurrent": "X4-C16-2A",
+            "rawLocOriginal": "X4-C11-1D"
+        },
+        "18515T8A1071": {
+            "rawLocCurrent": "X4-E12-3B",
+            "rawLocOriginal": "X4-G18-2E"
+        },
+        "201893": {
+            "rawLocCurrent": "X4-H15-2B",
+            "rawLocOriginal": "X4-D16-2A"
+        },
+        "2050000143SD": {
+            "rawLocCurrent": "X4-D17-3C",
+            "rawLocOriginal": "X4-C12-3A"
+        },
+        "20569T991071": {
+            "rawLocCurrent": "X4-D14-2C",
+            "rawLocOriginal": "X4-C16-2A"
+        },
+        "21144T978071": {
+            "rawLocCurrent": "X4-H17-2B",
+            "rawLocOriginal": "X4-L16-2A"
+        },
+        "211851": {
+            "rawLocCurrent": "X4-D11-3B",
+            "rawLocOriginal": "X4-J10-2D"
+        },
+        "212530": {
+            "rawLocCurrent": "X4-D15-2C",
+            "rawLocOriginal": "X4-G10-1E"
+        },
+        "213848": {
+            "rawLocCurrent": "X4-N17-3C",
+            "rawLocOriginal": "X4-C12-1A"
+        },
+        "216605-001": {
+            "rawLocCurrent": "X4-C16-2C",
+            "rawLocOriginal": "X4-C11-2C"
+        },
+        "221461": {
+            "rawLocCurrent": "X4-L10-1D",
+            "rawLocOriginal": "X4-C15-2A"
+        },
+        "225827": {
+            "rawLocCurrent": "X4-C13-3C",
+            "rawLocOriginal": "X4-C18-2A"
+        },
+        "23075T8A5071": {
+            "rawLocCurrent": "X4-M14-3A",
+            "rawLocOriginal": "X4-M17-3E"
+        },
+        "231498-004": {
+            "rawLocCurrent": "X4-L15-3C",
+            "rawLocOriginal": "X4-M10-1F"
+        },
+        "235102660071": {
+            "rawLocCurrent": "X4-C15-3A",
+            "rawLocOriginal": "X4-C12-3C"
+        },
+        "238419-001": {
+            "rawLocCurrent": "X4-C12-3A",
+            "rawLocOriginal": "X4-B16-3B"
+        },
+        "240358-001": {
+            "rawLocCurrent": "X4-G10-1E",
+            "rawLocOriginal": "X4-J10-2A"
+        },
+        "249654": {
+            "rawLocCurrent": "X4-C15-3C",
+            "rawLocOriginal": "X4-C11-1F"
+        },
+        "254446": {
+            "rawLocCurrent": "X4-C11-1D",
+            "rawLocOriginal": "X4-C14-2B"
+        },
+        "254775": {
+            "rawLocCurrent": "X4-R17-2B",
+            "rawLocOriginal": "X4-E17-1F"
+        },
+        "255840": {
+            "rawLocCurrent": "X4-M17-3A",
+            "rawLocOriginal": "X4-P14-2B"
+        },
+        "255965-031": {
+            "rawLocCurrent": "X4-D16-2D",
+            "rawLocOriginal": "X4-D17-3B"
+        },
+        "257833": {
+            "rawLocCurrent": "X4-J10-2A",
+            "rawLocOriginal": "X4-R17-3H"
+        },
+        "262153": {
+            "rawLocCurrent": "X4-H16-2A",
+            "rawLocOriginal": "X4-C15-2B"
+        },
+        "262597": {
+            "rawLocCurrent": "X4-D11-2B",
+            "rawLocOriginal": "X4-R17-2E"
+        },
+        "267483AAR": {
+            "rawLocCurrent": "X4-C11-2A",
+            "rawLocOriginal": "X4-B14-1A"
+        },
+        "27060UD020": {
+            "rawLocCurrent": "X4-C14-2D",
+            "rawLocOriginal": "X4-C13-2D"
+        },
+        "281002366071": {
+            "rawLocCurrent": "X4-D18-2B",
+            "rawLocOriginal": "X4-K12-1B"
+        },
+        "29950": {
+            "rawLocCurrent": "X4-O18-3C",
+            "rawLocOriginal": "X4-C14-2D"
+        },
+        "324154010750ELM": {
+            "rawLocCurrent": "X4-P16-2C",
+            "rawLocOriginal": "X4-P11-3B"
+        },
+        "326701262071": {
+            "rawLocCurrent": "X4-E10-2A",
+            "rawLocOriginal": "X4-H17-1A"
+        },
+        "329952661171": {
+            "rawLocCurrent": "X4-P11-3F",
+            "rawLocOriginal": "X4-O13-3E"
+        },
+        "3311MAS": {
+            "rawLocCurrent": "X4-M16-2F",
+            "rawLocOriginal": "X4-L15-3C"
+        },
+        "43232F218071": {
+            "rawLocCurrent": "X4-D18-2A",
+            "rawLocOriginal": "X4-C15-2C"
+        },
+        "47074": {
+            "rawLocCurrent": "X4-N15-1A",
+            "rawLocOriginal": "X4-D18-1A"
+        },
+        "474083660171": {
+            "rawLocCurrent": "X4-R18-3B",
+            "rawLocOriginal": "X4-R17-3F"
+        },
+        "48021T8A5071": {
+            "rawLocCurrent": "X4-E14-2B",
+            "rawLocOriginal": "X4-E10-3D"
+        },
+        "49751": {
+            "rawLocCurrent": "X4-D16-2F",
+            "rawLocOriginal": "X4-C15-2D"
+        },
+        "50001T885071": {
+            "rawLocCurrent": "X4-P14-2B",
+            "rawLocOriginal": "X4-N16-1E"
+        },
+        "52250F307071": {
+            "rawLocCurrent": "X4-F14-2E",
+            "rawLocOriginal": "X4-E18-1E"
+        },
+        "53724F218071": {
+            "rawLocCurrent": "X4-M17-3E",
+            "rawLocOriginal": "X4-R16-2D"
+        },
+        "53744F218071": {
+            "rawLocCurrent": "X4-G18-2E",
+            "rawLocOriginal": "X4-M13-3E"
+        },
+        "55122T100071": {
+            "rawLocCurrent": "X4-P16-1G",
+            "rawLocOriginal": "X4-D16-3D"
+        },
+        "55327T109071": {
+            "rawLocCurrent": "X4-C15-2B",
+            "rawLocOriginal": "X4-H15-2B"
+        },
+        "55414T107071": {
+            "rawLocCurrent": "X4-H17-1A",
+            "rawLocOriginal": "X4-N17-3H"
+        },
+        "55810F318171": {
+            "rawLocCurrent": "X4-R17-2E",
+            "rawLocOriginal": "X4-R18-3D"
+        },
+        "565902660071": {
+            "rawLocCurrent": "X4-F10-1C",
+            "rawLocOriginal": "X4-O17-3A"
+        },
+        "5710029000RAD": {
+            "rawLocCurrent": "X4-F17-1D",
+            "rawLocOriginal": "X4-M17-3A"
+        },
+        "58722F318071": {
+            "rawLocCurrent": "X4-M18-1C",
+            "rawLocOriginal": "X4-D13-3B"
+        },
+        "58730T100071": {
+            "rawLocCurrent": "X4-K10-3A",
+            "rawLocOriginal": "X4-R17-2D"
+        },
+        "653802-004": {
+            "rawLocCurrent": "X4-M10-1F",
+            "rawLocOriginal": "X4-D13-3C"
+        },
+        "653802-005": {
+            "rawLocCurrent": "X4-D17-3B",
+            "rawLocOriginal": "X4-D18-2A"
+        },
+        "653802-010": {
+            "rawLocCurrent": "X4-C18-3E",
+            "rawLocOriginal": "X4-D18-2B"
+        },
+        "653808-005": {
+            "rawLocCurrent": "X4-L17-2D",
+            "rawLocOriginal": "X4-L11-1B"
+        },
+        "653808-011": {
+            "rawLocCurrent": "X4-M12-3B",
+            "rawLocOriginal": "X4-M14-3G"
+        },
+        "653810-007": {
+            "rawLocCurrent": "X4-O13-2A",
+            "rawLocOriginal": "X4-N17-3E"
+        },
+        "653810-009": {
+            "rawLocCurrent": "X4-G18-1D",
+            "rawLocOriginal": "X4-C17-3A"
+        },
+        "653812-009": {
+            "rawLocCurrent": "X4-Q10-1E",
+            "rawLocOriginal": "X4-K10-2E"
+        },
+        "653822-015": {
+            "rawLocCurrent": "X4-O15-2B",
+            "rawLocOriginal": "X4-R18-3B"
+        },
+        "653825-011": {
+            "rawLocCurrent": "X4-O13-3E",
+            "rawLocOriginal": "X4-E14-2B"
+        },
+        "653828-006": {
+            "rawLocCurrent": "X4-Q14-2C",
+            "rawLocOriginal": "X4-D16-2F"
+        },
+        "653834-008": {
+            "rawLocCurrent": "X4-O17-3A",
+            "rawLocOriginal": "X4-D14-3D"
+        },
+        "653838-011": {
+            "rawLocCurrent": "X4-M14-1C",
+            "rawLocOriginal": "X4-M11-3A"
+        },
+        "656301": {
+            "rawLocCurrent": "X4-L11-1C",
+            "rawLocOriginal": "X4-F14-2E"
+        },
+        "675022054071": {
+            "rawLocCurrent": "X4-C13-3B",
+            "rawLocOriginal": "X4-C13-3A"
+        },
+        "681023684071": {
+            "rawLocCurrent": "X4-H10-2B",
+            "rawLocOriginal": "X4-L11-1C"
+        },
+        "7500611": {
+            "rawLocCurrent": "X4-D13-3C",
+            "rawLocOriginal": "X4-E10-2A"
+        },
+        "7502704": {
+            "rawLocCurrent": "X4-C15-3B",
+            "rawLocOriginal": "X4-M12-3B"
+        },
+        "7505677": {
+            "rawLocCurrent": "X4-R13-3B",
+            "rawLocOriginal": "X4-M14-1C"
+        },
+        "7510202": {
+            "rawLocCurrent": "X4-C17-1A",
+            "rawLocOriginal": "X4-C15-3B"
+        },
+        "7512862": {
+            "rawLocCurrent": "X4-N16-1E",
+            "rawLocOriginal": "X4-M14-3A"
+        },
+        "7513528-007": {
+            "rawLocCurrent": "X4-D12-2A",
+            "rawLocOriginal": "X4-C15-3A"
+        },
+        "7514718-001": {
+            "rawLocCurrent": "X4-E17-3C",
+            "rawLocOriginal": "X4-O18-3C"
+        },
+        "7514879-008": {
+            "rawLocCurrent": "X4-G17-1A",
+            "rawLocOriginal": "X4-G17-1A"
+        },
+        "7516126": {
+            "rawLocCurrent": "X4-K11-1F",
+            "rawLocOriginal": "X4-C13-3B"
+        },
+        "7516127": {
+            "rawLocCurrent": "X4-A17-2D",
+            "rawLocOriginal": "X4-C13-3C"
+        },
+        "7521269-008": {
+            "rawLocCurrent": "X4-P16-3A",
+            "rawLocOriginal": "X4-P16-2C"
+        },
+        "7523970": {
+            "rawLocCurrent": "X4-C11-1F",
+            "rawLocOriginal": "X4-C11-2A"
+        },
+        "7531691": {
+            "rawLocCurrent": "X4-D14-2E",
+            "rawLocOriginal": "X4-N13-2B"
+        },
+        "7533821": {
+            "rawLocCurrent": "X4-C11-2B",
+            "rawLocOriginal": "X4-C17-1A"
+        },
+        "7538001": {
+            "rawLocCurrent": "X4-C15-1A",
+            "rawLocOriginal": "X4-C16-2C"
+        },
+        "753930": {
+            "rawLocCurrent": "X4-C17-3A",
+            "rawLocOriginal": "X4-C14-2F"
+        },
+        "7544991": {
+            "rawLocCurrent": "X4-C13-2D",
+            "rawLocOriginal": "X4-D12-2A"
+        },
+        "754609": {
+            "rawLocCurrent": "X4-D13-3B",
+            "rawLocOriginal": "X4-E12-3B"
+        },
+        "7547939": {
+            "rawLocCurrent": "X4-K12-1B",
+            "rawLocOriginal": "X4-G15-3A"
+        },
+        "7553212": {
+            "rawLocCurrent": "X4-C15-3E",
+            "rawLocOriginal": "X4-C16-3C"
+        },
+        "7555585": {
+            "rawLocCurrent": "X4-D11-3A",
+            "rawLocOriginal": "X4-C15-3D"
+        },
+        "755704-040": {
+            "rawLocCurrent": "X4-C11-2C",
+            "rawLocOriginal": "X4-M10-2C"
+        },
+        "755706-040": {
+            "rawLocCurrent": "X4-D15-1D",
+            "rawLocOriginal": "X4-D16-2G"
+        },
+        "755730-001": {
+            "rawLocCurrent": "X4-K13-1D",
+            "rawLocOriginal": "X4-A17-2D"
+        },
+        "755784-040": {
+            "rawLocCurrent": "X4-C15-2D",
+            "rawLocOriginal": "X4-L15-2B"
+        },
+        "7563913": {
+            "rawLocCurrent": "X4-C12-3C",
+            "rawLocOriginal": "X4-P14-3C"
+        },
+        "7566857": {
+            "rawLocCurrent": "X4-R18-3D",
+            "rawLocOriginal": "X4-C15-1A"
+        },
+        "7571028": {
+            "rawLocCurrent": "X4-P17-3B",
+            "rawLocOriginal": "X4-F17-1D"
+        },
+        "7582031-001": {
+            "rawLocCurrent": "X4-O10-1A",
+            "rawLocOriginal": "X4-O13-3G"
+        },
+        "7582439": {
+            "rawLocCurrent": "X4-D18-1A",
+            "rawLocOriginal": "X4-C15-3C"
+        },
+        "7583163": {
+            "rawLocCurrent": "X4-D16-2A",
+            "rawLocOriginal": "X4-C15-3E"
+        },
+        "7583920": {
+            "rawLocCurrent": "X4-R16-2D",
+            "rawLocOriginal": "X4-G18-1D"
+        },
+        "7588119": {
+            "rawLocCurrent": "X4-E17-1F",
+            "rawLocOriginal": "X4-D15-1D"
+        },
+        "7593110": {
+            "rawLocCurrent": "X4-L11-1B",
+            "rawLocOriginal": "X4-D14-2E"
+        },
+        "7595148": {
+            "rawLocCurrent": "X4-C15-3D",
+            "rawLocOriginal": "X4-D10-3A"
+        },
+        "7596047": {
+            "rawLocCurrent": "X4-G10-1B",
+            "rawLocOriginal": "X4-G10-3B"
+        },
+        "759614": {
+            "rawLocCurrent": "X4-D17-2B",
+            "rawLocOriginal": "X4-O15-2B"
+        },
+        "7600561": {
+            "rawLocCurrent": "X4-C13-3A",
+            "rawLocOriginal": "X4-D11-3A"
+        },
+        "7614026": {
+            "rawLocCurrent": "X4-C14-2A",
+            "rawLocOriginal": "X4-E17-3C"
+        },
+        "7615706": {
+            "rawLocCurrent": "X4-C11-1B",
+            "rawLocOriginal": "X4-D11-3B"
+        },
+        "7615784": {
+            "rawLocCurrent": "X4-D16-2G",
+            "rawLocOriginal": "X4-D11-2B"
+        },
+        "7619145": {
+            "rawLocCurrent": "X4-C14-2B",
+            "rawLocOriginal": "X4-D14-2C"
+        },
+        "7620889": {
+            "rawLocCurrent": "X4-H17-3B",
+            "rawLocOriginal": "X4-M18-1C"
+        },
+        "762665": {
+            "rawLocCurrent": "X4-C11-1C",
+            "rawLocOriginal": "X4-D12-3B"
+        },
+        "7628892-005": {
+            "rawLocCurrent": "X4-R17-2C",
+            "rawLocOriginal": "X4-M12-1D"
+        },
+        "7631212-005": {
+            "rawLocCurrent": "X4-D13-2A",
+            "rawLocOriginal": "X4-R13-3B"
+        },
+        "7633654-003": {
+            "rawLocCurrent": "X4-N13-2B",
+            "rawLocOriginal": "X4-N12-2F"
+        },
+        "7639090-001": {
+            "rawLocCurrent": "X4-O13-3G",
+            "rawLocOriginal": "X4-P11-3F"
+        },
+        "7655207": {
+            "rawLocCurrent": "X4-N17-3H",
+            "rawLocOriginal": "X4-Q14-2C"
+        },
+        "7656230-001": {
+            "rawLocCurrent": "X4-M10-2C",
+            "rawLocOriginal": "X4-K10-3F"
+        },
+        "7656550-008": {
+            "rawLocCurrent": "X4-M14-3G",
+            "rawLocOriginal": "X4-M14-2B"
+        },
+        "7660077": {
+            "rawLocCurrent": "X4-E18-3C",
+            "rawLocOriginal": "X4-M16-2F"
+        },
+        "7661275": {
+            "rawLocCurrent": "X4-C13-2B",
+            "rawLocOriginal": "X4-C14-2E"
+        },
+        "7675815": {
+            "rawLocCurrent": "X4-L12-3A",
+            "rawLocOriginal": "X4-C14-2A"
+        },
+        "80224T805071": {
+            "rawLocCurrent": "X4-E18-1E",
+            "rawLocOriginal": "X4-G14-1A"
+        },
+        "80225T805071": {
+            "rawLocCurrent": "X4-L16-2A",
+            "rawLocOriginal": "X4-H10-2D"
+        },
+        "813004DAD": {
+            "rawLocCurrent": "X4-Q14-3F",
+            "rawLocOriginal": "X4-P16-1G"
+        },
+        "85005T9B0071": {
+            "rawLocCurrent": "X4-M14-2B",
+            "rawLocOriginal": "X4-H11-2A"
+        },
+        "8658202HAW": {
+            "rawLocCurrent": "X4-R17-3H",
+            "rawLocOriginal": "X4-C18-3E"
+        },
+        "9001A96010": {
+            "rawLocCurrent": "X4-C11-3C",
+            "rawLocOriginal": "X4-P16-3A"
+        },
+        "90902T899071": {
+            "rawLocCurrent": "X4-E10-3D",
+            "rawLocOriginal": "X4-H16-2A"
+        },
+        "923829.0668KA": {
+            "rawLocCurrent": "X4-L15-2B",
+            "rawLocOriginal": "X4-H17-2B"
+        },
+        "93904T899071": {
+            "rawLocCurrent": "X4-G15-3A",
+            "rawLocOriginal": "X4-O14-2B"
+        },
+        "93949T899071": {
+            "rawLocCurrent": "X4-R17-3F",
+            "rawLocOriginal": "X4-Q10-1E"
+        },
+        "96848T899071": {
+            "rawLocCurrent": "X4-D16-3D",
+            "rawLocOriginal": "X4-D18-3C"
+        },
+        "989-101B-NOL": {
+            "rawLocCurrent": "X4-K10-2E",
+            "rawLocOriginal": "X4-N15-1A"
+        },
+        "AF25477FAH": {
+            "rawLocCurrent": "X4-C12-2B",
+            "rawLocOriginal": "X4-L10-1D"
+        },
+        "AF25491FAH": {
+            "rawLocCurrent": "X4-P11-3B",
+            "rawLocOriginal": "X4-O10-1G"
+        },
+        "BTW07002000EAG": {
+            "rawLocCurrent": "X4-B14-1A",
+            "rawLocOriginal": "X4-E18-3C"
+        },
+        "C0283FLK": {
+            "rawLocCurrent": "X4-C12-1A",
+            "rawLocOriginal": "X4-F10-1C"
+        },
+        "LF17505FAH": {
+            "rawLocCurrent": "X4-M12-1D",
+            "rawLocOriginal": "X4-K10-3A"
+        },
+        "SE1PAL200406": {
+            "rawLocCurrent": "X4-N17-3E",
+            "rawLocOriginal": "X4-N17-3C"
+        },
+        "SJU700514HUZ": {
+            "rawLocCurrent": "X4-D14-3D",
+            "rawLocOriginal": "X4-D15-2C"
+        },
+        "T109L-CNT": {
+            "rawLocCurrent": "X4-L14-2F",
+            "rawLocOriginal": "X4-O10-1A"
+        },
+        "T168S-CNT": {
+            "rawLocCurrent": "X4-O10-1G",
+            "rawLocOriginal": "X4-N16-2E"
+        }
+    }
+}

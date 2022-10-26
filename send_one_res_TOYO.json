@@ -1,0 +1,23 @@
+{
+    "distanceOptimized": 1350.97,
+    "distanceOrderPicking": 1264.63,
+    "distanceOriginal": 1316.27,
+    "distanceReassignmentPath": 86.34,
+    "distanceSaved": "No improvement found. It is better to keep SKUs at their initial positions.",
+    "numberOfLocationChangesProposed": 2,
+    "reassignmentPath": [
+        "X4-G13",
+        "X4-M10-2C",
+        "X4-G13"
+    ],
+    "slottedSKUs": {
+        "755704-040": {
+            "rawLocCurrent": "X4-G13",
+            "rawLocOriginal": "X4-M10-2C"
+        },
+        "DUMMY_0": {
+            "rawLocCurrent": "X4-M10-2C",
+            "rawLocOriginal": "X4-G13"
+        }
+    }
+}

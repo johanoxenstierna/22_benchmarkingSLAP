@@ -6,7 +6,7 @@ import json
 import os
 from copy import deepcopy
 
-PATH_SLAP_RESP = 'send_one_res.json'
+PATH_SLAP_RESP = 'send_one_res_biasTest3.json'
 # PATH_PRO_BEF = 'c232_47f6.json'
 PATH_PRO_BEF = './c11_fb1d.json'
 # PATH_PRO_BEF = 'c460_d01a.json'

@@ -1,0 +1,31 @@
+{
+ "_meta": {
+  "warehouse": {
+   "tag": "TOYO",
+   "uuid": ""
+  },
+  "saveInBQ": false,
+  "save_in_gui_test": true,
+  "requestName": "reassignment path"
+ },
+ "requestType": "pickroute",
+ "requestData": {
+  "origin": "WH_STARTSTOP0_1",
+  "destination": "WH_STARTSTOP0_1",
+  "mobileUnitId": "",
+  "pickRoundId": "",
+  "userId": "",
+  "picksInfo": {
+   "locations": [
+    "X4-G13",
+    "X4-M10-2C",
+    "X4-G13"
+   ],
+   "SKUs": [
+    "0",
+    "1",
+    "2"
+   ]
+  }
+ }
+}

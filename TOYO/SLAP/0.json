@@ -1,0 +1,32 @@
+{
+    "_meta": {
+        "warehouse": {
+            "tag": "TOYO",
+            "uuid": ""
+        },
+        "optimizationParameters": {
+            "NUM_ITERATIONS": 20,
+            "PERC_SWAPS": 80,
+            "USE_RELOCATION_DISTANCE": true,
+            "C1": 2,
+            "C2": 1,
+            "comment": "num iterations affects how long it takes to optimize the SLAP, will eventually be replaced with computationalTime in requestData. Perc swaps is the percentage of SKUs in the picking log that are subject to location change. higher c1 makes the optimizer use Concorde less (more approximation). higher c2 makes the optimizer more biased."
+        }
+    },
+    "requestType": "storageassignment",
+    "requestData": {
+        "origin": "WH_STARTSTOP0_1",
+        "destination": "WH_STARTSTOP0_1",
+        "computationalTime": "minimal",
+        "SKUsToSlot": "optimizedSelectionPickingLog",
+        "comment_to_above": "The SKUs above are also number of swaps reqpickbatch_success_202204256.json\nreqpickbatch_success_2022042526.jsonsought. OBS currently the code DOES NOT enforce the pre-specified zone for the swapping scenario.",
+        "optimizationType": {
+            "analysisOnly": false
+        },
+        "assignmentOptions": {
+            "openLocations": "SKUsToSlot",
+            "evaluationData": "./model/storage_assignment/data1/",
+            "assignmentType": "swaps"
+        }
+    }
+}

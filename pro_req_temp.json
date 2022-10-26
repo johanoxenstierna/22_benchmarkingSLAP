@@ -1,0 +1,28 @@
+{
+    "_meta": {
+        "warehouse": {
+            "tag": "NoObstacles",
+            "uuid": ""
+        },
+        "saveInBQ": false,
+        "save_in_gui_test": true
+    },
+    "requestType": "pickroute",
+    "requestData": {
+        "origin": "0",
+        "destination": "1",
+        "mobileUnitId": "",
+        "pickRoundId": "c6_07c7_1",
+        "userId": "",
+        "picksInfo": {
+            "locations": [
+                "475",
+                "332"
+            ],
+            "SKUs": [
+                "2",
+                "3"
+            ]
+        }
+    }
+}

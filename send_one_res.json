@@ -1,0 +1,104 @@
+{
+    "distanceOptimized": 1291.23,
+    "distanceOrderPicking": 888.47,
+    "distanceOriginal": 1316.27,
+    "distanceReassignmentPath": 402.76,
+    "distanceSaved": 25.04,
+    "numberOfLocationChangesProposed": 18,
+    "reassignmentPath": [
+        "X4-C11-2B",
+        "X4-C17-1A",
+        "X4-D14-2C",
+        "X4-D13-2C",
+        "X4-M16-2F",
+        "X4-D12-3B",
+        "X4-C13-3A",
+        "X4-D16-1D",
+        "X4-R17-2E",
+        "X4-H17-1A",
+        "X4-C11-2B",
+        "X4-D10-2B",
+        "X4-D12-2A",
+        "X4-D15-2C",
+        "X4-E17-1F",
+        "X4-N17-1C",
+        "X4-E10-1E",
+        "X4-D11-3B",
+        "X4-J10-2D",
+        "X4-D10-2B"
+    ],
+    "slottedSKUs": {
+        "136140": {
+            "rawLocCurrent": "X4-E10-1E",
+            "rawLocOriginal": "X4-N17-1C"
+        },
+        "167835": {
+            "rawLocCurrent": "X4-C17-1A",
+            "rawLocOriginal": "X4-C11-2B"
+        },
+        "211851": {
+            "rawLocCurrent": "X4-D10-2B",
+            "rawLocOriginal": "X4-J10-2D"
+        },
+        "254775": {
+            "rawLocCurrent": "X4-N17-1C",
+            "rawLocOriginal": "X4-E17-1F"
+        },
+        "262597": {
+            "rawLocCurrent": "X4-H17-1A",
+            "rawLocOriginal": "X4-R17-2E"
+        },
+        "326701262071": {
+            "rawLocCurrent": "X4-C11-2B",
+            "rawLocOriginal": "X4-H17-1A"
+        },
+        "51721T100071": {
+            "rawLocCurrent": "X4-D12-2A",
+            "rawLocOriginal": "X4-D10-2B"
+        },
+        "675022054071": {
+            "rawLocCurrent": "X4-D16-1D",
+            "rawLocOriginal": "X4-C13-3A"
+        },
+        "7523305": {
+            "rawLocCurrent": "X4-D11-3B",
+            "rawLocOriginal": "X4-E10-1E"
+        },
+        "7533821": {
+            "rawLocCurrent": "X4-D14-2C",
+            "rawLocOriginal": "X4-C17-1A"
+        },
+        "7544991": {
+            "rawLocCurrent": "X4-D15-2C",
+            "rawLocOriginal": "X4-D12-2A"
+        },
+        "7615706": {
+            "rawLocCurrent": "X4-J10-2D",
+            "rawLocOriginal": "X4-D11-3B"
+        },
+        "7619145": {
+            "rawLocCurrent": "X4-D13-2C",
+            "rawLocOriginal": "X4-D14-2C"
+        },
+        "762665": {
+            "rawLocCurrent": "X4-C13-3A",
+            "rawLocOriginal": "X4-D12-3B"
+        },
+        "7660077": {
+            "rawLocCurrent": "X4-D12-3B",
+            "rawLocOriginal": "X4-M16-2F"
+        },
+        "7676866": {
+            "rawLocCurrent": "X4-M16-2F",
+            "rawLocOriginal": "X4-D13-2C"
+        },
+        "RAM-201U-D-RAM": {
+            "rawLocCurrent": "X4-R17-2E",
+            "rawLocOriginal": "X4-D16-1D"
+        },
+        "SJU700514HUZ": {
+            "rawLocCurrent": "X4-E17-1F",
+            "rawLocOriginal": "X4-D15-2C"
+        }
+    }
+}

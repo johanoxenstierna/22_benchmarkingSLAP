@@ -1,0 +1,10 @@
+{
+    "MEASUREMENT_METRIC": "dm",
+    "DEPOT_SPECS": {
+        "start_depot_idx": 0,
+        "end_depot_idx": 1
+    },
+    "ID": "bench",
+    "location_syntaxOLD": ["([0-9]{3})([A-Z][A-Z]?)", "^(DOCK)([0-9][0-9]?)"],
+    "location_syntax": ["(^[0-9]+)", "(^[0-9]+)"]
+}

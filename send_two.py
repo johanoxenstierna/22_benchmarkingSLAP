@@ -11,26 +11,44 @@ import json
 # PATH = './c232_47f6.json'
 # PATH = './c232_47f6_AFT.json'
 # PATH = './TOYO/SLAP/0_pl.json'
-PATH = './TOYO/SLAP/1_emptyLocs.json'
 # PATH = './tsplibfiles/2_SLAP_PRO/NoObstacles/c6_07c7/c6_07c7_SLAP_req.json'
 # PATH = './tsplibfiles/2_SLAP_PRO/NoObstacles/c170_8f37/c170_8f37_SLAP_req.json'
 # PATH = './tsplibfiles/2_SLAP_PRO/NoObstacles/c55_222b/c55_222b_SLAP_req.json'
-# PATH = './tsplibfiles/2_SLAP_PRO/NoObstacles/c460_d01a/c460_d01a_SLAP_req.json'
-# PATH = './tsplibfiles/2_SLAP_PRO/NR1/c3_5e00/c3_5e00_SLAP_req.json'
+PATH = './tsplibfiles/2_SLAP_PRO/NoObstacles/c460_d01a/c460_d01a_SLAP_req.json'
 # PATH = './tsplibfiles/2_SLAP_PRO/TwelveRacks/c23_45e0/c23_45e0_SLAP_req.json'
 # PATH = './tsplibfiles/2_SLAP_PRO/TwelveRacks/c97_5406/c97_5406_SLAP_req.json'
-# PATH = './utils_benchmarking/req_reassignmentPath.json'
+# PATH = './utils_benchmarking/req_relocationPRO.json'
 # PATH = './utils_benchmarking/req_temp.json'
+
+
+# # ======================================
 
 with open(PATH, 'r') as f:
     req = json.load(f)
 
+# req['_meta']['bench'] = {}
+req['_meta']['bench']['ALGO'] = 3
 response_raw = requests.post('http://localhost:8080/' + req['requestType'], json.dumps(req),
                                      headers={'Content-type': 'application/json'})
 
 res = json.loads(response_raw.text)
 
-with open('send_one_res.json', 'w') as f:  # DONT CHANGE NAME!!! rename after
+with open('send_one_res_3_24h.json', 'w') as f:
     json.dump(res, f, indent=4)
 
 aa = 5
+# ======================================================
+
+with open(PATH, 'r') as f:
+    req = json.load(f)
+
+req['_meta']['bench']['ALGO'] = 1
+# req['_meta']['optimizationParameters']['MAX_LOCATION_CHANGES'] = 10
+
+response_raw = requests.post('http://localhost:8080/' + req['requestType'], json.dumps(req),
+                                     headers={'Content-type': 'application/json'})
+
+res = json.loads(response_raw.text)
+with open('send_one_res_1_24h.json', 'w') as f:
+    json.dump(res, f, indent=4)
+

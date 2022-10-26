@@ -1,0 +1,78 @@
+{
+    "_meta": {
+        "requestName": "reassignment path",
+        "saveInBQ": false,
+        "save_in_gui_test": true,
+        "warehouse": {
+            "tag": "NR1",
+            "uuid": ""
+        }
+    },
+    "requestData": {
+        "destination": "1",
+        "mobileUnitId": "",
+        "origin": "0",
+        "pickRoundId": "",
+        "picksInfo": {
+            "SKUs": [
+                "0",
+                "1",
+                "2",
+                "3",
+                "4",
+                "5"
+            ],
+            "locations": [
+                "150",
+                "167",
+                "39",
+                "102",
+                "19",
+                "150"
+            ]
+        },
+        "userId": ""
+    },
+    "requestType": "pickroute",
+    "responseData": {
+        "distanceSavedMeters": 6.262500000000003,
+        "isClockwise": null,
+        "mobileUnitId": null,
+        "optimalRouteDistance": 20.0640625,
+        "origin": "0",
+        "originalRouteDistance": 26.3265625,
+        "pickRoundId": "",
+        "picksInfo": {
+            "SKUs": [
+                "1",
+                "5",
+                "0",
+                "4",
+                "2",
+                "3"
+            ],
+            "locations": [
+                "167",
+                "150",
+                "150",
+                "19",
+                "39",
+                "102"
+            ],
+            "optimizedSorting": [
+                1,
+                5,
+                0,
+                4,
+                2,
+                3
+            ]
+        },
+        "requestReceivedAtDateTime": "2022-10-20 05:35:08.396039",
+        "responseGeneratedAtDateTime": "2022-10-20 05:35:08.399296",
+        "responseTimeTakenSeconds": 0.003257,
+        "returnPickerHints": null,
+        "userId": null
+    },
+    "uuid": "59846f4c-345c-48e3-acd8-a3fd65de9ff2"
+}
