@@ -28,12 +28,12 @@ random.seed(99)
     # PATH = './EROSKI/SLAP/dataFails/'
 # PATH = './TOYO/pro_resps/'
 
-# PATH = './utils_benchmarking/dataAFT/'
-PATH = 'inRequest'
-PATH_IR = './tsplibfiles/2_SLAP_PRO/NR1/c3_5e00/c3_5e00_SLAP_req.json'
+PATH = './utils_benchmarking/dataAFT/'
+# PATH = 'inRequest'
+# PATH_IR = './tsplibfiles/2_SLAP_PRO/NR1/c3_5e00/c3_5e00_SLAP_req.json'
 # SAVE_RESPS = 0  # depr
 # PATH_OUT = './TOYO/pro_resps/'
-SAVE_IN_GUI_TEST = True
+SAVE_IN_GUI_TEST = False
 
 dont_do = ['req_1d_stopstop']
 reqs = {}

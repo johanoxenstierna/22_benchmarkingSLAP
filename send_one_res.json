@@ -1,104 +1,78 @@
 {
-    "distanceOptimized": 1291.23,
-    "distanceOrderPicking": 888.47,
-    "distanceOriginal": 1316.27,
-    "distanceReassignmentPath": 402.76,
-    "distanceSaved": 25.04,
-    "numberOfLocationChangesProposed": 18,
-    "reassignmentPath": [
-        "X4-C11-2B",
-        "X4-C17-1A",
-        "X4-D14-2C",
-        "X4-D13-2C",
-        "X4-M16-2F",
-        "X4-D12-3B",
-        "X4-C13-3A",
-        "X4-D16-1D",
-        "X4-R17-2E",
-        "X4-H17-1A",
-        "X4-C11-2B",
-        "X4-D10-2B",
-        "X4-D12-2A",
-        "X4-D15-2C",
-        "X4-E17-1F",
-        "X4-N17-1C",
-        "X4-E10-1E",
-        "X4-D11-3B",
-        "X4-J10-2D",
-        "X4-D10-2B"
-    ],
-    "slottedSKUs": {
-        "136140": {
-            "rawLocCurrent": "X4-E10-1E",
-            "rawLocOriginal": "X4-N17-1C"
-        },
-        "167835": {
-            "rawLocCurrent": "X4-C17-1A",
-            "rawLocOriginal": "X4-C11-2B"
-        },
-        "211851": {
-            "rawLocCurrent": "X4-D10-2B",
-            "rawLocOriginal": "X4-J10-2D"
-        },
-        "254775": {
-            "rawLocCurrent": "X4-N17-1C",
-            "rawLocOriginal": "X4-E17-1F"
-        },
-        "262597": {
-            "rawLocCurrent": "X4-H17-1A",
-            "rawLocOriginal": "X4-R17-2E"
-        },
-        "326701262071": {
-            "rawLocCurrent": "X4-C11-2B",
-            "rawLocOriginal": "X4-H17-1A"
-        },
-        "51721T100071": {
-            "rawLocCurrent": "X4-D12-2A",
-            "rawLocOriginal": "X4-D10-2B"
-        },
-        "675022054071": {
-            "rawLocCurrent": "X4-D16-1D",
-            "rawLocOriginal": "X4-C13-3A"
-        },
-        "7523305": {
-            "rawLocCurrent": "X4-D11-3B",
-            "rawLocOriginal": "X4-E10-1E"
-        },
-        "7533821": {
-            "rawLocCurrent": "X4-D14-2C",
-            "rawLocOriginal": "X4-C17-1A"
-        },
-        "7544991": {
-            "rawLocCurrent": "X4-D15-2C",
-            "rawLocOriginal": "X4-D12-2A"
-        },
-        "7615706": {
-            "rawLocCurrent": "X4-J10-2D",
-            "rawLocOriginal": "X4-D11-3B"
-        },
-        "7619145": {
-            "rawLocCurrent": "X4-D13-2C",
-            "rawLocOriginal": "X4-D14-2C"
-        },
-        "762665": {
-            "rawLocCurrent": "X4-C13-3A",
-            "rawLocOriginal": "X4-D12-3B"
-        },
-        "7660077": {
-            "rawLocCurrent": "X4-D12-3B",
-            "rawLocOriginal": "X4-M16-2F"
-        },
-        "7676866": {
-            "rawLocCurrent": "X4-M16-2F",
-            "rawLocOriginal": "X4-D13-2C"
-        },
-        "RAM-201U-D-RAM": {
-            "rawLocCurrent": "X4-R17-2E",
-            "rawLocOriginal": "X4-D16-1D"
-        },
-        "SJU700514HUZ": {
-            "rawLocCurrent": "X4-E17-1F",
-            "rawLocOriginal": "X4-D15-2C"
+    "_meta": {
+        "requestName": "reassignment path",
+        "saveInBQ": false,
+        "save_in_gui_test": false,
+        "warehouse": {
+            "tag": "NR1",
+            "uuid": ""
         }
-    }
+    },
+    "requestData": {
+        "destination": "1",
+        "mobileUnitId": "",
+        "origin": "0",
+        "pickRoundId": "",
+        "picksInfo": {
+            "SKUs": [
+                "0",
+                "1",
+                "2",
+                "3",
+                "4",
+                "5"
+            ],
+            "locations": [
+                "121",
+                "113",
+                "121",
+                "72",
+                "12",
+                "72"
+            ]
+        },
+        "userId": ""
+    },
+    "requestType": "pickroute",
+    "responseData": {
+        "distanceSavedMeters": 6.685937499999998,
+        "isClockwise": null,
+        "mobileUnitId": null,
+        "optimalRouteDistance": 18.4046875,
+        "origin": "0",
+        "originalRouteDistance": 25.090625,
+        "pickRoundId": "",
+        "picksInfo": {
+            "SKUs": [
+                "2",
+                "0",
+                "1",
+                "4",
+                "3",
+                "5"
+            ],
+            "locations": [
+                "121",
+                "121",
+                "113",
+                "12",
+                "72",
+                "72"
+            ],
+            "optimizedSorting": [
+                2,
+                0,
+                1,
+                4,
+                3,
+                5
+            ]
+        },
+        "requestReceivedAtDateTime": "2022-11-01 04:28:45.407560",
+        "responseGeneratedAtDateTime": "2022-11-01 04:28:45.411329",
+        "responseTimeTakenSeconds": 0.003769,
+        "returnPickerHints": null,
+        "userId": null
+    },
+    "uuid": "a9f80111-d1c0-443a-86b7-3e14a2d759d2"
 }

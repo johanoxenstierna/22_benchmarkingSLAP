@@ -13,16 +13,14 @@
   "origin": "0",
   "destination": "1",
   "mobileUnitId": "",
-  "pickRoundId": "c3_5e00_1",
+  "pickRoundId": "c98_ac3d_1",
   "userId": "",
   "picksInfo": {
    "locations": [
-    "83",
-    "102"
+    "214"
    ],
    "SKUs": [
-    "2",
-    "3"
+    "2"
    ]
   }
  }

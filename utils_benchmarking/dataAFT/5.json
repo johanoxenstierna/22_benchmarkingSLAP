@@ -1,0 +1,55 @@
+{
+ "_meta": {
+  "warehouse": {
+   "tag": "NR1",
+   "uuid": ""
+  },
+  "saveInBQ": false,
+  "requestName": "5",
+  "save_in_gui_test": true
+ },
+ "requestType": "pickroute",
+ "requestData": {
+  "origin": "0",
+  "destination": "1",
+  "mobileUnitId": "",
+  "pickRoundId": "c98_ac3d_2",
+  "userId": "",
+  "picksInfo": {
+   "locations": [
+    "172",
+    "151",
+    "66",
+    "34",
+    "134",
+    "100",
+    "170",
+    "55",
+    "153",
+    "140",
+    "178",
+    "74",
+    "223",
+    "15",
+    "206"
+   ],
+   "SKUs": [
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "22",
+    "39",
+    "145",
+    "187",
+    "168",
+    "179",
+    "73",
+    "199",
+    "48",
+    "28"
+   ]
+  }
+ }
+}

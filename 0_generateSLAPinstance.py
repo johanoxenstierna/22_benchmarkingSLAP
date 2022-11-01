@@ -38,7 +38,7 @@ SAVE = 1
 NUM_EMPTY_LOCATIONS = 1
 NUM_DUPLICATE_Os = 0
 NUM_DUPLICATE_SKUs = 0
-NUM_EXTRA_SKUs_IN_PROS = (0, 0) # used to make pickruns longer. Num skus in so many pros
+NUM_EXTRA_SKUs_IN_PROS = (0, 0)  # used to make pickruns longer. Num skus in so many pros
 
 '''Parameters needed for logging'''
 name_instance_int = 0  # needed cuz log is npy
@@ -54,6 +54,7 @@ with open('./utils_benchmarking/req_template_SLAP.json', 'r') as f:
 
 with open('utils_benchmarking/req_template_pro.json', 'r') as f:
     req_pro_templ = json.load(f)  # deepcopy for each.
+
 
 assert(instance['NAME'] == name_instance)
 req_SLAP['_meta']['requestName'] = name_instance

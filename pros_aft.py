@@ -7,7 +7,8 @@ import os
 from copy import deepcopy
 
 # PATH_SLAP_RESP = './TOYO/SLAP/resps/5a.json'
-PATH_SLAP_RESP = 'send_one_res.json'
+# PATH_SLAP_RESP = 'send_one_res.json'
+PATH_SLAP_RESP = './tsplibfiles/2_SLAP_PRO/NR1/c98_ac3d/c98_ac3d_SLAP_res.json'
 # PATH_SLAP_RESP = './send_one_res_biasTestOther.json'
 # FILE_NAME = 'RES_5a9km.json'
 # PATH_PRO_BEF = './EROSKI/SLAP/data2_4/'
@@ -15,7 +16,7 @@ PATH_SLAP_RESP = 'send_one_res.json'
 # PATH_PRO_BEF = './TOYO/processedData/data7_50f/'
 # PATH_PRO_BEF = './TOYO/pro_resps/'
 PATH_PRO_BEF = 'inRequest'
-PATH_PRO_BEF_IR = './tsplibfiles/2_SLAP_PRO/NR1/c3_5e00/c3_5e00_SLAP_req.json'
+PATH_PRO_BEF_IR = './tsplibfiles/2_SLAP_PRO/NR1/c98_ac3d/c98_ac3d_SLAP_req.json'
 PATH_PRO_AFT = './utils_benchmarking/dataAFT/'
 SAVE_IN_GUI_TEST = True
 WAREHOUSE_TAG = 'NR1'

@@ -11,7 +11,7 @@ import json
 # PATH = './c232_47f6.json'
 # PATH = './c232_47f6_AFT.json'
 # PATH = './TOYO/SLAP/0_pl.json'
-PATH = './TOYO/SLAP/1_emptyLocs.json'
+# PATH = './TOYO/SLAP/1_emptyLocs.json'
 # PATH = './tsplibfiles/2_SLAP_PRO/NoObstacles/c6_07c7/c6_07c7_SLAP_req.json'
 # PATH = './tsplibfiles/2_SLAP_PRO/NoObstacles/c170_8f37/c170_8f37_SLAP_req.json'
 # PATH = './tsplibfiles/2_SLAP_PRO/NoObstacles/c55_222b/c55_222b_SLAP_req.json'
@@ -19,7 +19,7 @@ PATH = './TOYO/SLAP/1_emptyLocs.json'
 # PATH = './tsplibfiles/2_SLAP_PRO/NR1/c3_5e00/c3_5e00_SLAP_req.json'
 # PATH = './tsplibfiles/2_SLAP_PRO/TwelveRacks/c23_45e0/c23_45e0_SLAP_req.json'
 # PATH = './tsplibfiles/2_SLAP_PRO/TwelveRacks/c97_5406/c97_5406_SLAP_req.json'
-# PATH = './utils_benchmarking/req_reassignmentPath.json'
+PATH = './utils_benchmarking/req_reassignmentPath.json'
 # PATH = './utils_benchmarking/req_temp.json'
 
 with open(PATH, 'r') as f:

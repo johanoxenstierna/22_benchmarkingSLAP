@@ -1,30 +1,36 @@
 {
  "_meta": {
   "warehouse": {
-   "tag": "TOYO",
+   "tag": "NR1",
    "uuid": ""
   },
   "saveInBQ": false,
-  "save_in_gui_test": true,
+  "save_in_gui_test": false,
   "requestName": "reassignment path"
  },
  "requestType": "pickroute",
  "requestData": {
-  "origin": "WH_STARTSTOP0_1",
-  "destination": "WH_STARTSTOP0_1",
+  "origin": "0",
+  "destination": "1",
   "mobileUnitId": "",
   "pickRoundId": "",
   "userId": "",
   "picksInfo": {
    "locations": [
-    "X4-G13",
-    "X4-M10-2C",
-    "X4-G13"
+    "121",
+    "113",
+    "121",
+    "72",
+    "12",
+    "72"
    ],
    "SKUs": [
     "0",
     "1",
-    "2"
+    "2",
+    "3",
+    "4",
+    "5"
    ]
   }
  }

@@ -2,11 +2,13 @@
 
 import json
 
-PATH_RESP = './send_one_res_TOYO.json' # RENAME IT! send_one_res MIGHT BE OVERWRITTEN using send_one
+# PATH_RESP = './send_one_res_TOYO.json' # RENAME IT! send_one_res MIGHT BE OVERWRITTEN using send_one
+PATH_RESP = './tsplibfiles/2_SLAP_PRO/NR1/c98_ac3d/c98_ac3d_SLAP_res.json' # RENAME IT! send_one_res MIGHT BE OVERWRITTEN using send_one
 PATH_OUT = './utils_benchmarking/req_reassignmentPath.json'
-WAREHOUSE_TAG = 'TOYO'
-ORIGIN = "WH_STARTSTOP0_1"
-DESTINATION = "WH_STARTSTOP0_1"
+WAREHOUSE_TAG = 'NR1'
+ORIGIN = "0"  #WH_STARTSTOP0_1"
+DESTINATION = "1"  #WH_STARTSTOP0_1"
+SAVE_IN_GUI_TEST = False
 
 
 with open(PATH_RESP, 'r') as f:
@@ -15,7 +17,7 @@ with open(PATH_RESP, 'r') as f:
 with open('./utils_benchmarking/req_template_pro.json', 'r') as f:
     req = json.load(f)
 
-req['_meta']['save_in_gui_test'] = True
+req['_meta']['save_in_gui_test'] = SAVE_IN_GUI_TEST
 req['_meta']['warehouse']['tag'] = WAREHOUSE_TAG
 req['_meta']['requestName'] = 'reassignment path'
 
