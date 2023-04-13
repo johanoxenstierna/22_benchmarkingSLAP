@@ -2,11 +2,14 @@ import os
 import requests
 import json
 
+'''NR1 prob was done with R=0.5'''
+
 # WAREHOUSE_TAGS = ['']
 
+## UNSTAGE dataAFT
 WAREHOUSE_TAG = 'NR1'
 PATH0 = './tsplibfiles/2_SLAP_PRO/' + WAREHOUSE_TAG + '/'
-OVERWRITE_RES = False
+OVERWRITE_RES = False  # whenever new ones GENERATED, old are deleted
 
 _, inst_names, _ = os.walk(PATH0).__next__()
 ii = 0
@@ -40,12 +43,13 @@ for inst_name in inst_names:
 
     res = json.loads(response_raw.text)
 
+    # SHOULD BE NEGATIVE
     print("distanceSaved: " + str(float(res['distanceTotalOptimized'] - res['distanceOriginal'])))
 
     with open(PATH_OUT, 'w') as f:  # DONT CHANGE NAME!!! rename after
         json.dump(res, f, indent=4)
 
-    # ii += 1
+    ii += 1
 
     # if ii > 2:
     #     break

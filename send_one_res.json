@@ -4,75 +4,61 @@
         "saveInBQ": false,
         "save_in_gui_test": false,
         "warehouse": {
-            "tag": "NR1",
+            "tag": "TOYO-W",
             "uuid": ""
         }
     },
     "requestData": {
-        "destination": "1",
+        "destination": "TOYO-W_START",
         "mobileUnitId": "",
-        "origin": "0",
+        "origin": "TOYO-W_START",
         "pickRoundId": "",
         "picksInfo": {
             "SKUs": [
                 "0",
                 "1",
-                "2",
-                "3",
-                "4",
-                "5"
+                "2"
             ],
             "locations": [
-                "121",
-                "113",
-                "121",
-                "72",
-                "12",
-                "72"
+                "SSV2305A",
+                "SSI2301C",
+                "SSV2305A"
             ]
         },
+        "precedenceConstraint": null,
         "userId": ""
     },
     "requestType": "pickroute",
     "responseData": {
-        "distanceSavedMeters": 6.685937499999998,
+        "distanceSavedMeters": 26.299999999999997,
         "isClockwise": null,
         "mobileUnitId": null,
-        "optimalRouteDistance": 18.4046875,
-        "origin": "0",
-        "originalRouteDistance": 25.090625,
+        "optimalRouteDistance": 84.11,
+        "origin": "TOYO-W_START",
+        "originalRouteDistance": 110.41,
         "pickRoundId": "",
         "picksInfo": {
             "SKUs": [
-                "2",
-                "0",
                 "1",
-                "4",
-                "3",
-                "5"
+                "2",
+                "0"
             ],
             "locations": [
-                "121",
-                "121",
-                "113",
-                "12",
-                "72",
-                "72"
+                "SSI2301C",
+                "SSV2305A",
+                "SSV2305A"
             ],
             "optimizedSorting": [
-                2,
-                0,
                 1,
-                4,
-                3,
-                5
+                2,
+                0
             ]
         },
-        "requestReceivedAtDateTime": "2022-11-01 04:28:45.407560",
-        "responseGeneratedAtDateTime": "2022-11-01 04:28:45.411329",
-        "responseTimeTakenSeconds": 0.003769,
+        "requestReceivedAtDateTime": "2022-11-16 07:29:14.523559",
+        "responseGeneratedAtDateTime": "2022-11-16 07:29:14.740454",
+        "responseTimeTakenSeconds": 0.216895,
         "returnPickerHints": null,
         "userId": null
     },
-    "uuid": "a9f80111-d1c0-443a-86b7-3e14a2d759d2"
+    "uuid": "7fe3b616-79d0-441c-ae83-a95120dc1e16"
 }

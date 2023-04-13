@@ -1,0 +1,23 @@
+{
+    "distanceOrderPicking": 2631.09,
+    "distanceOriginal": 2686.71,
+    "distanceReassignmentPath": 110.41,
+    "distanceSaved": "No improvement found. It is better to keep SKUs at their initial positions.",
+    "distanceTotalOptimized": 2741.5,
+    "numberOfLocationChangesProposed": 2,
+    "reassignmentPath": [
+        "SSV2305A",
+        "SSI2301C",
+        "SSV2305A"
+    ],
+    "slottedSKUs": {
+        "678502660071": {
+            "rawLocCurrent": "SSI2301C",
+            "rawLocOriginal": "SSV2305A"
+        },
+        "7647105": {
+            "rawLocCurrent": "SSV2305A",
+            "rawLocOriginal": "SSI2301C"
+        }
+    }
+}

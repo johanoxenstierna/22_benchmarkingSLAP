@@ -1,25 +1,25 @@
 """This module takes a SLAP response and converts SKUs locations in pickruns in a
 specified folder to the new locations provided in the response."""
 
+# TW30: 2631
 
 import json
 import os
 from copy import deepcopy
 
-# PATH_SLAP_RESP = './TOYO/SLAP/resps/5a.json'
-# PATH_SLAP_RESP = 'send_one_res.json'
-PATH_SLAP_RESP = './tsplibfiles/2_SLAP_PRO/NR1/c98_ac3d/c98_ac3d_SLAP_res.json'
-# PATH_SLAP_RESP = './send_one_res_biasTestOther.json'
+# PATH_SLAP_RESP = './TOYO-W/res_1_TOYO-W120.json'
+PATH_SLAP_RESP = 'send_one_res.json'
+# PATH_SLAP_RESP = './tsplibfiles/2_SLAP_PRO/NR1/c98_ac3d/c98_ac3d_SLAP_res.json'
 # FILE_NAME = 'RES_5a9km.json'
 # PATH_PRO_BEF = './EROSKI/SLAP/data2_4/'
 # PATH_PRO_BEF = './EROSKI/SLAP/processedData/data3_18/'
 # PATH_PRO_BEF = './TOYO/processedData/data7_50f/'
 # PATH_PRO_BEF = './TOYO/pro_resps/'
 PATH_PRO_BEF = 'inRequest'
-PATH_PRO_BEF_IR = './tsplibfiles/2_SLAP_PRO/NR1/c98_ac3d/c98_ac3d_SLAP_req.json'
+PATH_PRO_BEF_IR = './TOYO-W/req_0_TW30.json'
 PATH_PRO_AFT = './utils_benchmarking/dataAFT/'
-SAVE_IN_GUI_TEST = True
-WAREHOUSE_TAG = 'NR1'
+SAVE_IN_GUI_TEST = False
+WAREHOUSE_TAG = 'TOYO-W'
 
 '''Remove previous pro files in aft'''
 path, folders, file_names = os.walk(PATH_PRO_AFT).__next__()

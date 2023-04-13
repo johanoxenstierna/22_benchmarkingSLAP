@@ -1,7 +1,7 @@
 {
  "_meta": {
   "warehouse": {
-   "tag": "NR1",
+   "tag": "TOYO-W",
    "uuid": ""
   },
   "saveInBQ": false,
@@ -10,27 +10,21 @@
  },
  "requestType": "pickroute",
  "requestData": {
-  "origin": "0",
-  "destination": "1",
+  "origin": "TOYO-W_START",
+  "destination": "TOYO-W_START",
   "mobileUnitId": "",
   "pickRoundId": "",
   "userId": "",
   "picksInfo": {
    "locations": [
-    "121",
-    "113",
-    "121",
-    "72",
-    "12",
-    "72"
+    "SSV2305A",
+    "SSI2301C",
+    "SSV2305A"
    ],
    "SKUs": [
     "0",
     "1",
-    "2",
-    "3",
-    "4",
-    "5"
+    "2"
    ]
   }
  }

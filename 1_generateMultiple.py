@@ -19,13 +19,13 @@ SingleRack: 400-
 NR2: 500-
 '''
 
-# WAREHOUSE_TAG = 'NoObstacles'
-# WAREHOUSE_TAG = 'TwelveRacks'
 WAREHOUSE_TAG = 'NR1'
+# WAREHOUSE_TAG = 'SingleRack'
 NAME_INST_INT_START = 0
 PATH0 = './tsplibfiles/1_1v4/' + WAREHOUSE_TAG + '/instances/'
 PATH_OUT0 = './tsplibfiles/2_SLAP_PRO/' + WAREHOUSE_TAG + '/'
 SAVE = 1
+# OVERWRITE = False
 
 '''Parameters to modify instance'''
 # NUM_EMPTY_LOCATIONS = 1
@@ -47,11 +47,20 @@ for inst_name in inst_names:
     req_SLAP = init_SLAP_req(WAREHOUSE_TAG, inst_name, inst_name_int,
                              inst_o)
 
+    req_SLAP['_meta']['optimizationParameters'] = {
+        "NUM_ITERATIONS": 20000,
+        "USE_REASSIGNMENT_DISTANCE": True,
+        "PERC_SWAPS": 100,
+        "C1": 2,
+        "C2": 1,
+        "R_AMOUNT": 0.5
+    }
+
     '''Parameters to modify instance'''
     NUM_EMPTY_LOCATIONS = 0
     NUM_DUPLICATE_Os = 5
     NUM_DUPLICATE_SKUs = 1
-    NUM_EXTRA_SKUs_IN_PROS = (10, 2)  # used to make pickruns longer. Num skus in so many pros
+    NUM_EXTRA_SKUs_IN_PROS = (10, 1)  # used to make pickruns longer. Num skus in so many pros
 
     req_SLAP['_meta']['bench']['ALGO'] = None
 

@@ -5,7 +5,15 @@
             "uuid": ""
         },
         "saveInBQ": false,
-        "save_in_gui_test": true
+        "save_in_gui_test": true,
+        "optimizationParameters": {
+            "NUM_ITERATIONS": 100,
+            "USE_REASSIGNMENT_DISTANCE": true,
+            "PERC_SWAPS": 100,
+            "C1": 4,
+            "C2": 1,
+            "R_AMOUNT": 0.5
+        }
     },
     "requestType": "pickroute",
     "requestData": {

@@ -29,8 +29,11 @@ random.seed(99)
 # PATH = './TOYO/pro_resps/'
 
 PATH = './utils_benchmarking/dataAFT/'
+# PATH = './TOYO-W/pros120/'
 # PATH = 'inRequest'
 # PATH_IR = './tsplibfiles/2_SLAP_PRO/NR1/c3_5e00/c3_5e00_SLAP_req.json'
+# PATH_IR = './TOYO/SLAP/0_pl.json'
+# PATH_IR = './TOYO-W/req_1_TW120.json'
 # SAVE_RESPS = 0  # depr
 # PATH_OUT = './TOYO/pro_resps/'
 SAVE_IN_GUI_TEST = False
@@ -44,7 +47,6 @@ if PATH == 'inRequest':  # load manually
     for pro_id, pro in req['requestData']['pickingLog'].items():
         pro['_meta']['warehouse']['tag'] = req['_meta']['warehouse']['tag']
         pro['_meta']['requestName'] = pro_id
-        pro['_meta']['save_in_gui_test'] = SAVE_IN_GUI_TEST
 
 else:  # loaded from path. Assumed to have tag and name etc (sorted out in pros_aft
 
@@ -58,6 +60,7 @@ else:  # loaded from path. Assumed to have tag and name etc (sorted out in pros_
 # _pro_filter = PickrouteFilter()
 total_dist = 0
 dists = []
+iii = 0
 for req_id, req in reqs.items():
     # if req['requestData']['pickRoundId'] != 20220426673:
     #     continue
@@ -69,6 +72,7 @@ for req_id, req in reqs.items():
 
     '''dont save in BQ'''
     req['_meta']['saveInBQ'] = False
+    req['_meta']['save_in_gui_test'] = SAVE_IN_GUI_TEST
 
     # if file_name[:-5] in dont_do:
     #     continue
@@ -89,7 +93,10 @@ for req_id, req in reqs.items():
     dists.append(res['responseData']['optimalRouteDistance'])
     total_dist += res['responseData']['optimalRouteDistance']
 
-print(total_dist)
+    iii += 1
+    print("sent " + str(iii))
+
+print("TOTAL DIST: " + str(total_dist))
 # ONLY IF DATA DOES NOT INCLUDE RESPONSES (DEPR?)============
 # if USE_FILTER == 1:
 #     _pro_filter.filter_on_dist_and_num_skus()

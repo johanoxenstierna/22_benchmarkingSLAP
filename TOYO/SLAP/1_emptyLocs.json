@@ -10,6 +10,7 @@
    "USE_REASSIGNMENT_DISTANCE": true,
    "C1": 4,
    "C2": 1,
+   "MAX_LOCATION_CHANGES": 50,
    "comment": "num iterations affects how long it takes to optimize the SLAP, will eventually be replaced with computationalTime in requestData. Perc swaps is the percentage of SKUs in the picking log that are subject to location change. higher c1 makes the optimizer use Concorde less (more approximation). higher c2 makes the optimizer more biased."
   },
   "bench": {

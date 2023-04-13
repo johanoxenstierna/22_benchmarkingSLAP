@@ -1,23 +1,23 @@
 {
-    "distanceOptimized": 1350.97,
-    "distanceOrderPicking": 1264.63,
-    "distanceOriginal": 1316.27,
-    "distanceReassignmentPath": 86.34,
+    "distanceOrderPicking": 23856.12,
+    "distanceOriginal": 23875.64,
+    "distanceReassignmentPath": 73.34,
     "distanceSaved": "No improvement found. It is better to keep SKUs at their initial positions.",
+    "distanceTotalOptimized": 23929.46,
     "numberOfLocationChangesProposed": 2,
     "reassignmentPath": [
-        "X4-G13",
-        "X4-M10-2C",
-        "X4-G13"
+        "X4-D14-3D",
+        "X4-D17-2B",
+        "X4-D14-3D"
     ],
     "slottedSKUs": {
-        "755704-040": {
-            "rawLocCurrent": "X4-G13",
-            "rawLocOriginal": "X4-M10-2C"
+        "110639": {
+            "rawLocCurrent": "X4-D14-3D",
+            "rawLocOriginal": "X4-D17-2B"
         },
-        "DUMMY_0": {
-            "rawLocCurrent": "X4-M10-2C",
-            "rawLocOriginal": "X4-G13"
+        "653834-008": {
+            "rawLocCurrent": "X4-D17-2B",
+            "rawLocOriginal": "X4-D14-3D"
         }
     }
 }

@@ -1,0 +1,4589 @@
+{
+ "_meta": {
+  "warehouse": {
+   "tag": "TOYO-W",
+   "uuid": ""
+  },
+  "req_name": "c6_07c7",
+  "saveInBQ": false,
+  "optimizationParameters": {
+   "NUM_ITERATIONS": 100,
+   "PERC_SWAPS": 100,
+   "USE_REASSIGNMENT_DISTANCE": true,
+   "C1": 4,
+   "C2": 1,
+   "comment": "num iterations affects how long it takes to optimize the SLAP, will eventually be replaced with computationalTime in requestData. Perc swaps is the percentage of SKUs in the picking log that are subject to location change. higher c1 makes the optimizer use Concorde less (more approximation). higher c2 makes the optimizer more biased."
+  }
+ },
+ "requestType": "storageassignment",
+ "requestData": {
+  "auth": null,
+  "destination": "TOYO-W_START",
+  "mobileUnitCapacities": {
+   "numOrders": 0,
+   "volume": null,
+   "weight": null
+  },
+  "origin": "TOYO-W_START",
+  "computational_time_s": "minimal",
+  "SKUsToSlot": "optimizedSelectionPickingLog",
+  "optimizationType": {
+   "analysisOnly": false
+  },
+  "assignmentOptions": {
+   "openLocations": "SKUsToSlot",
+   "evaluationData": "pickingLogInRequest",
+   "assignmentType": "swaps"
+  },
+  "pickingLog": {
+   "reqpickbatch_success_7024071024.json": {
+    "_meta": {
+     "warehouse": {
+      "tag": "TOYO-W",
+      "uuid": "TOYO-W_pro_uuid"
+     },
+     "demoTimeStamp": "1970-01-01 00:00:00.020221",
+     "saveInBQ": false,
+     "save_in_gui_test": false,
+     "requestName": "0"
+    },
+    "requestType": "pickroute",
+    "version": {},
+    "requestData": {
+     "origin": "TOYO-W_START",
+     "destination": "TOYO-W_START",
+     "returnPickerHints": false,
+     "mobileUnitId": null,
+     "pickRoundId": 7024071024,
+     "userId": null,
+     "picksInfo": {
+      "locations": [
+       "SSG3901A",
+       "SSG4801J",
+       "SSJ2502A",
+       "SSO1809C",
+       "SSO2506A",
+       "SSS1803B",
+       "SSU3406D"
+      ],
+      "SKUs": [
+       "7578834",
+       "110PAL008661",
+       "110PAL009962",
+       "154241",
+       "110PAL000035",
+       "110PAL000602",
+       "7536522"
+      ],
+      "originalSorting": [
+       "93743",
+       "94045",
+       "94252",
+       "94409",
+       "94502",
+       "95508",
+       "95724"
+      ]
+     },
+     "isClockwise": false,
+     "demoTimeCurrent": ""
+    },
+    "warehouseManagementSystemControl": {}
+   },
+   "reqpickbatch_success_7024118924.json": {
+    "_meta": {
+     "warehouse": {
+      "tag": "TOYO-W",
+      "uuid": "TOYO-W_pro_uuid"
+     },
+     "demoTimeStamp": "1970-01-01 00:00:00.020221",
+     "saveInBQ": false,
+     "save_in_gui_test": false,
+     "requestName": "1"
+    },
+    "requestType": "pickroute",
+    "version": {},
+    "requestData": {
+     "origin": "TOYO-W_START",
+     "destination": "TOYO-W_START",
+     "returnPickerHints": false,
+     "mobileUnitId": null,
+     "pickRoundId": 7024118924,
+     "userId": null,
+     "picksInfo": {
+      "locations": [
+       "SST0705F"
+      ],
+      "SKUs": [
+       "BE1PAL000321"
+      ],
+      "originalSorting": [
+       "91216"
+      ]
+     },
+     "isClockwise": false,
+     "demoTimeCurrent": ""
+    },
+    "warehouseManagementSystemControl": {}
+   },
+   "reqpickbatch_success_7024118904.json": {
+    "_meta": {
+     "warehouse": {
+      "tag": "TOYO-W",
+      "uuid": "TOYO-W_pro_uuid"
+     },
+     "demoTimeStamp": "1970-01-01 00:00:00.020221",
+     "saveInBQ": false,
+     "save_in_gui_test": false,
+     "requestName": "2"
+    },
+    "requestType": "pickroute",
+    "version": {},
+    "requestData": {
+     "origin": "TOYO-W_START",
+     "destination": "TOYO-W_START",
+     "returnPickerHints": false,
+     "mobileUnitId": null,
+     "pickRoundId": 7024118904,
+     "userId": null,
+     "picksInfo": {
+      "locations": [
+       "SST0705F"
+      ],
+      "SKUs": [
+       "BE1PAL000321"
+      ],
+      "originalSorting": [
+       "90259"
+      ]
+     },
+     "isClockwise": false,
+     "demoTimeCurrent": ""
+    },
+    "warehouseManagementSystemControl": {}
+   },
+   "reqpickbatch_success_7024081985.json": {
+    "_meta": {
+     "warehouse": {
+      "tag": "TOYO-W",
+      "uuid": "TOYO-W_pro_uuid"
+     },
+     "demoTimeStamp": "1970-01-01 00:00:00.020221",
+     "saveInBQ": false,
+     "save_in_gui_test": false,
+     "requestName": "3"
+    },
+    "requestType": "pickroute",
+    "version": {},
+    "requestData": {
+     "origin": "TOYO-W_START",
+     "destination": "TOYO-W_START",
+     "returnPickerHints": false,
+     "mobileUnitId": null,
+     "pickRoundId": 7024081985,
+     "userId": null,
+     "picksInfo": {
+      "locations": [
+       "SSF3304A",
+       "SSF1905B",
+       "SSF0203B",
+       "SSG4801D",
+       "SSH4202A",
+       "SSI1004A",
+       "SSK0401C",
+       "SSK4605C",
+       "SSL2205E",
+       "SSM2902B",
+       "SSN1601A",
+       "SSO0806I",
+       "SSO2802F",
+       "SSO3301B",
+       "SSQ3001C",
+       "SSQ4401A",
+       "SSR0401C",
+       "SSR0803C",
+       "SSR3103B",
+       "SSS4701A",
+       "SSS4803C",
+       "SSU3406D",
+       "SSU3409F",
+       "SSV2705A"
+      ],
+      "SKUs": [
+       "110PAL009233",
+       "7560268",
+       "753694",
+       "7587759",
+       "7592058",
+       "110PAL009237",
+       "110PAL009232",
+       "7536413",
+       "179321-024",
+       "7508514-004",
+       "0403340ORA",
+       "2034324SBG",
+       "231769",
+       "110PAL009238",
+       "7534034",
+       "110PAL009243",
+       "225464-012",
+       "110PAL009242",
+       "2032807SBG",
+       "110PAL009231",
+       "110PAL001478",
+       "7536522",
+       "110PAL009087",
+       "110PAL009244"
+      ],
+      "originalSorting": [
+       "103242",
+       "103331",
+       "103923",
+       "104005",
+       "104106",
+       "104146",
+       "104237",
+       "104347",
+       "104531",
+       "104734",
+       "104740",
+       "104838",
+       "104940",
+       "105016",
+       "105125",
+       "105312",
+       "105437",
+       "105506",
+       "105606",
+       "105718",
+       "105754",
+       "105940",
+       "110020",
+       "110115"
+      ]
+     },
+     "isClockwise": false,
+     "demoTimeCurrent": ""
+    },
+    "warehouseManagementSystemControl": {}
+   },
+   "reqpickbatch_success_7023430511.json": {
+    "_meta": {
+     "warehouse": {
+      "tag": "TOYO-W",
+      "uuid": "TOYO-W_pro_uuid"
+     },
+     "demoTimeStamp": "1970-01-01 00:00:00.020221",
+     "saveInBQ": false,
+     "save_in_gui_test": false,
+     "requestName": "4"
+    },
+    "requestType": "pickroute",
+    "version": {},
+    "requestData": {
+     "origin": "TOYO-W_START",
+     "destination": "TOYO-W_START",
+     "returnPickerHints": false,
+     "mobileUnitId": null,
+     "pickRoundId": 7023430511,
+     "userId": null,
+     "picksInfo": {
+      "locations": [
+       "SSP3907D",
+       "SSP4108G",
+       "SSU0303B"
+      ],
+      "SKUs": [
+       "7508138",
+       "7508137",
+       "7508139"
+      ],
+      "originalSorting": [
+       "93957",
+       "94228",
+       "94552"
+      ]
+     },
+     "isClockwise": false,
+     "demoTimeCurrent": ""
+    },
+    "warehouseManagementSystemControl": {}
+   },
+   "reqpickbatch_success_7024081999.json": {
+    "_meta": {
+     "warehouse": {
+      "tag": "TOYO-W",
+      "uuid": "TOYO-W_pro_uuid"
+     },
+     "demoTimeStamp": "1970-01-01 00:00:00.020221",
+     "saveInBQ": false,
+     "save_in_gui_test": false,
+     "requestName": "5"
+    },
+    "requestType": "pickroute",
+    "version": {},
+    "requestData": {
+     "origin": "TOYO-W_START",
+     "destination": "TOYO-W_START",
+     "returnPickerHints": false,
+     "mobileUnitId": null,
+     "pickRoundId": 7024081999,
+     "userId": null,
+     "picksInfo": {
+      "locations": [
+       "SSF3304A",
+       "SSF1905B",
+       "SSF0203B",
+       "SSG4801D",
+       "SSH4202A",
+       "SSI1004A",
+       "SSK0401C",
+       "SSL2205E",
+       "SSK4605C",
+       "SSN1601A",
+       "SSM2902B",
+       "SSO0806I",
+       "SSO2802F",
+       "SSO3301B",
+       "SSQ4401A",
+       "SSQ3001C",
+       "SSR0401C",
+       "SSR0803C",
+       "SSR3103B",
+       "SSS4701A",
+       "SSS4803C",
+       "SSU3406D",
+       "SSU3409F",
+       "SSV2705A"
+      ],
+      "SKUs": [
+       "110PAL009233",
+       "7560268",
+       "753694",
+       "7587759",
+       "7592058",
+       "110PAL009237",
+       "110PAL009232",
+       "179321-024",
+       "7536413",
+       "0403340ORA",
+       "7508514-004",
+       "2034324SBG",
+       "231769",
+       "110PAL009238",
+       "110PAL009243",
+       "7534034",
+       "225464-012",
+       "110PAL009242",
+       "2032807SBG",
+       "110PAL009231",
+       "110PAL001478",
+       "7536522",
+       "110PAL009087",
+       "110PAL009244"
+      ],
+      "originalSorting": [
+       "103618",
+       "103708",
+       "103950",
+       "104917",
+       "105028",
+       "105055",
+       "105128",
+       "105409",
+       "105517",
+       "105622",
+       "105727",
+       "105812",
+       "105902",
+       "105928",
+       "110028",
+       "110119",
+       "110329",
+       "110349",
+       "110421",
+       "110519",
+       "110545",
+       "110746",
+       "110817",
+       "110900"
+      ]
+     },
+     "isClockwise": false,
+     "demoTimeCurrent": ""
+    },
+    "warehouseManagementSystemControl": {}
+   },
+   "reqpickbatch_success_7023866308.json": {
+    "_meta": {
+     "warehouse": {
+      "tag": "TOYO-W",
+      "uuid": "TOYO-W_pro_uuid"
+     },
+     "demoTimeStamp": "1970-01-01 00:00:00.020221",
+     "saveInBQ": false,
+     "save_in_gui_test": false,
+     "requestName": "6"
+    },
+    "requestType": "pickroute",
+    "version": {},
+    "requestData": {
+     "origin": "TOYO-W_START",
+     "destination": "TOYO-W_START",
+     "returnPickerHints": false,
+     "mobileUnitId": null,
+     "pickRoundId": 7023866308,
+     "userId": null,
+     "picksInfo": {
+      "locations": [
+       "SSS0203A"
+      ],
+      "SKUs": [
+       "848235-017"
+      ],
+      "originalSorting": [
+       "94353"
+      ]
+     },
+     "isClockwise": false,
+     "demoTimeCurrent": ""
+    },
+    "warehouseManagementSystemControl": {}
+   },
+   "reqpickbatch_success_7023840777.json": {
+    "_meta": {
+     "warehouse": {
+      "tag": "TOYO-W",
+      "uuid": "TOYO-W_pro_uuid"
+     },
+     "demoTimeStamp": "1970-01-01 00:00:00.020221",
+     "saveInBQ": false,
+     "save_in_gui_test": false,
+     "requestName": "7"
+    },
+    "requestType": "pickroute",
+    "version": {},
+    "requestData": {
+     "origin": "TOYO-W_START",
+     "destination": "TOYO-W_START",
+     "returnPickerHints": false,
+     "mobileUnitId": null,
+     "pickRoundId": 7023840777,
+     "userId": null,
+     "picksInfo": {
+      "locations": [
+       "SSJ1402A",
+       "SSO2701C",
+       "SSO3411F"
+      ],
+      "SKUs": [
+       "252611",
+       "117157-002",
+       "162300-002"
+      ],
+      "originalSorting": [
+       "100502",
+       "100554",
+       "100731"
+      ]
+     },
+     "isClockwise": false,
+     "demoTimeCurrent": ""
+    },
+    "warehouseManagementSystemControl": {}
+   },
+   "reqpickbatch_success_7023977204.json": {
+    "_meta": {
+     "warehouse": {
+      "tag": "TOYO-W",
+      "uuid": "TOYO-W_pro_uuid"
+     },
+     "demoTimeStamp": "1970-01-01 00:00:00.020221",
+     "saveInBQ": false,
+     "save_in_gui_test": false,
+     "requestName": "8"
+    },
+    "requestType": "pickroute",
+    "version": {},
+    "requestData": {
+     "origin": "TOYO-W_START",
+     "destination": "TOYO-W_START",
+     "returnPickerHints": false,
+     "mobileUnitId": null,
+     "pickRoundId": 7023977204,
+     "userId": null,
+     "picksInfo": {
+      "locations": [
+       "SSF2502A",
+       "SSO0601F"
+      ],
+      "SKUs": [
+       "7513246",
+       "110PAL009103"
+      ],
+      "originalSorting": [
+       "100325",
+       "100516"
+      ]
+     },
+     "isClockwise": false,
+     "demoTimeCurrent": ""
+    },
+    "warehouseManagementSystemControl": {}
+   },
+   "reqpickbatch_success_7023713129.json": {
+    "_meta": {
+     "warehouse": {
+      "tag": "TOYO-W",
+      "uuid": "TOYO-W_pro_uuid"
+     },
+     "demoTimeStamp": "1970-01-01 00:00:00.020221",
+     "saveInBQ": false,
+     "save_in_gui_test": false,
+     "requestName": "9"
+    },
+    "requestType": "pickroute",
+    "version": {},
+    "requestData": {
+     "origin": "TOYO-W_START",
+     "destination": "TOYO-W_START",
+     "returnPickerHints": false,
+     "mobileUnitId": null,
+     "pickRoundId": 7023713129,
+     "userId": null,
+     "picksInfo": {
+      "locations": [
+       "SSP2704C"
+      ],
+      "SKUs": [
+       "848235-013"
+      ],
+      "originalSorting": [
+       "94211"
+      ]
+     },
+     "isClockwise": false,
+     "demoTimeCurrent": ""
+    },
+    "warehouseManagementSystemControl": {}
+   },
+   "reqpickbatch_success_7023829865.json": {
+    "_meta": {
+     "warehouse": {
+      "tag": "TOYO-W",
+      "uuid": "TOYO-W_pro_uuid"
+     },
+     "demoTimeStamp": "1970-01-01 00:00:00.020221",
+     "saveInBQ": false,
+     "save_in_gui_test": false,
+     "requestName": "10"
+    },
+    "requestType": "pickroute",
+    "version": {},
+    "requestData": {
+     "origin": "TOYO-W_START",
+     "destination": "TOYO-W_START",
+     "returnPickerHints": false,
+     "mobileUnitId": null,
+     "pickRoundId": 7023829865,
+     "userId": null,
+     "picksInfo": {
+      "locations": [
+       "SSO1806E"
+      ],
+      "SKUs": [
+       "110PAL010224"
+      ],
+      "originalSorting": [
+       "100906"
+      ]
+     },
+     "isClockwise": false,
+     "demoTimeCurrent": ""
+    },
+    "warehouseManagementSystemControl": {}
+   },
+   "reqpickbatch_success_7023563464.json": {
+    "_meta": {
+     "warehouse": {
+      "tag": "TOYO-W",
+      "uuid": "TOYO-W_pro_uuid"
+     },
+     "demoTimeStamp": "1970-01-01 00:00:00.020221",
+     "saveInBQ": false,
+     "save_in_gui_test": false,
+     "requestName": "11"
+    },
+    "requestType": "pickroute",
+    "version": {},
+    "requestData": {
+     "origin": "TOYO-W_START",
+     "destination": "TOYO-W_START",
+     "returnPickerHints": false,
+     "mobileUnitId": null,
+     "pickRoundId": 7023563464,
+     "userId": null,
+     "picksInfo": {
+      "locations": [
+       "SSI1805B"
+      ],
+      "SKUs": [
+       "7623069"
+      ],
+      "originalSorting": [
+       "100633"
+      ]
+     },
+     "isClockwise": false,
+     "demoTimeCurrent": ""
+    },
+    "warehouseManagementSystemControl": {}
+   },
+   "reqpickbatch_success_7023840779.json": {
+    "_meta": {
+     "warehouse": {
+      "tag": "TOYO-W",
+      "uuid": "TOYO-W_pro_uuid"
+     },
+     "demoTimeStamp": "1970-01-01 00:00:00.020221",
+     "saveInBQ": false,
+     "save_in_gui_test": false,
+     "requestName": "12"
+    },
+    "requestType": "pickroute",
+    "version": {},
+    "requestData": {
+     "origin": "TOYO-W_START",
+     "destination": "TOYO-W_START",
+     "returnPickerHints": false,
+     "mobileUnitId": null,
+     "pickRoundId": 7023840779,
+     "userId": null,
+     "picksInfo": {
+      "locations": [
+       "SSJ1402A",
+       "SSO2701C",
+       "SSO3411F"
+      ],
+      "SKUs": [
+       "252611",
+       "117157-002",
+       "162300-002"
+      ],
+      "originalSorting": [
+       "93606",
+       "93650",
+       "93745"
+      ]
+     },
+     "isClockwise": false,
+     "demoTimeCurrent": ""
+    },
+    "warehouseManagementSystemControl": {}
+   },
+   "reqpickbatch_success_7023428849.json": {
+    "_meta": {
+     "warehouse": {
+      "tag": "TOYO-W",
+      "uuid": "TOYO-W_pro_uuid"
+     },
+     "demoTimeStamp": "1970-01-01 00:00:00.020221",
+     "saveInBQ": false,
+     "save_in_gui_test": false,
+     "requestName": "13"
+    },
+    "requestType": "pickroute",
+    "version": {},
+    "requestData": {
+     "origin": "TOYO-W_START",
+     "destination": "TOYO-W_START",
+     "returnPickerHints": false,
+     "mobileUnitId": null,
+     "pickRoundId": 7023428849,
+     "userId": null,
+     "picksInfo": {
+      "locations": [
+       "SSN0206E"
+      ],
+      "SKUs": [
+       "110PAL001459"
+      ],
+      "originalSorting": [
+       "101021"
+      ]
+     },
+     "isClockwise": false,
+     "demoTimeCurrent": ""
+    },
+    "warehouseManagementSystemControl": {}
+   },
+   "reqpickbatch_success_7023527104.json": {
+    "_meta": {
+     "warehouse": {
+      "tag": "TOYO-W",
+      "uuid": "TOYO-W_pro_uuid"
+     },
+     "demoTimeStamp": "1970-01-01 00:00:00.020221",
+     "saveInBQ": false,
+     "save_in_gui_test": false,
+     "requestName": "14"
+    },
+    "requestType": "pickroute",
+    "version": {},
+    "requestData": {
+     "origin": "TOYO-W_START",
+     "destination": "TOYO-W_START",
+     "returnPickerHints": false,
+     "mobileUnitId": null,
+     "pickRoundId": 7023527104,
+     "userId": null,
+     "picksInfo": {
+      "locations": [
+       "SSO2506A"
+      ],
+      "SKUs": [
+       "110PAL000035"
+      ],
+      "originalSorting": [
+       "105136"
+      ]
+     },
+     "isClockwise": false,
+     "demoTimeCurrent": ""
+    },
+    "warehouseManagementSystemControl": {}
+   },
+   "reqpickbatch_success_7024118910.json": {
+    "_meta": {
+     "warehouse": {
+      "tag": "TOYO-W",
+      "uuid": "TOYO-W_pro_uuid"
+     },
+     "demoTimeStamp": "1970-01-01 00:00:00.020221",
+     "saveInBQ": false,
+     "save_in_gui_test": false,
+     "requestName": "15"
+    },
+    "requestType": "pickroute",
+    "version": {},
+    "requestData": {
+     "origin": "TOYO-W_START",
+     "destination": "TOYO-W_START",
+     "returnPickerHints": false,
+     "mobileUnitId": null,
+     "pickRoundId": 7024118910,
+     "userId": null,
+     "picksInfo": {
+      "locations": [
+       "SST0705F"
+      ],
+      "SKUs": [
+       "BE1PAL000321"
+      ],
+      "originalSorting": [
+       "90820"
+      ]
+     },
+     "isClockwise": false,
+     "demoTimeCurrent": ""
+    },
+    "warehouseManagementSystemControl": {}
+   },
+   "reqpickbatch_success_7024071003.json": {
+    "_meta": {
+     "warehouse": {
+      "tag": "TOYO-W",
+      "uuid": "TOYO-W_pro_uuid"
+     },
+     "demoTimeStamp": "1970-01-01 00:00:00.020221",
+     "saveInBQ": false,
+     "save_in_gui_test": false,
+     "requestName": "16"
+    },
+    "requestType": "pickroute",
+    "version": {},
+    "requestData": {
+     "origin": "TOYO-W_START",
+     "destination": "TOYO-W_START",
+     "returnPickerHints": false,
+     "mobileUnitId": null,
+     "pickRoundId": 7024071003,
+     "userId": null,
+     "picksInfo": {
+      "locations": [
+       "SSG3901A",
+       "SSG4801J",
+       "SSJ2502A",
+       "SSO1809C",
+       "SSO2506A",
+       "SSS1803B",
+       "SSU3406D"
+      ],
+      "SKUs": [
+       "7578834",
+       "110PAL008661",
+       "110PAL009962",
+       "154241",
+       "110PAL000035",
+       "110PAL000602",
+       "7536522"
+      ],
+      "originalSorting": [
+       "105756",
+       "105904",
+       "110008",
+       "110132",
+       "110227",
+       "110342",
+       "110426"
+      ]
+     },
+     "isClockwise": false,
+     "demoTimeCurrent": ""
+    },
+    "warehouseManagementSystemControl": {}
+   },
+   "reqpickbatch_success_7023908572.json": {
+    "_meta": {
+     "warehouse": {
+      "tag": "TOYO-W",
+      "uuid": "TOYO-W_pro_uuid"
+     },
+     "demoTimeStamp": "1970-01-01 00:00:00.020221",
+     "saveInBQ": false,
+     "save_in_gui_test": false,
+     "requestName": "17"
+    },
+    "requestType": "pickroute",
+    "version": {},
+    "requestData": {
+     "origin": "TOYO-W_START",
+     "destination": "TOYO-W_START",
+     "returnPickerHints": false,
+     "mobileUnitId": null,
+     "pickRoundId": 7023908572,
+     "userId": null,
+     "picksInfo": {
+      "locations": [
+       "SSQ2605F"
+      ],
+      "SKUs": [
+       "848235-019"
+      ],
+      "originalSorting": [
+       "101144"
+      ]
+     },
+     "isClockwise": false,
+     "demoTimeCurrent": ""
+    },
+    "warehouseManagementSystemControl": {}
+   },
+   "reqpickbatch_success_7023563384.json": {
+    "_meta": {
+     "warehouse": {
+      "tag": "TOYO-W",
+      "uuid": "TOYO-W_pro_uuid"
+     },
+     "demoTimeStamp": "1970-01-01 00:00:00.020221",
+     "saveInBQ": false,
+     "save_in_gui_test": false,
+     "requestName": "18"
+    },
+    "requestType": "pickroute",
+    "version": {},
+    "requestData": {
+     "origin": "TOYO-W_START",
+     "destination": "TOYO-W_START",
+     "returnPickerHints": false,
+     "mobileUnitId": null,
+     "pickRoundId": 7023563384,
+     "userId": null,
+     "picksInfo": {
+      "locations": [
+       "SSI1805B"
+      ],
+      "SKUs": [
+       "7623069"
+      ],
+      "originalSorting": [
+       "100230"
+      ]
+     },
+     "isClockwise": false,
+     "demoTimeCurrent": ""
+    },
+    "warehouseManagementSystemControl": {}
+   },
+   "reqpickbatch_success_7024130700.json": {
+    "_meta": {
+     "warehouse": {
+      "tag": "TOYO-W",
+      "uuid": "TOYO-W_pro_uuid"
+     },
+     "demoTimeStamp": "1970-01-01 00:00:00.020221",
+     "saveInBQ": false,
+     "save_in_gui_test": false,
+     "requestName": "19"
+    },
+    "requestType": "pickroute",
+    "version": {},
+    "requestData": {
+     "origin": "TOYO-W_START",
+     "destination": "TOYO-W_START",
+     "returnPickerHints": false,
+     "mobileUnitId": null,
+     "pickRoundId": 7024130700,
+     "userId": null,
+     "picksInfo": {
+      "locations": [
+       "SSG3605B",
+       "SSK2505A",
+       "SSO3003E",
+       "SSP2906B",
+       "SSS0806C",
+       "SSU3104G"
+      ],
+      "SKUs": [
+       "110PAL000017",
+       "56641N319171",
+       "901790800271",
+       "56503N326071",
+       "565903676071",
+       "901190803971"
+      ],
+      "originalSorting": [
+       "95231",
+       "95317",
+       "95520",
+       "95544",
+       "95619",
+       "100302"
+      ]
+     },
+     "isClockwise": false,
+     "demoTimeCurrent": ""
+    },
+    "warehouseManagementSystemControl": {}
+   },
+   "reqpickbatch_success_7023716036.json": {
+    "_meta": {
+     "warehouse": {
+      "tag": "TOYO-W",
+      "uuid": "TOYO-W_pro_uuid"
+     },
+     "demoTimeStamp": "1970-01-01 00:00:00.020221",
+     "saveInBQ": false,
+     "save_in_gui_test": false,
+     "requestName": "20"
+    },
+    "requestType": "pickroute",
+    "version": {},
+    "requestData": {
+     "origin": "TOYO-W_START",
+     "destination": "TOYO-W_START",
+     "returnPickerHints": false,
+     "mobileUnitId": null,
+     "pickRoundId": 7023716036,
+     "userId": null,
+     "picksInfo": {
+      "locations": [
+       "SSP2704C"
+      ],
+      "SKUs": [
+       "848235-013"
+      ],
+      "originalSorting": [
+       "93708"
+      ]
+     },
+     "isClockwise": false,
+     "demoTimeCurrent": ""
+    },
+    "warehouseManagementSystemControl": {}
+   },
+   "reqpickbatch_success_7023659953.json": {
+    "_meta": {
+     "warehouse": {
+      "tag": "TOYO-W",
+      "uuid": "TOYO-W_pro_uuid"
+     },
+     "demoTimeStamp": "1970-01-01 00:00:00.020221",
+     "saveInBQ": false,
+     "save_in_gui_test": false,
+     "requestName": "21"
+    },
+    "requestType": "pickroute",
+    "version": {},
+    "requestData": {
+     "origin": "TOYO-W_START",
+     "destination": "TOYO-W_START",
+     "returnPickerHints": false,
+     "mobileUnitId": null,
+     "pickRoundId": 7023659953,
+     "userId": null,
+     "picksInfo": {
+      "locations": [
+       "SSG2203B",
+       "SSI2301C",
+       "SSJ4107B",
+       "SSK1403C",
+       "SSL2404A",
+       "SSN3910C",
+       "SSN3605D",
+       "SSO3706E",
+       "SSP4303C",
+       "SSQ2407F",
+       "SSQ4603A",
+       "SSQ2903A",
+       "SSR0403C",
+       "SST2504E",
+       "SSU2108F",
+       "SSU5002C",
+       "SSV3104A"
+      ],
+      "SKUs": [
+       "110PAL009969",
+       "7647105",
+       "110PAL010286",
+       "110PAL009967",
+       "7600543",
+       "7650840",
+       "7680757",
+       "7651766",
+       "110PAL009970",
+       "7651742",
+       "110PAL003044",
+       "110PAL007875",
+       "110PAL009968",
+       "110PAL007590",
+       "110PAL007969",
+       "7651495",
+       "7657141"
+      ],
+      "originalSorting": [
+       "93503",
+       "93632",
+       "93700",
+       "93752",
+       "93819",
+       "94051",
+       "94132",
+       "94246",
+       "94344",
+       "94449",
+       "94538",
+       "94646",
+       "94712",
+       "94807",
+       "94857",
+       "94947",
+       "95059"
+      ]
+     },
+     "isClockwise": false,
+     "demoTimeCurrent": ""
+    },
+    "warehouseManagementSystemControl": {}
+   },
+   "reqpickbatch_success_7023716038.json": {
+    "_meta": {
+     "warehouse": {
+      "tag": "TOYO-W",
+      "uuid": "TOYO-W_pro_uuid"
+     },
+     "demoTimeStamp": "1970-01-01 00:00:00.020221",
+     "saveInBQ": false,
+     "save_in_gui_test": false,
+     "requestName": "22"
+    },
+    "requestType": "pickroute",
+    "version": {},
+    "requestData": {
+     "origin": "TOYO-W_START",
+     "destination": "TOYO-W_START",
+     "returnPickerHints": false,
+     "mobileUnitId": null,
+     "pickRoundId": 7023716038,
+     "userId": null,
+     "picksInfo": {
+      "locations": [
+       "SSP2704C"
+      ],
+      "SKUs": [
+       "848235-013"
+      ],
+      "originalSorting": [
+       "93804"
+      ]
+     },
+     "isClockwise": false,
+     "demoTimeCurrent": ""
+    },
+    "warehouseManagementSystemControl": {}
+   },
+   "reqpickbatch_success_7024118896.json": {
+    "_meta": {
+     "warehouse": {
+      "tag": "TOYO-W",
+      "uuid": "TOYO-W_pro_uuid"
+     },
+     "demoTimeStamp": "1970-01-01 00:00:00.020221",
+     "saveInBQ": false,
+     "save_in_gui_test": false,
+     "requestName": "23"
+    },
+    "requestType": "pickroute",
+    "version": {},
+    "requestData": {
+     "origin": "TOYO-W_START",
+     "destination": "TOYO-W_START",
+     "returnPickerHints": false,
+     "mobileUnitId": null,
+     "pickRoundId": 7024118896,
+     "userId": null,
+     "picksInfo": {
+      "locations": [
+       "SST0705F"
+      ],
+      "SKUs": [
+       "BE1PAL000321"
+      ],
+      "originalSorting": [
+       "90406"
+      ]
+     },
+     "isClockwise": false,
+     "demoTimeCurrent": ""
+    },
+    "warehouseManagementSystemControl": {}
+   },
+   "reqpickbatch_success_7023430505.json": {
+    "_meta": {
+     "warehouse": {
+      "tag": "TOYO-W",
+      "uuid": "TOYO-W_pro_uuid"
+     },
+     "demoTimeStamp": "1970-01-01 00:00:00.020221",
+     "saveInBQ": false,
+     "save_in_gui_test": false,
+     "requestName": "24"
+    },
+    "requestType": "pickroute",
+    "version": {},
+    "requestData": {
+     "origin": "TOYO-W_START",
+     "destination": "TOYO-W_START",
+     "returnPickerHints": false,
+     "mobileUnitId": null,
+     "pickRoundId": 7023430505,
+     "userId": null,
+     "picksInfo": {
+      "locations": [
+       "SSP3907D",
+       "SSP4108G",
+       "SSU0303B"
+      ],
+      "SKUs": [
+       "7508138",
+       "7508137",
+       "7508139"
+      ],
+      "originalSorting": [
+       "94030",
+       "94236",
+       "94620"
+      ]
+     },
+     "isClockwise": false,
+     "demoTimeCurrent": ""
+    },
+    "warehouseManagementSystemControl": {}
+   },
+   "reqpickbatch_success_7024130709.json": {
+    "_meta": {
+     "warehouse": {
+      "tag": "TOYO-W",
+      "uuid": "TOYO-W_pro_uuid"
+     },
+     "demoTimeStamp": "1970-01-01 00:00:00.020221",
+     "saveInBQ": false,
+     "save_in_gui_test": false,
+     "requestName": "25"
+    },
+    "requestType": "pickroute",
+    "version": {},
+    "requestData": {
+     "origin": "TOYO-W_START",
+     "destination": "TOYO-W_START",
+     "returnPickerHints": false,
+     "mobileUnitId": null,
+     "pickRoundId": 7024130709,
+     "userId": null,
+     "picksInfo": {
+      "locations": [
+       "SSG3605B",
+       "SSK2505A",
+       "SSO3003E",
+       "SSP2906B",
+       "SSS0806C",
+       "SSU3104G"
+      ],
+      "SKUs": [
+       "110PAL000017",
+       "56641N319171",
+       "901790800271",
+       "56503N326071",
+       "565903676071",
+       "901190803971"
+      ],
+      "originalSorting": [
+       "95219",
+       "95305",
+       "95354",
+       "95525",
+       "95607",
+       "95700"
+      ]
+     },
+     "isClockwise": false,
+     "demoTimeCurrent": ""
+    },
+    "warehouseManagementSystemControl": {}
+   },
+   "reqpickbatch_success_7024015127.json": {
+    "_meta": {
+     "warehouse": {
+      "tag": "TOYO-W",
+      "uuid": "TOYO-W_pro_uuid"
+     },
+     "demoTimeStamp": "1970-01-01 00:00:00.020221",
+     "saveInBQ": false,
+     "save_in_gui_test": false,
+     "requestName": "26"
+    },
+    "requestType": "pickroute",
+    "version": {},
+    "requestData": {
+     "origin": "TOYO-W_START",
+     "destination": "TOYO-W_START",
+     "returnPickerHints": false,
+     "mobileUnitId": null,
+     "pickRoundId": 7024015127,
+     "userId": null,
+     "picksInfo": {
+      "locations": [
+       "SSO4409I"
+      ],
+      "SKUs": [
+       "110PAL009091"
+      ],
+      "originalSorting": [
+       "95725"
+      ]
+     },
+     "isClockwise": false,
+     "demoTimeCurrent": ""
+    },
+    "warehouseManagementSystemControl": {}
+   },
+   "reqpickbatch_success_7023527106.json": {
+    "_meta": {
+     "warehouse": {
+      "tag": "TOYO-W",
+      "uuid": "TOYO-W_pro_uuid"
+     },
+     "demoTimeStamp": "1970-01-01 00:00:00.020221",
+     "saveInBQ": false,
+     "save_in_gui_test": false,
+     "requestName": "27"
+    },
+    "requestType": "pickroute",
+    "version": {},
+    "requestData": {
+     "origin": "TOYO-W_START",
+     "destination": "TOYO-W_START",
+     "returnPickerHints": false,
+     "mobileUnitId": null,
+     "pickRoundId": 7023527106,
+     "userId": null,
+     "picksInfo": {
+      "locations": [
+       "SSO2506A"
+      ],
+      "SKUs": [
+       "110PAL000035"
+      ],
+      "originalSorting": [
+       "100843"
+      ]
+     },
+     "isClockwise": false,
+     "demoTimeCurrent": ""
+    },
+    "warehouseManagementSystemControl": {}
+   },
+   "reqpickbatch_success_7023563478.json": {
+    "_meta": {
+     "warehouse": {
+      "tag": "TOYO-W",
+      "uuid": "TOYO-W_pro_uuid"
+     },
+     "demoTimeStamp": "1970-01-01 00:00:00.020221",
+     "saveInBQ": false,
+     "save_in_gui_test": false,
+     "requestName": "28"
+    },
+    "requestType": "pickroute",
+    "version": {},
+    "requestData": {
+     "origin": "TOYO-W_START",
+     "destination": "TOYO-W_START",
+     "returnPickerHints": false,
+     "mobileUnitId": null,
+     "pickRoundId": 7023563478,
+     "userId": null,
+     "picksInfo": {
+      "locations": [
+       "SSI1805B"
+      ],
+      "SKUs": [
+       "7623069"
+      ],
+      "originalSorting": [
+       "104956"
+      ]
+     },
+     "isClockwise": false,
+     "demoTimeCurrent": ""
+    },
+    "warehouseManagementSystemControl": {}
+   },
+   "reqpickbatch_success_7023399401.json": {
+    "_meta": {
+     "warehouse": {
+      "tag": "TOYO-W",
+      "uuid": "TOYO-W_pro_uuid"
+     },
+     "demoTimeStamp": "1970-01-01 00:00:00.020221",
+     "saveInBQ": false,
+     "save_in_gui_test": false,
+     "requestName": "29"
+    },
+    "requestType": "pickroute",
+    "version": {},
+    "requestData": {
+     "origin": "TOYO-W_START",
+     "destination": "TOYO-W_START",
+     "returnPickerHints": false,
+     "mobileUnitId": null,
+     "pickRoundId": 7023399401,
+     "userId": null,
+     "picksInfo": {
+      "locations": [
+       "SSH0601A",
+       "SSV0202A"
+      ],
+      "SKUs": [
+       "7620901-002",
+       "7625488"
+      ],
+      "originalSorting": [
+       "121805",
+       "122320"
+      ]
+     },
+     "isClockwise": false,
+     "demoTimeCurrent": ""
+    },
+    "warehouseManagementSystemControl": {}
+   },
+   "reqpickbatch_success_7023715324.json": {
+    "_meta": {
+     "warehouse": {
+      "tag": "TOYO-W",
+      "uuid": "TOYO-W_pro_uuid"
+     },
+     "demoTimeStamp": "1970-01-01 00:00:00.020221",
+     "saveInBQ": false,
+     "save_in_gui_test": false,
+     "requestName": "30"
+    },
+    "requestType": "pickroute",
+    "version": {},
+    "requestData": {
+     "origin": "TOYO-W_START",
+     "destination": "TOYO-W_START",
+     "returnPickerHints": false,
+     "mobileUnitId": null,
+     "pickRoundId": 7023715324,
+     "userId": null,
+     "picksInfo": {
+      "locations": [
+       "SSP2704C"
+      ],
+      "SKUs": [
+       "848235-013"
+      ],
+      "originalSorting": [
+       "101225"
+      ]
+     },
+     "isClockwise": false,
+     "demoTimeCurrent": ""
+    },
+    "warehouseManagementSystemControl": {}
+   },
+   "reqpickbatch_success_7024054954.json": {
+    "_meta": {
+     "warehouse": {
+      "tag": "TOYO-W",
+      "uuid": "TOYO-W_pro_uuid"
+     },
+     "demoTimeStamp": "1970-01-01 00:00:00.020221",
+     "saveInBQ": false,
+     "save_in_gui_test": false,
+     "requestName": "31"
+    },
+    "requestType": "pickroute",
+    "version": {},
+    "requestData": {
+     "origin": "TOYO-W_START",
+     "destination": "TOYO-W_START",
+     "returnPickerHints": false,
+     "mobileUnitId": null,
+     "pickRoundId": 7024054954,
+     "userId": null,
+     "picksInfo": {
+      "locations": [
+       "SSF3007C",
+       "SSP3702B"
+      ],
+      "SKUs": [
+       "110PAL007321",
+       "76313-001"
+      ],
+      "originalSorting": [
+       "94215",
+       "94501"
+      ]
+     },
+     "isClockwise": false,
+     "demoTimeCurrent": ""
+    },
+    "warehouseManagementSystemControl": {}
+   },
+   "reqpickbatch_success_7024134278.json": {
+    "_meta": {
+     "warehouse": {
+      "tag": "TOYO-W",
+      "uuid": "TOYO-W_pro_uuid"
+     },
+     "demoTimeStamp": "1970-01-01 00:00:00.020221",
+     "saveInBQ": false,
+     "save_in_gui_test": false,
+     "requestName": "32"
+    },
+    "requestType": "pickroute",
+    "version": {},
+    "requestData": {
+     "origin": "TOYO-W_START",
+     "destination": "TOYO-W_START",
+     "returnPickerHints": false,
+     "mobileUnitId": null,
+     "pickRoundId": 7024134278,
+     "userId": null,
+     "picksInfo": {
+      "locations": [
+       "SSE1704A"
+      ],
+      "SKUs": [
+       "110PAL006821"
+      ],
+      "originalSorting": [
+       "93853"
+      ]
+     },
+     "isClockwise": false,
+     "demoTimeCurrent": ""
+    },
+    "warehouseManagementSystemControl": {}
+   },
+   "reqpickbatch_success_7023563397.json": {
+    "_meta": {
+     "warehouse": {
+      "tag": "TOYO-W",
+      "uuid": "TOYO-W_pro_uuid"
+     },
+     "demoTimeStamp": "1970-01-01 00:00:00.020221",
+     "saveInBQ": false,
+     "save_in_gui_test": false,
+     "requestName": "33"
+    },
+    "requestType": "pickroute",
+    "version": {},
+    "requestData": {
+     "origin": "TOYO-W_START",
+     "destination": "TOYO-W_START",
+     "returnPickerHints": false,
+     "mobileUnitId": null,
+     "pickRoundId": 7023563397,
+     "userId": null,
+     "picksInfo": {
+      "locations": [
+       "SSI1805B"
+      ],
+      "SKUs": [
+       "7623069"
+      ],
+      "originalSorting": [
+       "104932"
+      ]
+     },
+     "isClockwise": false,
+     "demoTimeCurrent": ""
+    },
+    "warehouseManagementSystemControl": {}
+   },
+   "reqpickbatch_success_7024118920.json": {
+    "_meta": {
+     "warehouse": {
+      "tag": "TOYO-W",
+      "uuid": "TOYO-W_pro_uuid"
+     },
+     "demoTimeStamp": "1970-01-01 00:00:00.020221",
+     "saveInBQ": false,
+     "save_in_gui_test": false,
+     "requestName": "34"
+    },
+    "requestType": "pickroute",
+    "version": {},
+    "requestData": {
+     "origin": "TOYO-W_START",
+     "destination": "TOYO-W_START",
+     "returnPickerHints": false,
+     "mobileUnitId": null,
+     "pickRoundId": 7024118920,
+     "userId": null,
+     "picksInfo": {
+      "locations": [
+       "SST0705F"
+      ],
+      "SKUs": [
+       "BE1PAL000321"
+      ],
+      "originalSorting": [
+       "90851"
+      ]
+     },
+     "isClockwise": false,
+     "demoTimeCurrent": ""
+    },
+    "warehouseManagementSystemControl": {}
+   },
+   "reqpickbatch_success_7024119060.json": {
+    "_meta": {
+     "warehouse": {
+      "tag": "TOYO-W",
+      "uuid": "TOYO-W_pro_uuid"
+     },
+     "demoTimeStamp": "1970-01-01 00:00:00.020221",
+     "saveInBQ": false,
+     "save_in_gui_test": false,
+     "requestName": "35"
+    },
+    "requestType": "pickroute",
+    "version": {},
+    "requestData": {
+     "origin": "TOYO-W_START",
+     "destination": "TOYO-W_START",
+     "returnPickerHints": false,
+     "mobileUnitId": null,
+     "pickRoundId": 7024119060,
+     "userId": null,
+     "picksInfo": {
+      "locations": [
+       "SST0705F"
+      ],
+      "SKUs": [
+       "BE1PAL000321"
+      ],
+      "originalSorting": [
+       "90936"
+      ]
+     },
+     "isClockwise": false,
+     "demoTimeCurrent": ""
+    },
+    "warehouseManagementSystemControl": {}
+   },
+   "reqpickbatch_success_7024118918.json": {
+    "_meta": {
+     "warehouse": {
+      "tag": "TOYO-W",
+      "uuid": "TOYO-W_pro_uuid"
+     },
+     "demoTimeStamp": "1970-01-01 00:00:00.020221",
+     "saveInBQ": false,
+     "save_in_gui_test": false,
+     "requestName": "36"
+    },
+    "requestType": "pickroute",
+    "version": {},
+    "requestData": {
+     "origin": "TOYO-W_START",
+     "destination": "TOYO-W_START",
+     "returnPickerHints": false,
+     "mobileUnitId": null,
+     "pickRoundId": 7024118918,
+     "userId": null,
+     "picksInfo": {
+      "locations": [
+       "SST0705F"
+      ],
+      "SKUs": [
+       "BE1PAL000321"
+      ],
+      "originalSorting": [
+       "90837"
+      ]
+     },
+     "isClockwise": false,
+     "demoTimeCurrent": ""
+    },
+    "warehouseManagementSystemControl": {}
+   },
+   "reqpickbatch_success_7024118902.json": {
+    "_meta": {
+     "warehouse": {
+      "tag": "TOYO-W",
+      "uuid": "TOYO-W_pro_uuid"
+     },
+     "demoTimeStamp": "1970-01-01 00:00:00.020221",
+     "saveInBQ": false,
+     "save_in_gui_test": false,
+     "requestName": "37"
+    },
+    "requestType": "pickroute",
+    "version": {},
+    "requestData": {
+     "origin": "TOYO-W_START",
+     "destination": "TOYO-W_START",
+     "returnPickerHints": false,
+     "mobileUnitId": null,
+     "pickRoundId": 7024118902,
+     "userId": null,
+     "picksInfo": {
+      "locations": [
+       "SST0705F"
+      ],
+      "SKUs": [
+       "BE1PAL000321"
+      ],
+      "originalSorting": [
+       "90156"
+      ]
+     },
+     "isClockwise": false,
+     "demoTimeCurrent": ""
+    },
+    "warehouseManagementSystemControl": {}
+   },
+   "reqpickbatch_success_7023716032.json": {
+    "_meta": {
+     "warehouse": {
+      "tag": "TOYO-W",
+      "uuid": "TOYO-W_pro_uuid"
+     },
+     "demoTimeStamp": "1970-01-01 00:00:00.020221",
+     "saveInBQ": false,
+     "save_in_gui_test": false,
+     "requestName": "38"
+    },
+    "requestType": "pickroute",
+    "version": {},
+    "requestData": {
+     "origin": "TOYO-W_START",
+     "destination": "TOYO-W_START",
+     "returnPickerHints": false,
+     "mobileUnitId": null,
+     "pickRoundId": 7023716032,
+     "userId": null,
+     "picksInfo": {
+      "locations": [
+       "SSP2704C"
+      ],
+      "SKUs": [
+       "848235-013"
+      ],
+      "originalSorting": [
+       "93737"
+      ]
+     },
+     "isClockwise": false,
+     "demoTimeCurrent": ""
+    },
+    "warehouseManagementSystemControl": {}
+   },
+   "reqpickbatch_success_7024081987.json": {
+    "_meta": {
+     "warehouse": {
+      "tag": "TOYO-W",
+      "uuid": "TOYO-W_pro_uuid"
+     },
+     "demoTimeStamp": "1970-01-01 00:00:00.020221",
+     "saveInBQ": false,
+     "save_in_gui_test": false,
+     "requestName": "39"
+    },
+    "requestType": "pickroute",
+    "version": {},
+    "requestData": {
+     "origin": "TOYO-W_START",
+     "destination": "TOYO-W_START",
+     "returnPickerHints": false,
+     "mobileUnitId": null,
+     "pickRoundId": 7024081987,
+     "userId": null,
+     "picksInfo": {
+      "locations": [
+       "SSF0203B",
+       "SSF1905B",
+       "SSF3304A",
+       "SSH4202A",
+       "SSG4801D",
+       "SSI1004A",
+       "SSK0401C",
+       "SSK4605C",
+       "SSL2205E",
+       "SSM2902B",
+       "SSN1601A",
+       "SSO0806I",
+       "SSO2802F",
+       "SSO3301B",
+       "SSQ3001C",
+       "SSQ4401A",
+       "SSR0401C",
+       "SSR0803C",
+       "SSS4701A",
+       "SSS4803C",
+       "SSU3406D",
+       "SSU3409F",
+       "SSV2705A",
+       "SSR3103B"
+      ],
+      "SKUs": [
+       "753694",
+       "7560268",
+       "110PAL009233",
+       "7592058",
+       "7587759",
+       "110PAL009237",
+       "110PAL009232",
+       "7536413",
+       "179321-024",
+       "7508514-004",
+       "0403340ORA",
+       "2034324SBG",
+       "231769",
+       "110PAL009238",
+       "7534034",
+       "110PAL009243",
+       "225464-012",
+       "110PAL009242",
+       "110PAL009231",
+       "110PAL001478",
+       "7536522",
+       "110PAL009087",
+       "110PAL009244",
+       "2032807SBG"
+      ],
+      "originalSorting": [
+       "110105",
+       "110223",
+       "110252",
+       "110923",
+       "111024",
+       "111103",
+       "111345",
+       "111427",
+       "111531",
+       "111633",
+       "111703",
+       "111753",
+       "111845",
+       "111914",
+       "111956",
+       "112037",
+       "112124",
+       "112142",
+       "112216",
+       "112237",
+       "112327",
+       "112405",
+       "112442",
+       "112512"
+      ]
+     },
+     "isClockwise": false,
+     "demoTimeCurrent": ""
+    },
+    "warehouseManagementSystemControl": {}
+   },
+   "reqpickbatch_success_7023563370.json": {
+    "_meta": {
+     "warehouse": {
+      "tag": "TOYO-W",
+      "uuid": "TOYO-W_pro_uuid"
+     },
+     "demoTimeStamp": "1970-01-01 00:00:00.020221",
+     "saveInBQ": false,
+     "save_in_gui_test": false,
+     "requestName": "40"
+    },
+    "requestType": "pickroute",
+    "version": {},
+    "requestData": {
+     "origin": "TOYO-W_START",
+     "destination": "TOYO-W_START",
+     "returnPickerHints": false,
+     "mobileUnitId": null,
+     "pickRoundId": 7023563370,
+     "userId": null,
+     "picksInfo": {
+      "locations": [
+       "SSI1805B"
+      ],
+      "SKUs": [
+       "7623069"
+      ],
+      "originalSorting": [
+       "100151"
+      ]
+     },
+     "isClockwise": false,
+     "demoTimeCurrent": ""
+    },
+    "warehouseManagementSystemControl": {}
+   },
+   "reqpickbatch_success_7023563483.json": {
+    "_meta": {
+     "warehouse": {
+      "tag": "TOYO-W",
+      "uuid": "TOYO-W_pro_uuid"
+     },
+     "demoTimeStamp": "1970-01-01 00:00:00.020221",
+     "saveInBQ": false,
+     "save_in_gui_test": false,
+     "requestName": "41"
+    },
+    "requestType": "pickroute",
+    "version": {},
+    "requestData": {
+     "origin": "TOYO-W_START",
+     "destination": "TOYO-W_START",
+     "returnPickerHints": false,
+     "mobileUnitId": null,
+     "pickRoundId": 7023563483,
+     "userId": null,
+     "picksInfo": {
+      "locations": [
+       "SSI1805B"
+      ],
+      "SKUs": [
+       "7623069"
+      ],
+      "originalSorting": [
+       "100329"
+      ]
+     },
+     "isClockwise": false,
+     "demoTimeCurrent": ""
+    },
+    "warehouseManagementSystemControl": {}
+   },
+   "reqpickbatch_success_7023984679.json": {
+    "_meta": {
+     "warehouse": {
+      "tag": "TOYO-W",
+      "uuid": "TOYO-W_pro_uuid"
+     },
+     "demoTimeStamp": "1970-01-01 00:00:00.020221",
+     "saveInBQ": false,
+     "save_in_gui_test": false,
+     "requestName": "42"
+    },
+    "requestType": "pickroute",
+    "version": {},
+    "requestData": {
+     "origin": "TOYO-W_START",
+     "destination": "TOYO-W_START",
+     "returnPickerHints": false,
+     "mobileUnitId": null,
+     "pickRoundId": 7023984679,
+     "userId": null,
+     "picksInfo": {
+      "locations": [
+       "SSF1907G",
+       "SSU0208D",
+       "SSU2807C",
+       "SSU3008B"
+      ],
+      "SKUs": [
+       "247172",
+       "247419",
+       "247173",
+       "247171-001"
+      ],
+      "originalSorting": [
+       "95308",
+       "100001",
+       "100025",
+       "100115"
+      ]
+     },
+     "isClockwise": false,
+     "demoTimeCurrent": ""
+    },
+    "warehouseManagementSystemControl": {}
+   },
+   "reqpickbatch_success_7024090525.json": {
+    "_meta": {
+     "warehouse": {
+      "tag": "TOYO-W",
+      "uuid": "TOYO-W_pro_uuid"
+     },
+     "demoTimeStamp": "1970-01-01 00:00:00.020221",
+     "saveInBQ": false,
+     "save_in_gui_test": false,
+     "requestName": "43"
+    },
+    "requestType": "pickroute",
+    "version": {},
+    "requestData": {
+     "origin": "TOYO-W_START",
+     "destination": "TOYO-W_START",
+     "returnPickerHints": false,
+     "mobileUnitId": null,
+     "pickRoundId": 7024090525,
+     "userId": null,
+     "picksInfo": {
+      "locations": [
+       "SSO3212I",
+       "SST3304C"
+      ],
+      "SKUs": [
+       "110PAL001801",
+       "110PAL000143"
+      ],
+      "originalSorting": [
+       "94202",
+       "94418"
+      ]
+     },
+     "isClockwise": false,
+     "demoTimeCurrent": ""
+    },
+    "warehouseManagementSystemControl": {}
+   },
+   "reqpickbatch_success_7023706158.json": {
+    "_meta": {
+     "warehouse": {
+      "tag": "TOYO-W",
+      "uuid": "TOYO-W_pro_uuid"
+     },
+     "demoTimeStamp": "1970-01-01 00:00:00.020221",
+     "saveInBQ": false,
+     "save_in_gui_test": false,
+     "requestName": "44"
+    },
+    "requestType": "pickroute",
+    "version": {},
+    "requestData": {
+     "origin": "TOYO-W_START",
+     "destination": "TOYO-W_START",
+     "returnPickerHints": false,
+     "mobileUnitId": null,
+     "pickRoundId": 7023706158,
+     "userId": null,
+     "picksInfo": {
+      "locations": [
+       "SSG3605B",
+       "SSP2502A",
+       "SSQ0703A",
+       "SST4005A"
+      ],
+      "SKUs": [
+       "110PAL000017",
+       "110PAL001698",
+       "214257-300",
+       "110PAL001264"
+      ],
+      "originalSorting": [
+       "101026",
+       "101133",
+       "101210",
+       "101255"
+      ]
+     },
+     "isClockwise": false,
+     "demoTimeCurrent": ""
+    },
+    "warehouseManagementSystemControl": {}
+   },
+   "reqpickbatch_success_7024130823.json": {
+    "_meta": {
+     "warehouse": {
+      "tag": "TOYO-W",
+      "uuid": "TOYO-W_pro_uuid"
+     },
+     "demoTimeStamp": "1970-01-01 00:00:00.020221",
+     "saveInBQ": false,
+     "save_in_gui_test": false,
+     "requestName": "45"
+    },
+    "requestType": "pickroute",
+    "version": {},
+    "requestData": {
+     "origin": "TOYO-W_START",
+     "destination": "TOYO-W_START",
+     "returnPickerHints": false,
+     "mobileUnitId": null,
+     "pickRoundId": 7024130823,
+     "userId": null,
+     "picksInfo": {
+      "locations": [
+       "SSF3505A",
+       "SSH0907C",
+       "SSO1809C",
+       "SSO4607T",
+       "SSO4607E",
+       "SSS1004C"
+      ],
+      "SKUs": [
+       "07-019KCD",
+       "110PAL000076",
+       "154241",
+       "56112FSSQ471",
+       "110PAL003945",
+       "56710FPA2071"
+      ],
+      "originalSorting": [
+       "101331",
+       "101422",
+       "102021",
+       "102359",
+       "102502",
+       "102920"
+      ]
+     },
+     "isClockwise": false,
+     "demoTimeCurrent": ""
+    },
+    "warehouseManagementSystemControl": {}
+   },
+   "reqpickbatch_success_7024134358.json": {
+    "_meta": {
+     "warehouse": {
+      "tag": "TOYO-W",
+      "uuid": "TOYO-W_pro_uuid"
+     },
+     "demoTimeStamp": "1970-01-01 00:00:00.020221",
+     "saveInBQ": false,
+     "save_in_gui_test": false,
+     "requestName": "46"
+    },
+    "requestType": "pickroute",
+    "version": {},
+    "requestData": {
+     "origin": "TOYO-W_START",
+     "destination": "TOYO-W_START",
+     "returnPickerHints": false,
+     "mobileUnitId": null,
+     "pickRoundId": 7024134358,
+     "userId": null,
+     "picksInfo": {
+      "locations": [
+       "SSE1704A"
+      ],
+      "SKUs": [
+       "110PAL006821"
+      ],
+      "originalSorting": [
+       "102159"
+      ]
+     },
+     "isClockwise": false,
+     "demoTimeCurrent": ""
+    },
+    "warehouseManagementSystemControl": {}
+   },
+   "reqpickbatch_success_7023470205.json": {
+    "_meta": {
+     "warehouse": {
+      "tag": "TOYO-W",
+      "uuid": "TOYO-W_pro_uuid"
+     },
+     "demoTimeStamp": "1970-01-01 00:00:00.020221",
+     "saveInBQ": false,
+     "save_in_gui_test": false,
+     "requestName": "47"
+    },
+    "requestType": "pickroute",
+    "version": {},
+    "requestData": {
+     "origin": "TOYO-W_START",
+     "destination": "TOYO-W_START",
+     "returnPickerHints": false,
+     "mobileUnitId": null,
+     "pickRoundId": 7023470205,
+     "userId": null,
+     "picksInfo": {
+      "locations": [
+       "SSP3907D",
+       "SSU0303B"
+      ],
+      "SKUs": [
+       "7508138",
+       "7508139"
+      ],
+      "originalSorting": [
+       "94801",
+       "95221"
+      ]
+     },
+     "isClockwise": false,
+     "demoTimeCurrent": ""
+    },
+    "warehouseManagementSystemControl": {}
+   },
+   "reqpickbatch_success_7023428847.json": {
+    "_meta": {
+     "warehouse": {
+      "tag": "TOYO-W",
+      "uuid": "TOYO-W_pro_uuid"
+     },
+     "demoTimeStamp": "1970-01-01 00:00:00.020221",
+     "saveInBQ": false,
+     "save_in_gui_test": false,
+     "requestName": "48"
+    },
+    "requestType": "pickroute",
+    "version": {},
+    "requestData": {
+     "origin": "TOYO-W_START",
+     "destination": "TOYO-W_START",
+     "returnPickerHints": false,
+     "mobileUnitId": null,
+     "pickRoundId": 7023428847,
+     "userId": null,
+     "picksInfo": {
+      "locations": [
+       "SSN0206E"
+      ],
+      "SKUs": [
+       "110PAL001459"
+      ],
+      "originalSorting": [
+       "100828"
+      ]
+     },
+     "isClockwise": false,
+     "demoTimeCurrent": ""
+    },
+    "warehouseManagementSystemControl": {}
+   },
+   "reqpickbatch_success_7023908490.json": {
+    "_meta": {
+     "warehouse": {
+      "tag": "TOYO-W",
+      "uuid": "TOYO-W_pro_uuid"
+     },
+     "demoTimeStamp": "1970-01-01 00:00:00.020221",
+     "saveInBQ": false,
+     "save_in_gui_test": false,
+     "requestName": "49"
+    },
+    "requestType": "pickroute",
+    "version": {},
+    "requestData": {
+     "origin": "TOYO-W_START",
+     "destination": "TOYO-W_START",
+     "returnPickerHints": false,
+     "mobileUnitId": null,
+     "pickRoundId": 7023908490,
+     "userId": null,
+     "picksInfo": {
+      "locations": [
+       "SSF3905C",
+       "SSO0708E"
+      ],
+      "SKUs": [
+       "17209T8A5071",
+       "110PAL007150"
+      ],
+      "originalSorting": [
+       "94055",
+       "94310"
+      ]
+     },
+     "isClockwise": false,
+     "demoTimeCurrent": ""
+    },
+    "warehouseManagementSystemControl": {}
+   },
+   "reqpickbatch_success_7023527102.json": {
+    "_meta": {
+     "warehouse": {
+      "tag": "TOYO-W",
+      "uuid": "TOYO-W_pro_uuid"
+     },
+     "demoTimeStamp": "1970-01-01 00:00:00.020221",
+     "saveInBQ": false,
+     "save_in_gui_test": false,
+     "requestName": "50"
+    },
+    "requestType": "pickroute",
+    "version": {},
+    "requestData": {
+     "origin": "TOYO-W_START",
+     "destination": "TOYO-W_START",
+     "returnPickerHints": false,
+     "mobileUnitId": null,
+     "pickRoundId": 7023527102,
+     "userId": null,
+     "picksInfo": {
+      "locations": [
+       "SSO2506A"
+      ],
+      "SKUs": [
+       "110PAL000035"
+      ],
+      "originalSorting": [
+       "105057"
+      ]
+     },
+     "isClockwise": false,
+     "demoTimeCurrent": ""
+    },
+    "warehouseManagementSystemControl": {}
+   },
+   "reqpickbatch_success_7023563480.json": {
+    "_meta": {
+     "warehouse": {
+      "tag": "TOYO-W",
+      "uuid": "TOYO-W_pro_uuid"
+     },
+     "demoTimeStamp": "1970-01-01 00:00:00.020221",
+     "saveInBQ": false,
+     "save_in_gui_test": false,
+     "requestName": "51"
+    },
+    "requestType": "pickroute",
+    "version": {},
+    "requestData": {
+     "origin": "TOYO-W_START",
+     "destination": "TOYO-W_START",
+     "returnPickerHints": false,
+     "mobileUnitId": null,
+     "pickRoundId": 7023563480,
+     "userId": null,
+     "picksInfo": {
+      "locations": [
+       "SSI1805B"
+      ],
+      "SKUs": [
+       "7623069"
+      ],
+      "originalSorting": [
+       "105019"
+      ]
+     },
+     "isClockwise": false,
+     "demoTimeCurrent": ""
+    },
+    "warehouseManagementSystemControl": {}
+   },
+   "reqpickbatch_success_7023840664.json": {
+    "_meta": {
+     "warehouse": {
+      "tag": "TOYO-W",
+      "uuid": "TOYO-W_pro_uuid"
+     },
+     "demoTimeStamp": "1970-01-01 00:00:00.020221",
+     "saveInBQ": false,
+     "save_in_gui_test": false,
+     "requestName": "52"
+    },
+    "requestType": "pickroute",
+    "version": {},
+    "requestData": {
+     "origin": "TOYO-W_START",
+     "destination": "TOYO-W_START",
+     "returnPickerHints": false,
+     "mobileUnitId": null,
+     "pickRoundId": 7023840664,
+     "userId": null,
+     "picksInfo": {
+      "locations": [
+       "SSJ1402A",
+       "SSO2701C",
+       "SSO3411F"
+      ],
+      "SKUs": [
+       "252611",
+       "117157-002",
+       "162300-002"
+      ],
+      "originalSorting": [
+       "94630",
+       "94713",
+       "94749"
+      ]
+     },
+     "isClockwise": false,
+     "demoTimeCurrent": ""
+    },
+    "warehouseManagementSystemControl": {}
+   },
+   "reqpickbatch_success_7024054952.json": {
+    "_meta": {
+     "warehouse": {
+      "tag": "TOYO-W",
+      "uuid": "TOYO-W_pro_uuid"
+     },
+     "demoTimeStamp": "1970-01-01 00:00:00.020221",
+     "saveInBQ": false,
+     "save_in_gui_test": false,
+     "requestName": "53"
+    },
+    "requestType": "pickroute",
+    "version": {},
+    "requestData": {
+     "origin": "TOYO-W_START",
+     "destination": "TOYO-W_START",
+     "returnPickerHints": false,
+     "mobileUnitId": null,
+     "pickRoundId": 7024054952,
+     "userId": null,
+     "picksInfo": {
+      "locations": [
+       "SSF3007C",
+       "SSP3702B"
+      ],
+      "SKUs": [
+       "110PAL007321",
+       "76313-001"
+      ],
+      "originalSorting": [
+       "94304",
+       "94511"
+      ]
+     },
+     "isClockwise": false,
+     "demoTimeCurrent": ""
+    },
+    "warehouseManagementSystemControl": {}
+   },
+   "reqpickbatch_success_7024118900.json": {
+    "_meta": {
+     "warehouse": {
+      "tag": "TOYO-W",
+      "uuid": "TOYO-W_pro_uuid"
+     },
+     "demoTimeStamp": "1970-01-01 00:00:00.020221",
+     "saveInBQ": false,
+     "save_in_gui_test": false,
+     "requestName": "54"
+    },
+    "requestType": "pickroute",
+    "version": {},
+    "requestData": {
+     "origin": "TOYO-W_START",
+     "destination": "TOYO-W_START",
+     "returnPickerHints": false,
+     "mobileUnitId": null,
+     "pickRoundId": 7024118900,
+     "userId": null,
+     "picksInfo": {
+      "locations": [
+       "SST0705F"
+      ],
+      "SKUs": [
+       "BE1PAL000321"
+      ],
+      "originalSorting": [
+       "90150"
+      ]
+     },
+     "isClockwise": false,
+     "demoTimeCurrent": ""
+    },
+    "warehouseManagementSystemControl": {}
+   },
+   "reqpickbatch_success_7023745447.json": {
+    "_meta": {
+     "warehouse": {
+      "tag": "TOYO-W",
+      "uuid": "TOYO-W_pro_uuid"
+     },
+     "demoTimeStamp": "1970-01-01 00:00:00.020221",
+     "saveInBQ": false,
+     "save_in_gui_test": false,
+     "requestName": "55"
+    },
+    "requestType": "pickroute",
+    "version": {},
+    "requestData": {
+     "origin": "TOYO-W_START",
+     "destination": "TOYO-W_START",
+     "returnPickerHints": false,
+     "mobileUnitId": null,
+     "pickRoundId": 7023745447,
+     "userId": null,
+     "picksInfo": {
+      "locations": [
+       "SSR2004A",
+       "SSL2007G",
+       "SSI0202B",
+       "SSG2202B",
+       "SSG0506F"
+      ],
+      "SKUs": [
+       "ON.151006EBF",
+       "7536170",
+       "245233",
+       "110PAL007924",
+       "7534977"
+      ],
+      "originalSorting": [
+       "101442",
+       "101530",
+       "101610",
+       "101706",
+       "101738"
+      ]
+     },
+     "isClockwise": false,
+     "demoTimeCurrent": ""
+    },
+    "warehouseManagementSystemControl": {}
+   },
+   "reqpickbatch_success_7023840660.json": {
+    "_meta": {
+     "warehouse": {
+      "tag": "TOYO-W",
+      "uuid": "TOYO-W_pro_uuid"
+     },
+     "demoTimeStamp": "1970-01-01 00:00:00.020221",
+     "saveInBQ": false,
+     "save_in_gui_test": false,
+     "requestName": "56"
+    },
+    "requestType": "pickroute",
+    "version": {},
+    "requestData": {
+     "origin": "TOYO-W_START",
+     "destination": "TOYO-W_START",
+     "returnPickerHints": false,
+     "mobileUnitId": null,
+     "pickRoundId": 7023840660,
+     "userId": null,
+     "picksInfo": {
+      "locations": [
+       "SSJ1402A",
+       "SSO2701C",
+       "SSO3411F"
+      ],
+      "SKUs": [
+       "252611",
+       "117157-002",
+       "162300-002"
+      ],
+      "originalSorting": [
+       "100432",
+       "100542",
+       "100703"
+      ]
+     },
+     "isClockwise": false,
+     "demoTimeCurrent": ""
+    },
+    "warehouseManagementSystemControl": {}
+   },
+   "reqpickbatch_success_7023563485.json": {
+    "_meta": {
+     "warehouse": {
+      "tag": "TOYO-W",
+      "uuid": "TOYO-W_pro_uuid"
+     },
+     "demoTimeStamp": "1970-01-01 00:00:00.020221",
+     "saveInBQ": false,
+     "save_in_gui_test": false,
+     "requestName": "57"
+    },
+    "requestType": "pickroute",
+    "version": {},
+    "requestData": {
+     "origin": "TOYO-W_START",
+     "destination": "TOYO-W_START",
+     "returnPickerHints": false,
+     "mobileUnitId": null,
+     "pickRoundId": 7023563485,
+     "userId": null,
+     "picksInfo": {
+      "locations": [
+       "SSI1805B"
+      ],
+      "SKUs": [
+       "7623069"
+      ],
+      "originalSorting": [
+       "100313"
+      ]
+     },
+     "isClockwise": false,
+     "demoTimeCurrent": ""
+    },
+    "warehouseManagementSystemControl": {}
+   },
+   "reqpickbatch_success_7024015117.json": {
+    "_meta": {
+     "warehouse": {
+      "tag": "TOYO-W",
+      "uuid": "TOYO-W_pro_uuid"
+     },
+     "demoTimeStamp": "1970-01-01 00:00:00.020221",
+     "saveInBQ": false,
+     "save_in_gui_test": false,
+     "requestName": "58"
+    },
+    "requestType": "pickroute",
+    "version": {},
+    "requestData": {
+     "origin": "TOYO-W_START",
+     "destination": "TOYO-W_START",
+     "returnPickerHints": false,
+     "mobileUnitId": null,
+     "pickRoundId": 7024015117,
+     "userId": null,
+     "picksInfo": {
+      "locations": [
+       "SSO4409I"
+      ],
+      "SKUs": [
+       "110PAL009091"
+      ],
+      "originalSorting": [
+       "95601"
+      ]
+     },
+     "isClockwise": false,
+     "demoTimeCurrent": ""
+    },
+    "warehouseManagementSystemControl": {}
+   },
+   "reqpickbatch_success_7023722751.json": {
+    "_meta": {
+     "warehouse": {
+      "tag": "TOYO-W",
+      "uuid": "TOYO-W_pro_uuid"
+     },
+     "demoTimeStamp": "1970-01-01 00:00:00.020221",
+     "saveInBQ": false,
+     "save_in_gui_test": false,
+     "requestName": "59"
+    },
+    "requestType": "pickroute",
+    "version": {},
+    "requestData": {
+     "origin": "TOYO-W_START",
+     "destination": "TOYO-W_START",
+     "returnPickerHints": false,
+     "mobileUnitId": null,
+     "pickRoundId": 7023722751,
+     "userId": null,
+     "picksInfo": {
+      "locations": [
+       "SSE1203C",
+       "SSE2403C",
+       "SSH0907C",
+       "SSK3405A",
+       "SSN0312B",
+       "SSO0204H",
+       "SSP1708G"
+      ],
+      "SKUs": [
+       "110PAL010282",
+       "110PAL010283",
+       "110PAL000076",
+       "110PAL010284",
+       "110PAL010290",
+       "110PAL009202",
+       "110PAL010297"
+      ],
+      "originalSorting": [
+       "100335",
+       "100542",
+       "100842",
+       "101304",
+       "101544",
+       "101935",
+       "102211"
+      ]
+     },
+     "isClockwise": false,
+     "demoTimeCurrent": ""
+    },
+    "warehouseManagementSystemControl": {}
+   },
+   "reqpickbatch_success_7024090491.json": {
+    "_meta": {
+     "warehouse": {
+      "tag": "TOYO-W",
+      "uuid": "TOYO-W_pro_uuid"
+     },
+     "demoTimeStamp": "1970-01-01 00:00:00.020221",
+     "saveInBQ": false,
+     "save_in_gui_test": false,
+     "requestName": "60"
+    },
+    "requestType": "pickroute",
+    "version": {},
+    "requestData": {
+     "origin": "TOYO-W_START",
+     "destination": "TOYO-W_START",
+     "returnPickerHints": false,
+     "mobileUnitId": null,
+     "pickRoundId": 7024090491,
+     "userId": null,
+     "picksInfo": {
+      "locations": [
+       "SSO3212I",
+       "SST3304C"
+      ],
+      "SKUs": [
+       "110PAL001801",
+       "110PAL000143"
+      ],
+      "originalSorting": [
+       "94110",
+       "94432"
+      ]
+     },
+     "isClockwise": false,
+     "demoTimeCurrent": ""
+    },
+    "warehouseManagementSystemControl": {}
+   },
+   "reqpickbatch_success_7023722747.json": {
+    "_meta": {
+     "warehouse": {
+      "tag": "TOYO-W",
+      "uuid": "TOYO-W_pro_uuid"
+     },
+     "demoTimeStamp": "1970-01-01 00:00:00.020221",
+     "saveInBQ": false,
+     "save_in_gui_test": false,
+     "requestName": "61"
+    },
+    "requestType": "pickroute",
+    "version": {},
+    "requestData": {
+     "origin": "TOYO-W_START",
+     "destination": "TOYO-W_START",
+     "returnPickerHints": false,
+     "mobileUnitId": null,
+     "pickRoundId": 7023722747,
+     "userId": null,
+     "picksInfo": {
+      "locations": [
+       "SSE1203C",
+       "SSE2403C",
+       "SSH0907C",
+       "SSK3405A",
+       "SSN0312B",
+       "SSO0204H",
+       "SSP1708G"
+      ],
+      "SKUs": [
+       "110PAL010282",
+       "110PAL010283",
+       "110PAL000076",
+       "110PAL010284",
+       "110PAL010290",
+       "110PAL009202",
+       "110PAL010297"
+      ],
+      "originalSorting": [
+       "100350",
+       "100600",
+       "100906",
+       "101349",
+       "101603",
+       "101946",
+       "102117"
+      ]
+     },
+     "isClockwise": false,
+     "demoTimeCurrent": ""
+    },
+    "warehouseManagementSystemControl": {}
+   },
+   "reqpickbatch_success_7023470207.json": {
+    "_meta": {
+     "warehouse": {
+      "tag": "TOYO-W",
+      "uuid": "TOYO-W_pro_uuid"
+     },
+     "demoTimeStamp": "1970-01-01 00:00:00.020221",
+     "saveInBQ": false,
+     "save_in_gui_test": false,
+     "requestName": "62"
+    },
+    "requestType": "pickroute",
+    "version": {},
+    "requestData": {
+     "origin": "TOYO-W_START",
+     "destination": "TOYO-W_START",
+     "returnPickerHints": false,
+     "mobileUnitId": null,
+     "pickRoundId": 7023470207,
+     "userId": null,
+     "picksInfo": {
+      "locations": [
+       "SSP3907D",
+       "SSP4108G",
+       "SSU0303B"
+      ],
+      "SKUs": [
+       "7508138",
+       "7508137",
+       "7508139"
+      ],
+      "originalSorting": [
+       "94721",
+       "94921",
+       "95120"
+      ]
+     },
+     "isClockwise": false,
+     "demoTimeCurrent": ""
+    },
+    "warehouseManagementSystemControl": {}
+   },
+   "reqpickbatch_success_7023840671.json": {
+    "_meta": {
+     "warehouse": {
+      "tag": "TOYO-W",
+      "uuid": "TOYO-W_pro_uuid"
+     },
+     "demoTimeStamp": "1970-01-01 00:00:00.020221",
+     "saveInBQ": false,
+     "save_in_gui_test": false,
+     "requestName": "63"
+    },
+    "requestType": "pickroute",
+    "version": {},
+    "requestData": {
+     "origin": "TOYO-W_START",
+     "destination": "TOYO-W_START",
+     "returnPickerHints": false,
+     "mobileUnitId": null,
+     "pickRoundId": 7023840671,
+     "userId": null,
+     "picksInfo": {
+      "locations": [
+       "SSO3411F",
+       "SSO2701C",
+       "SSJ1402A"
+      ],
+      "SKUs": [
+       "162300-002",
+       "117157-002",
+       "252611"
+      ],
+      "originalSorting": [
+       "94824",
+       "94852",
+       "95018"
+      ]
+     },
+     "isClockwise": false,
+     "demoTimeCurrent": ""
+    },
+    "warehouseManagementSystemControl": {}
+   },
+   "reqpickbatch_success_7024015121.json": {
+    "_meta": {
+     "warehouse": {
+      "tag": "TOYO-W",
+      "uuid": "TOYO-W_pro_uuid"
+     },
+     "demoTimeStamp": "1970-01-01 00:00:00.020221",
+     "saveInBQ": false,
+     "save_in_gui_test": false,
+     "requestName": "64"
+    },
+    "requestType": "pickroute",
+    "version": {},
+    "requestData": {
+     "origin": "TOYO-W_START",
+     "destination": "TOYO-W_START",
+     "returnPickerHints": false,
+     "mobileUnitId": null,
+     "pickRoundId": 7024015121,
+     "userId": null,
+     "picksInfo": {
+      "locations": [
+       "SSO4409I"
+      ],
+      "SKUs": [
+       "110PAL009091"
+      ],
+      "originalSorting": [
+       "95736"
+      ]
+     },
+     "isClockwise": false,
+     "demoTimeCurrent": ""
+    },
+    "warehouseManagementSystemControl": {}
+   },
+   "reqpickbatch_success_7023562485.json": {
+    "_meta": {
+     "warehouse": {
+      "tag": "TOYO-W",
+      "uuid": "TOYO-W_pro_uuid"
+     },
+     "demoTimeStamp": "1970-01-01 00:00:00.020221",
+     "saveInBQ": false,
+     "save_in_gui_test": false,
+     "requestName": "65"
+    },
+    "requestType": "pickroute",
+    "version": {},
+    "requestData": {
+     "origin": "TOYO-W_START",
+     "destination": "TOYO-W_START",
+     "returnPickerHints": false,
+     "mobileUnitId": null,
+     "pickRoundId": 7023562485,
+     "userId": null,
+     "picksInfo": {
+      "locations": [
+       "SSE2903B",
+       "SSG3605B",
+       "SSN1601A",
+       "SSV2305A",
+       "SST2606B"
+      ],
+      "SKUs": [
+       "110PAL007903",
+       "110PAL000017",
+       "0403340ORA",
+       "678502660071",
+       "110PAL001226"
+      ],
+      "originalSorting": [
+       "100508",
+       "100542",
+       "100745",
+       "101546",
+       "101952"
+      ]
+     },
+     "isClockwise": false,
+     "demoTimeCurrent": ""
+    },
+    "warehouseManagementSystemControl": {}
+   },
+   "reqpickbatch_success_7024071005.json": {
+    "_meta": {
+     "warehouse": {
+      "tag": "TOYO-W",
+      "uuid": "TOYO-W_pro_uuid"
+     },
+     "demoTimeStamp": "1970-01-01 00:00:00.020221",
+     "saveInBQ": false,
+     "save_in_gui_test": false,
+     "requestName": "66"
+    },
+    "requestType": "pickroute",
+    "version": {},
+    "requestData": {
+     "origin": "TOYO-W_START",
+     "destination": "TOYO-W_START",
+     "returnPickerHints": false,
+     "mobileUnitId": null,
+     "pickRoundId": 7024071005,
+     "userId": null,
+     "picksInfo": {
+      "locations": [
+       "SSG3901A",
+       "SSG4801J",
+       "SSJ2502A",
+       "SSO1809C",
+       "SSO2506A",
+       "SSS1803B",
+       "SSU3406D"
+      ],
+      "SKUs": [
+       "7578834",
+       "110PAL008661",
+       "110PAL009962",
+       "154241",
+       "110PAL000035",
+       "110PAL000602",
+       "7536522"
+      ],
+      "originalSorting": [
+       "105808",
+       "105922",
+       "110038",
+       "110153",
+       "110252",
+       "110347",
+       "110450"
+      ]
+     },
+     "isClockwise": false,
+     "demoTimeCurrent": ""
+    },
+    "warehouseManagementSystemControl": {}
+   },
+   "reqpickbatch_success_7023660179.json": {
+    "_meta": {
+     "warehouse": {
+      "tag": "TOYO-W",
+      "uuid": "TOYO-W_pro_uuid"
+     },
+     "demoTimeStamp": "1970-01-01 00:00:00.020221",
+     "saveInBQ": false,
+     "save_in_gui_test": false,
+     "requestName": "67"
+    },
+    "requestType": "pickroute",
+    "version": {},
+    "requestData": {
+     "origin": "TOYO-W_START",
+     "destination": "TOYO-W_START",
+     "returnPickerHints": false,
+     "mobileUnitId": null,
+     "pickRoundId": 7023660179,
+     "userId": null,
+     "picksInfo": {
+      "locations": [
+       "SSG2203B",
+       "SSI2301C",
+       "SSJ4107B",
+       "SSK1403C",
+       "SSL2404A",
+       "SSN3605D",
+       "SSN3910C",
+       "SSP4303C",
+       "SSQ2407F",
+       "SSQ2903A",
+       "SSQ4603A",
+       "SSO3706E",
+       "SSR0403C",
+       "SST2504E",
+       "SSU2108F",
+       "SSU5002C",
+       "SSV3104A"
+      ],
+      "SKUs": [
+       "110PAL009969",
+       "7647105",
+       "110PAL010286",
+       "110PAL009967",
+       "7600543",
+       "7680757",
+       "7650840",
+       "110PAL009970",
+       "7651742",
+       "110PAL007875",
+       "110PAL003044",
+       "7651766",
+       "110PAL009968",
+       "110PAL007590",
+       "110PAL007969",
+       "7651495",
+       "7657141"
+      ],
+      "originalSorting": [
+       "94643",
+       "94843",
+       "94939",
+       "95032",
+       "95102",
+       "95149",
+       "95228",
+       "95315",
+       "95347",
+       "95410",
+       "95455",
+       "95528",
+       "95616",
+       "95706",
+       "95758",
+       "95854",
+       "100010"
+      ]
+     },
+     "isClockwise": false,
+     "demoTimeCurrent": ""
+    },
+    "warehouseManagementSystemControl": {}
+   },
+   "reqpickbatch_success_7024130951.json": {
+    "_meta": {
+     "warehouse": {
+      "tag": "TOYO-W",
+      "uuid": "TOYO-W_pro_uuid"
+     },
+     "demoTimeStamp": "1970-01-01 00:00:00.020221",
+     "saveInBQ": false,
+     "save_in_gui_test": false,
+     "requestName": "68"
+    },
+    "requestType": "pickroute",
+    "version": {},
+    "requestData": {
+     "origin": "TOYO-W_START",
+     "destination": "TOYO-W_START",
+     "returnPickerHints": false,
+     "mobileUnitId": null,
+     "pickRoundId": 7024130951,
+     "userId": null,
+     "picksInfo": {
+      "locations": [
+       "SSE2203B",
+       "SSG4902R",
+       "SSH0907C",
+       "SSI4508O",
+       "SSI4603I",
+       "SSK3407H",
+       "SSM4708O",
+       "SSN0206E",
+       "SSN0312B",
+       "SSO0204H",
+       "SSO1803D",
+       "SSO2905E",
+       "SSO3208A",
+       "SSO3211H",
+       "SSO3808F",
+       "SSO4607E",
+       "SSP1708G",
+       "SSP2108D",
+       "SSU0307C",
+       "SSU1711F",
+       "SSU2406E",
+       "SSU2809B",
+       "SSU3908G"
+      ],
+      "SKUs": [
+       "110PAL004436",
+       "57894N317071",
+       "110PAL000076",
+       "57893N317071",
+       "57891N317071",
+       "578712132271",
+       "57853N307071",
+       "110PAL001459",
+       "110PAL010290",
+       "110PAL009202",
+       "578713684071",
+       "56641N317071",
+       "57892N317071",
+       "578133676071",
+       "578722660171",
+       "110PAL003945",
+       "110PAL010297",
+       "578742660171",
+       "579374056071",
+       "578262664071",
+       "578332660071",
+       "578732660171",
+       "57895N307071"
+      ],
+      "originalSorting": [
+       "95018",
+       "95437",
+       "101745",
+       "102004",
+       "102027",
+       "102118",
+       "102232",
+       "102740",
+       "102755",
+       "103431",
+       "103547",
+       "103614",
+       "103635",
+       "103730",
+       "103756",
+       "103844",
+       "103927",
+       "104000",
+       "104115",
+       "104203",
+       "104330",
+       "104414",
+       "104440"
+      ]
+     },
+     "isClockwise": false,
+     "demoTimeCurrent": ""
+    },
+    "warehouseManagementSystemControl": {}
+   },
+   "reqpickbatch_success_7023660183.json": {
+    "_meta": {
+     "warehouse": {
+      "tag": "TOYO-W",
+      "uuid": "TOYO-W_pro_uuid"
+     },
+     "demoTimeStamp": "1970-01-01 00:00:00.020221",
+     "saveInBQ": false,
+     "save_in_gui_test": false,
+     "requestName": "69"
+    },
+    "requestType": "pickroute",
+    "version": {},
+    "requestData": {
+     "origin": "TOYO-W_START",
+     "destination": "TOYO-W_START",
+     "returnPickerHints": false,
+     "mobileUnitId": null,
+     "pickRoundId": 7023660183,
+     "userId": null,
+     "picksInfo": {
+      "locations": [
+       "SSG2203B",
+       "SSI2301C",
+       "SSJ4107B",
+       "SSK1403C",
+       "SSL2404A",
+       "SSN3605D",
+       "SSN3910C",
+       "SSO3706E",
+       "SSQ4603A",
+       "SSP4303C",
+       "SSQ2407F",
+       "SSQ2903A",
+       "SSR0403C",
+       "SST2504E",
+       "SSU2108F",
+       "SSU5002C",
+       "SSV3104A"
+      ],
+      "SKUs": [
+       "110PAL009969",
+       "7647105",
+       "110PAL010286",
+       "110PAL009967",
+       "7600543",
+       "7680757",
+       "7650840",
+       "7651766",
+       "110PAL003044",
+       "110PAL009970",
+       "7651742",
+       "110PAL007875",
+       "110PAL009968",
+       "110PAL007590",
+       "110PAL007969",
+       "7651495",
+       "7657141"
+      ],
+      "originalSorting": [
+       "102512",
+       "102602",
+       "102702",
+       "102739",
+       "102814",
+       "102858",
+       "102940",
+       "103025",
+       "103124",
+       "103213",
+       "103249",
+       "103341",
+       "103418",
+       "103453",
+       "103547",
+       "103642",
+       "103724"
+      ]
+     },
+     "isClockwise": false,
+     "demoTimeCurrent": ""
+    },
+    "warehouseManagementSystemControl": {}
+   },
+   "reqpickbatch_success_7023908467.json": {
+    "_meta": {
+     "warehouse": {
+      "tag": "TOYO-W",
+      "uuid": "TOYO-W_pro_uuid"
+     },
+     "demoTimeStamp": "1970-01-01 00:00:00.020221",
+     "saveInBQ": false,
+     "save_in_gui_test": false,
+     "requestName": "70"
+    },
+    "requestType": "pickroute",
+    "version": {},
+    "requestData": {
+     "origin": "TOYO-W_START",
+     "destination": "TOYO-W_START",
+     "returnPickerHints": false,
+     "mobileUnitId": null,
+     "pickRoundId": 7023908467,
+     "userId": null,
+     "picksInfo": {
+      "locations": [
+       "SSE2907I",
+       "SSI4606T",
+       "SSJ1005C",
+       "SSK4506M",
+       "SSN1507D",
+       "SSU2003E"
+      ],
+      "SKUs": [
+       "80103T810071",
+       "80300T811071",
+       "24136T8B0071",
+       "80133T812071",
+       "80710T810071",
+       "55172T109071"
+      ],
+      "originalSorting": [
+       "112031",
+       "112243",
+       "112351",
+       "112505",
+       "112705",
+       "112808"
+      ]
+     },
+     "isClockwise": false,
+     "demoTimeCurrent": ""
+    },
+    "warehouseManagementSystemControl": {}
+   },
+   "reqpickbatch_success_7024118922.json": {
+    "_meta": {
+     "warehouse": {
+      "tag": "TOYO-W",
+      "uuid": "TOYO-W_pro_uuid"
+     },
+     "demoTimeStamp": "1970-01-01 00:00:00.020221",
+     "saveInBQ": false,
+     "save_in_gui_test": false,
+     "requestName": "71"
+    },
+    "requestType": "pickroute",
+    "version": {},
+    "requestData": {
+     "origin": "TOYO-W_START",
+     "destination": "TOYO-W_START",
+     "returnPickerHints": false,
+     "mobileUnitId": null,
+     "pickRoundId": 7024118922,
+     "userId": null,
+     "picksInfo": {
+      "locations": [
+       "SST0705F"
+      ],
+      "SKUs": [
+       "BE1PAL000321"
+      ],
+      "originalSorting": [
+       "90919"
+      ]
+     },
+     "isClockwise": false,
+     "demoTimeCurrent": ""
+    },
+    "warehouseManagementSystemControl": {}
+   },
+   "reqpickbatch_success_7023908461.json": {
+    "_meta": {
+     "warehouse": {
+      "tag": "TOYO-W",
+      "uuid": "TOYO-W_pro_uuid"
+     },
+     "demoTimeStamp": "1970-01-01 00:00:00.020221",
+     "saveInBQ": false,
+     "save_in_gui_test": false,
+     "requestName": "72"
+    },
+    "requestType": "pickroute",
+    "version": {},
+    "requestData": {
+     "origin": "TOYO-W_START",
+     "destination": "TOYO-W_START",
+     "returnPickerHints": false,
+     "mobileUnitId": null,
+     "pickRoundId": 7023908461,
+     "userId": null,
+     "picksInfo": {
+      "locations": [
+       "SSE2907I",
+       "SSI4606T",
+       "SSJ1005C",
+       "SSK4506M",
+       "SSN1507D",
+       "SSU2003E"
+      ],
+      "SKUs": [
+       "80103T810071",
+       "80300T811071",
+       "24136T8B0071",
+       "80133T812071",
+       "80710T810071",
+       "55172T109071"
+      ],
+      "originalSorting": [
+       "112039",
+       "112252",
+       "112358",
+       "112523",
+       "112630",
+       "112816"
+      ]
+     },
+     "isClockwise": false,
+     "demoTimeCurrent": ""
+    },
+    "warehouseManagementSystemControl": {}
+   },
+   "reqpickbatch_success_7024071011.json": {
+    "_meta": {
+     "warehouse": {
+      "tag": "TOYO-W",
+      "uuid": "TOYO-W_pro_uuid"
+     },
+     "demoTimeStamp": "1970-01-01 00:00:00.020221",
+     "saveInBQ": false,
+     "save_in_gui_test": false,
+     "requestName": "73"
+    },
+    "requestType": "pickroute",
+    "version": {},
+    "requestData": {
+     "origin": "TOYO-W_START",
+     "destination": "TOYO-W_START",
+     "returnPickerHints": false,
+     "mobileUnitId": null,
+     "pickRoundId": 7024071011,
+     "userId": null,
+     "picksInfo": {
+      "locations": [
+       "SSG3901A",
+       "SSG4801J",
+       "SSJ2502A",
+       "SSO1809C",
+       "SSO2506A",
+       "SSS1803B",
+       "SSU3406D"
+      ],
+      "SKUs": [
+       "7578834",
+       "110PAL008661",
+       "110PAL009962",
+       "154241",
+       "110PAL000035",
+       "110PAL000602",
+       "7536522"
+      ],
+      "originalSorting": [
+       "93724",
+       "94004",
+       "94236",
+       "94402",
+       "94441",
+       "95429",
+       "95654"
+      ]
+     },
+     "isClockwise": false,
+     "demoTimeCurrent": ""
+    },
+    "warehouseManagementSystemControl": {}
+   },
+   "reqpickbatch_success_7024015119.json": {
+    "_meta": {
+     "warehouse": {
+      "tag": "TOYO-W",
+      "uuid": "TOYO-W_pro_uuid"
+     },
+     "demoTimeStamp": "1970-01-01 00:00:00.020221",
+     "saveInBQ": false,
+     "save_in_gui_test": false,
+     "requestName": "74"
+    },
+    "requestType": "pickroute",
+    "version": {},
+    "requestData": {
+     "origin": "TOYO-W_START",
+     "destination": "TOYO-W_START",
+     "returnPickerHints": false,
+     "mobileUnitId": null,
+     "pickRoundId": 7024015119,
+     "userId": null,
+     "picksInfo": {
+      "locations": [
+       "SSO4409I"
+      ],
+      "SKUs": [
+       "110PAL009091"
+      ],
+      "originalSorting": [
+       "95538"
+      ]
+     },
+     "isClockwise": false,
+     "demoTimeCurrent": ""
+    },
+    "warehouseManagementSystemControl": {}
+   },
+   "reqpickbatch_success_7024041630.json": {
+    "_meta": {
+     "warehouse": {
+      "tag": "TOYO-W",
+      "uuid": "TOYO-W_pro_uuid"
+     },
+     "demoTimeStamp": "1970-01-01 00:00:00.020221",
+     "saveInBQ": false,
+     "save_in_gui_test": false,
+     "requestName": "75"
+    },
+    "requestType": "pickroute",
+    "version": {},
+    "requestData": {
+     "origin": "TOYO-W_START",
+     "destination": "TOYO-W_START",
+     "returnPickerHints": false,
+     "mobileUnitId": null,
+     "pickRoundId": 7024041630,
+     "userId": null,
+     "picksInfo": {
+      "locations": [
+       "SSM2901C",
+       "SSU3707I"
+      ],
+      "SKUs": [
+       "28750",
+       "839818-001"
+      ],
+      "originalSorting": [
+       "105330",
+       "105444"
+      ]
+     },
+     "isClockwise": false,
+     "demoTimeCurrent": ""
+    },
+    "warehouseManagementSystemControl": {}
+   },
+   "reqpickbatch_success_7024134303.json": {
+    "_meta": {
+     "warehouse": {
+      "tag": "TOYO-W",
+      "uuid": "TOYO-W_pro_uuid"
+     },
+     "demoTimeStamp": "1970-01-01 00:00:00.020221",
+     "saveInBQ": false,
+     "save_in_gui_test": false,
+     "requestName": "76"
+    },
+    "requestType": "pickroute",
+    "version": {},
+    "requestData": {
+     "origin": "TOYO-W_START",
+     "destination": "TOYO-W_START",
+     "returnPickerHints": false,
+     "mobileUnitId": null,
+     "pickRoundId": 7024134303,
+     "userId": null,
+     "picksInfo": {
+      "locations": [
+       "SSE1704A"
+      ],
+      "SKUs": [
+       "110PAL006821"
+      ],
+      "originalSorting": [
+       "93844"
+      ]
+     },
+     "isClockwise": false,
+     "demoTimeCurrent": ""
+    },
+    "warehouseManagementSystemControl": {}
+   },
+   "reqpickbatch_success_7024118898.json": {
+    "_meta": {
+     "warehouse": {
+      "tag": "TOYO-W",
+      "uuid": "TOYO-W_pro_uuid"
+     },
+     "demoTimeStamp": "1970-01-01 00:00:00.020221",
+     "saveInBQ": false,
+     "save_in_gui_test": false,
+     "requestName": "77"
+    },
+    "requestType": "pickroute",
+    "version": {},
+    "requestData": {
+     "origin": "TOYO-W_START",
+     "destination": "TOYO-W_START",
+     "returnPickerHints": false,
+     "mobileUnitId": null,
+     "pickRoundId": 7024118898,
+     "userId": null,
+     "picksInfo": {
+      "locations": [
+       "SST0705F"
+      ],
+      "SKUs": [
+       "BE1PAL000321"
+      ],
+      "originalSorting": [
+       "90227"
+      ]
+     },
+     "isClockwise": false,
+     "demoTimeCurrent": ""
+    },
+    "warehouseManagementSystemControl": {}
+   },
+   "reqpickbatch_success_7023722749.json": {
+    "_meta": {
+     "warehouse": {
+      "tag": "TOYO-W",
+      "uuid": "TOYO-W_pro_uuid"
+     },
+     "demoTimeStamp": "1970-01-01 00:00:00.020221",
+     "saveInBQ": false,
+     "save_in_gui_test": false,
+     "requestName": "78"
+    },
+    "requestType": "pickroute",
+    "version": {},
+    "requestData": {
+     "origin": "TOYO-W_START",
+     "destination": "TOYO-W_START",
+     "returnPickerHints": false,
+     "mobileUnitId": null,
+     "pickRoundId": 7023722749,
+     "userId": null,
+     "picksInfo": {
+      "locations": [
+       "SSE1203C",
+       "SSE2403C",
+       "SSH0907C",
+       "SSK3405A",
+       "SSN0312B",
+       "SSO0204H",
+       "SSP1708G"
+      ],
+      "SKUs": [
+       "110PAL010282",
+       "110PAL010283",
+       "110PAL000076",
+       "110PAL010284",
+       "110PAL010290",
+       "110PAL009202",
+       "110PAL010297"
+      ],
+      "originalSorting": [
+       "100408",
+       "100617",
+       "100945",
+       "101409",
+       "101620",
+       "101905",
+       "102140"
+      ]
+     },
+     "isClockwise": false,
+     "demoTimeCurrent": ""
+    },
+    "warehouseManagementSystemControl": {}
+   },
+   "reqpickbatch_success_7023527116.json": {
+    "_meta": {
+     "warehouse": {
+      "tag": "TOYO-W",
+      "uuid": "TOYO-W_pro_uuid"
+     },
+     "demoTimeStamp": "1970-01-01 00:00:00.020221",
+     "saveInBQ": false,
+     "save_in_gui_test": false,
+     "requestName": "79"
+    },
+    "requestType": "pickroute",
+    "version": {},
+    "requestData": {
+     "origin": "TOYO-W_START",
+     "destination": "TOYO-W_START",
+     "returnPickerHints": false,
+     "mobileUnitId": null,
+     "pickRoundId": 7023527116,
+     "userId": null,
+     "picksInfo": {
+      "locations": [
+       "SSO2506A"
+      ],
+      "SKUs": [
+       "110PAL000035"
+      ],
+      "originalSorting": [
+       "101125"
+      ]
+     },
+     "isClockwise": false,
+     "demoTimeCurrent": ""
+    },
+    "warehouseManagementSystemControl": {}
+   },
+   "reqpickbatch_success_7023527118.json": {
+    "_meta": {
+     "warehouse": {
+      "tag": "TOYO-W",
+      "uuid": "TOYO-W_pro_uuid"
+     },
+     "demoTimeStamp": "1970-01-01 00:00:00.020221",
+     "saveInBQ": false,
+     "save_in_gui_test": false,
+     "requestName": "80"
+    },
+    "requestType": "pickroute",
+    "version": {},
+    "requestData": {
+     "origin": "TOYO-W_START",
+     "destination": "TOYO-W_START",
+     "returnPickerHints": false,
+     "mobileUnitId": null,
+     "pickRoundId": 7023527118,
+     "userId": null,
+     "picksInfo": {
+      "locations": [
+       "SSO2506A"
+      ],
+      "SKUs": [
+       "110PAL000035"
+      ],
+      "originalSorting": [
+       "94525"
+      ]
+     },
+     "isClockwise": false,
+     "demoTimeCurrent": ""
+    },
+    "warehouseManagementSystemControl": {}
+   },
+   "reqpickbatch_success_7024130949.json": {
+    "_meta": {
+     "warehouse": {
+      "tag": "TOYO-W",
+      "uuid": "TOYO-W_pro_uuid"
+     },
+     "demoTimeStamp": "1970-01-01 00:00:00.020221",
+     "saveInBQ": false,
+     "save_in_gui_test": false,
+     "requestName": "81"
+    },
+    "requestType": "pickroute",
+    "version": {},
+    "requestData": {
+     "origin": "TOYO-W_START",
+     "destination": "TOYO-W_START",
+     "returnPickerHints": false,
+     "mobileUnitId": null,
+     "pickRoundId": 7024130949,
+     "userId": null,
+     "picksInfo": {
+      "locations": [
+       "SSE1203B",
+       "SSE2203B",
+       "SSG4902R",
+       "SSH0907C",
+       "SSI4508O",
+       "SSI4603I",
+       "SSK3407H",
+       "SSM4708O",
+       "SSN0206E",
+       "SSN0312B",
+       "SSO0204H",
+       "SSO1803D",
+       "SSO2905E",
+       "SSO3208A",
+       "SSO3211H",
+       "SSO3808F",
+       "SSO4607E",
+       "SSP1708G",
+       "SSP2108D",
+       "SSU0307C",
+       "SSU1711F",
+       "SSU2406E",
+       "SSU2809B",
+       "SSU3908G"
+      ],
+      "SKUs": [
+       "110PAL008569",
+       "110PAL004436",
+       "57894N317071",
+       "110PAL000076",
+       "57893N317071",
+       "57891N317071",
+       "578712132271",
+       "57853N307071",
+       "110PAL001459",
+       "110PAL010290",
+       "110PAL009202",
+       "578713684071",
+       "56641N317071",
+       "57892N317071",
+       "578133676071",
+       "578722660171",
+       "110PAL003945",
+       "110PAL010297",
+       "578742660171",
+       "579374056071",
+       "578262664071",
+       "578332660071",
+       "578732660171",
+       "57895N307071"
+      ],
+      "originalSorting": [
+       "95630",
+       "95732",
+       "95839",
+       "95943",
+       "100041",
+       "100114",
+       "100213",
+       "100313",
+       "100545",
+       "100609",
+       "100729",
+       "100829",
+       "100855",
+       "100939",
+       "101041",
+       "101120",
+       "101154",
+       "101221",
+       "101250",
+       "101402",
+       "101447",
+       "101516",
+       "101604",
+       "101643"
+      ]
+     },
+     "isClockwise": false,
+     "demoTimeCurrent": ""
+    },
+    "warehouseManagementSystemControl": {}
+   },
+   "reqpickbatch_success_7023716043.json": {
+    "_meta": {
+     "warehouse": {
+      "tag": "TOYO-W",
+      "uuid": "TOYO-W_pro_uuid"
+     },
+     "demoTimeStamp": "1970-01-01 00:00:00.020221",
+     "saveInBQ": false,
+     "save_in_gui_test": false,
+     "requestName": "82"
+    },
+    "requestType": "pickroute",
+    "version": {},
+    "requestData": {
+     "origin": "TOYO-W_START",
+     "destination": "TOYO-W_START",
+     "returnPickerHints": false,
+     "mobileUnitId": null,
+     "pickRoundId": 7023716043,
+     "userId": null,
+     "picksInfo": {
+      "locations": [
+       "SSP2704C"
+      ],
+      "SKUs": [
+       "848235-013"
+      ],
+      "originalSorting": [
+       "93628"
+      ]
+     },
+     "isClockwise": false,
+     "demoTimeCurrent": ""
+    },
+    "warehouseManagementSystemControl": {}
+   },
+   "reqpickbatch_success_7024090517.json": {
+    "_meta": {
+     "warehouse": {
+      "tag": "TOYO-W",
+      "uuid": "TOYO-W_pro_uuid"
+     },
+     "demoTimeStamp": "1970-01-01 00:00:00.020221",
+     "saveInBQ": false,
+     "save_in_gui_test": false,
+     "requestName": "83"
+    },
+    "requestType": "pickroute",
+    "version": {},
+    "requestData": {
+     "origin": "TOYO-W_START",
+     "destination": "TOYO-W_START",
+     "returnPickerHints": false,
+     "mobileUnitId": null,
+     "pickRoundId": 7024090517,
+     "userId": null,
+     "picksInfo": {
+      "locations": [
+       "SSO3212I",
+       "SST3304C"
+      ],
+      "SKUs": [
+       "110PAL001801",
+       "110PAL000143"
+      ],
+      "originalSorting": [
+       "95433",
+       "95854"
+      ]
+     },
+     "isClockwise": false,
+     "demoTimeCurrent": ""
+    },
+    "warehouseManagementSystemControl": {}
+   },
+   "reqpickbatch_success_7023563386.json": {
+    "_meta": {
+     "warehouse": {
+      "tag": "TOYO-W",
+      "uuid": "TOYO-W_pro_uuid"
+     },
+     "demoTimeStamp": "1970-01-01 00:00:00.020221",
+     "saveInBQ": false,
+     "save_in_gui_test": false,
+     "requestName": "84"
+    },
+    "requestType": "pickroute",
+    "version": {},
+    "requestData": {
+     "origin": "TOYO-W_START",
+     "destination": "TOYO-W_START",
+     "returnPickerHints": false,
+     "mobileUnitId": null,
+     "pickRoundId": 7023563386,
+     "userId": null,
+     "picksInfo": {
+      "locations": [
+       "SSI1805B"
+      ],
+      "SKUs": [
+       "7623069"
+      ],
+      "originalSorting": [
+       "104810"
+      ]
+     },
+     "isClockwise": false,
+     "demoTimeCurrent": ""
+    },
+    "warehouseManagementSystemControl": {}
+   },
+   "reqpickbatch_success_7024071009.json": {
+    "_meta": {
+     "warehouse": {
+      "tag": "TOYO-W",
+      "uuid": "TOYO-W_pro_uuid"
+     },
+     "demoTimeStamp": "1970-01-01 00:00:00.020221",
+     "saveInBQ": false,
+     "save_in_gui_test": false,
+     "requestName": "85"
+    },
+    "requestType": "pickroute",
+    "version": {},
+    "requestData": {
+     "origin": "TOYO-W_START",
+     "destination": "TOYO-W_START",
+     "returnPickerHints": false,
+     "mobileUnitId": null,
+     "pickRoundId": 7024071009,
+     "userId": null,
+     "picksInfo": {
+      "locations": [
+       "SSG3901A",
+       "SSG4801J",
+       "SSJ2502A",
+       "SSO1809C",
+       "SSO2506A",
+       "SSS1803B",
+       "SSU3406D"
+      ],
+      "SKUs": [
+       "7578834",
+       "110PAL008661",
+       "110PAL009962",
+       "154241",
+       "110PAL000035",
+       "110PAL000602",
+       "7536522"
+      ],
+      "originalSorting": [
+       "94259",
+       "94334",
+       "94635",
+       "94816",
+       "94856",
+       "95055",
+       "95144"
+      ]
+     },
+     "isClockwise": false,
+     "demoTimeCurrent": ""
+    },
+    "warehouseManagementSystemControl": {}
+   },
+   "reqpickbatch_success_7023428845.json": {
+    "_meta": {
+     "warehouse": {
+      "tag": "TOYO-W",
+      "uuid": "TOYO-W_pro_uuid"
+     },
+     "demoTimeStamp": "1970-01-01 00:00:00.020221",
+     "saveInBQ": false,
+     "save_in_gui_test": false,
+     "requestName": "86"
+    },
+    "requestType": "pickroute",
+    "version": {},
+    "requestData": {
+     "origin": "TOYO-W_START",
+     "destination": "TOYO-W_START",
+     "returnPickerHints": false,
+     "mobileUnitId": null,
+     "pickRoundId": 7023428845,
+     "userId": null,
+     "picksInfo": {
+      "locations": [
+       "SSN0206E"
+      ],
+      "SKUs": [
+       "110PAL001459"
+      ],
+      "originalSorting": [
+       "100641"
+      ]
+     },
+     "isClockwise": false,
+     "demoTimeCurrent": ""
+    },
+    "warehouseManagementSystemControl": {}
+   },
+   "reqpickbatch_success_7024041632.json": {
+    "_meta": {
+     "warehouse": {
+      "tag": "TOYO-W",
+      "uuid": "TOYO-W_pro_uuid"
+     },
+     "demoTimeStamp": "1970-01-01 00:00:00.020221",
+     "saveInBQ": false,
+     "save_in_gui_test": false,
+     "requestName": "87"
+    },
+    "requestType": "pickroute",
+    "version": {},
+    "requestData": {
+     "origin": "TOYO-W_START",
+     "destination": "TOYO-W_START",
+     "returnPickerHints": false,
+     "mobileUnitId": null,
+     "pickRoundId": 7024041632,
+     "userId": null,
+     "picksInfo": {
+      "locations": [
+       "SSM2901C",
+       "SSU3707I"
+      ],
+      "SKUs": [
+       "28750",
+       "839818-001"
+      ],
+      "originalSorting": [
+       "105349",
+       "105527"
+      ]
+     },
+     "isClockwise": false,
+     "demoTimeCurrent": ""
+    },
+    "warehouseManagementSystemControl": {}
+   },
+   "reqpickbatch_success_7024090523.json": {
+    "_meta": {
+     "warehouse": {
+      "tag": "TOYO-W",
+      "uuid": "TOYO-W_pro_uuid"
+     },
+     "demoTimeStamp": "1970-01-01 00:00:00.020221",
+     "saveInBQ": false,
+     "save_in_gui_test": false,
+     "requestName": "88"
+    },
+    "requestType": "pickroute",
+    "version": {},
+    "requestData": {
+     "origin": "TOYO-W_START",
+     "destination": "TOYO-W_START",
+     "returnPickerHints": false,
+     "mobileUnitId": null,
+     "pickRoundId": 7024090523,
+     "userId": null,
+     "picksInfo": {
+      "locations": [
+       "SSO3212I",
+       "SST3304C"
+      ],
+      "SKUs": [
+       "110PAL001801",
+       "110PAL000143"
+      ],
+      "originalSorting": [
+       "95500",
+       "100001"
+      ]
+     },
+     "isClockwise": false,
+     "demoTimeCurrent": ""
+    },
+    "warehouseManagementSystemControl": {}
+   },
+   "reqpickbatch_success_7023563388.json": {
+    "_meta": {
+     "warehouse": {
+      "tag": "TOYO-W",
+      "uuid": "TOYO-W_pro_uuid"
+     },
+     "demoTimeStamp": "1970-01-01 00:00:00.020221",
+     "saveInBQ": false,
+     "save_in_gui_test": false,
+     "requestName": "89"
+    },
+    "requestType": "pickroute",
+    "version": {},
+    "requestData": {
+     "origin": "TOYO-W_START",
+     "destination": "TOYO-W_START",
+     "returnPickerHints": false,
+     "mobileUnitId": null,
+     "pickRoundId": 7023563388,
+     "userId": null,
+     "picksInfo": {
+      "locations": [
+       "SSI1805B"
+      ],
+      "SKUs": [
+       "7623069"
+      ],
+      "originalSorting": [
+       "104845"
+      ]
+     },
+     "isClockwise": false,
+     "demoTimeCurrent": ""
+    },
+    "warehouseManagementSystemControl": {}
+   },
+   "reqpickbatch_success_7023430513.json": {
+    "_meta": {
+     "warehouse": {
+      "tag": "TOYO-W",
+      "uuid": "TOYO-W_pro_uuid"
+     },
+     "demoTimeStamp": "1970-01-01 00:00:00.020221",
+     "saveInBQ": false,
+     "save_in_gui_test": false,
+     "requestName": "90"
+    },
+    "requestType": "pickroute",
+    "version": {},
+    "requestData": {
+     "origin": "TOYO-W_START",
+     "destination": "TOYO-W_START",
+     "returnPickerHints": false,
+     "mobileUnitId": null,
+     "pickRoundId": 7023430513,
+     "userId": null,
+     "picksInfo": {
+      "locations": [
+       "SSP3907D",
+       "SSP4108G",
+       "SSU0303B"
+      ],
+      "SKUs": [
+       "7508138",
+       "7508137",
+       "7508139"
+      ],
+      "originalSorting": [
+       "93918",
+       "94223",
+       "94516"
+      ]
+     },
+     "isClockwise": false,
+     "demoTimeCurrent": ""
+    },
+    "warehouseManagementSystemControl": {}
+   },
+   "reqpickbatch_success_7023672178.json": {
+    "_meta": {
+     "warehouse": {
+      "tag": "TOYO-W",
+      "uuid": "TOYO-W_pro_uuid"
+     },
+     "demoTimeStamp": "1970-01-01 00:00:00.020221",
+     "saveInBQ": false,
+     "save_in_gui_test": false,
+     "requestName": "91"
+    },
+    "requestType": "pickroute",
+    "version": {},
+    "requestData": {
+     "origin": "TOYO-W_START",
+     "destination": "TOYO-W_START",
+     "returnPickerHints": false,
+     "mobileUnitId": null,
+     "pickRoundId": 7023672178,
+     "userId": null,
+     "picksInfo": {
+      "locations": [
+       "SSF3405E",
+       "SSH0907C",
+       "SSJ0406A",
+       "SSJ0605D",
+       "SSN1601A",
+       "SSO2506A",
+       "SST2606B"
+      ],
+      "SKUs": [
+       "110PAL009701",
+       "110PAL000076",
+       "574702132271",
+       "110PAL008192",
+       "0403340ORA",
+       "110PAL000035",
+       "110PAL001226"
+      ],
+      "originalSorting": [
+       "100737",
+       "101020",
+       "101057",
+       "101132",
+       "101700",
+       "102025",
+       "102440"
+      ]
+     },
+     "isClockwise": false,
+     "demoTimeCurrent": ""
+    },
+    "warehouseManagementSystemControl": {}
+   },
+   "reqpickbatch_success_7023563395.json": {
+    "_meta": {
+     "warehouse": {
+      "tag": "TOYO-W",
+      "uuid": "TOYO-W_pro_uuid"
+     },
+     "demoTimeStamp": "1970-01-01 00:00:00.020221",
+     "saveInBQ": false,
+     "save_in_gui_test": false,
+     "requestName": "92"
+    },
+    "requestType": "pickroute",
+    "version": {},
+    "requestData": {
+     "origin": "TOYO-W_START",
+     "destination": "TOYO-W_START",
+     "returnPickerHints": false,
+     "mobileUnitId": null,
+     "pickRoundId": 7023563395,
+     "userId": null,
+     "picksInfo": {
+      "locations": [
+       "SSI1805B"
+      ],
+      "SKUs": [
+       "7623069"
+      ],
+      "originalSorting": [
+       "104905"
+      ]
+     },
+     "isClockwise": false,
+     "demoTimeCurrent": ""
+    },
+    "warehouseManagementSystemControl": {}
+   },
+   "reqpickbatch_success_7023722745.json": {
+    "_meta": {
+     "warehouse": {
+      "tag": "TOYO-W",
+      "uuid": "TOYO-W_pro_uuid"
+     },
+     "demoTimeStamp": "1970-01-01 00:00:00.020221",
+     "saveInBQ": false,
+     "save_in_gui_test": false,
+     "requestName": "93"
+    },
+    "requestType": "pickroute",
+    "version": {},
+    "requestData": {
+     "origin": "TOYO-W_START",
+     "destination": "TOYO-W_START",
+     "returnPickerHints": false,
+     "mobileUnitId": null,
+     "pickRoundId": 7023722745,
+     "userId": null,
+     "picksInfo": {
+      "locations": [
+       "SSE1203C",
+       "SSE2403C",
+       "SSH0907C",
+       "SSK3405A",
+       "SSN0312B",
+       "SSO0204H",
+       "SSP1708G"
+      ],
+      "SKUs": [
+       "110PAL010282",
+       "110PAL010283",
+       "110PAL000076",
+       "110PAL010284",
+       "110PAL010290",
+       "110PAL009202",
+       "110PAL010297"
+      ],
+      "originalSorting": [
+       "100429",
+       "100630",
+       "100959",
+       "101424",
+       "101519",
+       "101920",
+       "102157"
+      ]
+     },
+     "isClockwise": false,
+     "demoTimeCurrent": ""
+    },
+    "warehouseManagementSystemControl": {}
+   },
+   "reqpickbatch_success_7023660181.json": {
+    "_meta": {
+     "warehouse": {
+      "tag": "TOYO-W",
+      "uuid": "TOYO-W_pro_uuid"
+     },
+     "demoTimeStamp": "1970-01-01 00:00:00.020221",
+     "saveInBQ": false,
+     "save_in_gui_test": false,
+     "requestName": "94"
+    },
+    "requestType": "pickroute",
+    "version": {},
+    "requestData": {
+     "origin": "TOYO-W_START",
+     "destination": "TOYO-W_START",
+     "returnPickerHints": false,
+     "mobileUnitId": null,
+     "pickRoundId": 7023660181,
+     "userId": null,
+     "picksInfo": {
+      "locations": [
+       "SSG2203B",
+       "SSI2301C",
+       "SSJ4107B",
+       "SSK1403C",
+       "SSL2404A",
+       "SSN3605D",
+       "SSN3910C",
+       "SSO3706E",
+       "SSQ4603A",
+       "SSR0403C",
+       "SST2504E",
+       "SSQ2407F",
+       "SSQ2903A",
+       "SSV3104A",
+       "SSU2108F",
+       "SSP4303C",
+       "SSU5002C"
+      ],
+      "SKUs": [
+       "110PAL009969",
+       "7647105",
+       "110PAL010286",
+       "110PAL009967",
+       "7600543",
+       "7680757",
+       "7650840",
+       "7651766",
+       "110PAL003044",
+       "110PAL009968",
+       "110PAL007590",
+       "7651742",
+       "110PAL007875",
+       "7657141",
+       "110PAL007969",
+       "110PAL009970",
+       "7651495"
+      ],
+      "originalSorting": [
+       "103311",
+       "103415",
+       "103500",
+       "103543",
+       "103617",
+       "103757",
+       "103816",
+       "103920",
+       "104009",
+       "104037",
+       "104126",
+       "104210",
+       "104234",
+       "104349",
+       "104433",
+       "104523",
+       "104710"
+      ]
+     },
+     "isClockwise": false,
+     "demoTimeCurrent": ""
+    },
+    "warehouseManagementSystemControl": {}
+   },
+   "reqpickbatch_success_7024118912.json": {
+    "_meta": {
+     "warehouse": {
+      "tag": "TOYO-W",
+      "uuid": "TOYO-W_pro_uuid"
+     },
+     "demoTimeStamp": "1970-01-01 00:00:00.020221",
+     "saveInBQ": false,
+     "save_in_gui_test": false,
+     "requestName": "95"
+    },
+    "requestType": "pickroute",
+    "version": {},
+    "requestData": {
+     "origin": "TOYO-W_START",
+     "destination": "TOYO-W_START",
+     "returnPickerHints": false,
+     "mobileUnitId": null,
+     "pickRoundId": 7024118912,
+     "userId": null,
+     "picksInfo": {
+      "locations": [
+       "SST0705F"
+      ],
+      "SKUs": [
+       "BE1PAL000321"
+      ],
+      "originalSorting": [
+       "90708"
+      ]
+     },
+     "isClockwise": false,
+     "demoTimeCurrent": ""
+    },
+    "warehouseManagementSystemControl": {}
+   },
+   "reqpickbatch_success_7024071001.json": {
+    "_meta": {
+     "warehouse": {
+      "tag": "TOYO-W",
+      "uuid": "TOYO-W_pro_uuid"
+     },
+     "demoTimeStamp": "1970-01-01 00:00:00.020221",
+     "saveInBQ": false,
+     "save_in_gui_test": false,
+     "requestName": "96"
+    },
+    "requestType": "pickroute",
+    "version": {},
+    "requestData": {
+     "origin": "TOYO-W_START",
+     "destination": "TOYO-W_START",
+     "returnPickerHints": false,
+     "mobileUnitId": null,
+     "pickRoundId": 7024071001,
+     "userId": null,
+     "picksInfo": {
+      "locations": [
+       "SSG3901A",
+       "SSG4801J",
+       "SSJ2502A",
+       "SSO1809C",
+       "SSO2506A",
+       "SSS1803B",
+       "SSU3406D"
+      ],
+      "SKUs": [
+       "7578834",
+       "110PAL008661",
+       "110PAL009962",
+       "154241",
+       "110PAL000035",
+       "110PAL000602",
+       "7536522"
+      ],
+      "originalSorting": [
+       "101553",
+       "101643",
+       "101736",
+       "102101",
+       "102205",
+       "103010",
+       "103049"
+      ]
+     },
+     "isClockwise": false,
+     "demoTimeCurrent": ""
+    },
+    "warehouseManagementSystemControl": {}
+   },
+   "reqpickbatch_success_7023816700.json": {
+    "_meta": {
+     "warehouse": {
+      "tag": "TOYO-W",
+      "uuid": "TOYO-W_pro_uuid"
+     },
+     "demoTimeStamp": "1970-01-01 00:00:00.020221",
+     "saveInBQ": false,
+     "save_in_gui_test": false,
+     "requestName": "97"
+    },
+    "requestType": "pickroute",
+    "version": {},
+    "requestData": {
+     "origin": "TOYO-W_START",
+     "destination": "TOYO-W_START",
+     "returnPickerHints": false,
+     "mobileUnitId": null,
+     "pickRoundId": 7023816700,
+     "userId": null,
+     "picksInfo": {
+      "locations": [
+       "SSU3104E",
+       "SSU2801F"
+      ],
+      "SKUs": [
+       "55371T109071",
+       "55363T109071"
+      ],
+      "originalSorting": [
+       "94409",
+       "94458"
+      ]
+     },
+     "isClockwise": false,
+     "demoTimeCurrent": ""
+    },
+    "warehouseManagementSystemControl": {}
+   },
+   "reqpickbatch_success_7023840673.json": {
+    "_meta": {
+     "warehouse": {
+      "tag": "TOYO-W",
+      "uuid": "TOYO-W_pro_uuid"
+     },
+     "demoTimeStamp": "1970-01-01 00:00:00.020221",
+     "saveInBQ": false,
+     "save_in_gui_test": false,
+     "requestName": "98"
+    },
+    "requestType": "pickroute",
+    "version": {},
+    "requestData": {
+     "origin": "TOYO-W_START",
+     "destination": "TOYO-W_START",
+     "returnPickerHints": false,
+     "mobileUnitId": null,
+     "pickRoundId": 7023840673,
+     "userId": null,
+     "picksInfo": {
+      "locations": [
+       "SSO3411F",
+       "SSO2701C",
+       "SSJ1402A"
+      ],
+      "SKUs": [
+       "162300-002",
+       "117157-002",
+       "252611"
+      ],
+      "originalSorting": [
+       "93840",
+       "93905",
+       "93956"
+      ]
+     },
+     "isClockwise": false,
+     "demoTimeCurrent": ""
+    },
+    "warehouseManagementSystemControl": {}
+   },
+   "reqpickbatch_success_7023920093.json": {
+    "_meta": {
+     "warehouse": {
+      "tag": "TOYO-W",
+      "uuid": "TOYO-W_pro_uuid"
+     },
+     "demoTimeStamp": "1970-01-01 00:00:00.020221",
+     "saveInBQ": false,
+     "save_in_gui_test": false,
+     "requestName": "99"
+    },
+    "requestType": "pickroute",
+    "version": {},
+    "requestData": {
+     "origin": "TOYO-W_START",
+     "destination": "TOYO-W_START",
+     "returnPickerHints": false,
+     "mobileUnitId": null,
+     "pickRoundId": 7023920093,
+     "userId": null,
+     "picksInfo": {
+      "locations": [
+       "SSM2207C"
+      ],
+      "SKUs": [
+       "BE1PAL000320"
+      ],
+      "originalSorting": [
+       "110819"
+      ]
+     },
+     "isClockwise": false,
+     "demoTimeCurrent": ""
+    },
+    "warehouseManagementSystemControl": {}
+   }
+  }
+ }
+}

@@ -1,0 +1,45 @@
+{
+ "_meta": {
+  "warehouse": {
+   "tag": "TOYO-W",
+   "uuid": "TOYO-W_pro_uuid"
+  },
+  "demoTimeStamp": "1970-01-01 00:00:00.020221"
+ },
+ "requestType": "pickroute",
+ "version": {},
+ "requestData": {
+  "origin": "TOYO-W_START",
+  "destination": "TOYO-W_START",
+  "returnPickerHints": false,
+  "mobileUnitId": null,
+  "pickRoundId": 7023562485,
+  "userId": null,
+  "picksInfo": {
+   "locations": [
+    "SSE2903B",
+    "SSG3605B",
+    "SSN1601A",
+    "SSV2305A",
+    "SST2606B"
+   ],
+   "SKUs": [
+    "110PAL007903",
+    "110PAL000017",
+    "0403340ORA",
+    "678502660071",
+    "110PAL001226"
+   ],
+   "originalSorting": [
+    "100508",
+    "100542",
+    "100745",
+    "101546",
+    "101952"
+   ]
+  },
+  "isClockwise": false,
+  "demoTimeCurrent": ""
+ },
+ "warehouseManagementSystemControl": {}
+}

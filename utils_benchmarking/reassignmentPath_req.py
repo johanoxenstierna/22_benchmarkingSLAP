@@ -2,12 +2,12 @@
 
 import json
 
-# PATH_RESP = './send_one_res_TOYO.json' # RENAME IT! send_one_res MIGHT BE OVERWRITTEN using send_one
-PATH_RESP = './tsplibfiles/2_SLAP_PRO/NR1/c98_ac3d/c98_ac3d_SLAP_res.json' # RENAME IT! send_one_res MIGHT BE OVERWRITTEN using send_one
+PATH_RESP = './send_one_res_30.json' # RENAME IT! send_one_res MIGHT BE OVERWRITTEN using send_one
+# PATH_RESP = './tsplibfiles/2_SLAP_PRO/NR1/c57_91eb/c57_91eb_SLAP_res.json' # RENAME IT! send_one_res MIGHT BE OVERWRITTEN using send_one
 PATH_OUT = './utils_benchmarking/req_reassignmentPath.json'
-WAREHOUSE_TAG = 'NR1'
-ORIGIN = "0"  #WH_STARTSTOP0_1"
-DESTINATION = "1"  #WH_STARTSTOP0_1"
+WAREHOUSE_TAG = 'TOYO-W'
+ORIGIN = "TOYO-W_START" #"WH_STARTSTOP0_1"  #
+DESTINATION = "TOYO-W_START"#"WH_STARTSTOP0_1"  #
 SAVE_IN_GUI_TEST = False
 
 

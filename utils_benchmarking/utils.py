@@ -18,14 +18,6 @@ def init_SLAP_req(WAREHOUSE_TAG, inst_name, inst_name_int,
     req_SLAP['_meta']['warehouse']['tag'] = WAREHOUSE_TAG
     req_SLAP['_meta']['bench'] = {'req_name_int': inst_name_int}
 
-    req_SLAP['_meta']['optimizationParameters'] = {
-        "NUM_ITERATIONS": 10000,
-        "USE_REASSIGNMENT_DISTANCE": True,
-        "PERC_SWAPS": 100,
-        "C1": 4,
-        "C2": 1,
-        "R_AMOUNT": 0.5
-    }
     return req_SLAP
 
 def duplicate_orders(inst_o, NUM_DUPLICATE_Os, O_keys):

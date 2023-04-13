@@ -1,0 +1,175 @@
+{
+    "distanceOrderPicking": 9531.54,
+    "distanceOriginal": 11562.12,
+    "distanceReassignmentPath": 1205.51,
+    "distanceSaved": 825.06,
+    "distanceTotalOptimized": 10737.06,
+    "numberOfLocationChangesProposed": 30,
+    "reassignmentPath": [
+        "SSO0806I",
+        "SSI1805B",
+        "SSO0806I",
+        "SSO0601F",
+        "SSG4705F",
+        "SSF3505A",
+        "SSJ1402A",
+        "SSO0601F",
+        "SSO2905E",
+        "SSF3405E",
+        "SSO2905E",
+        "SSO4409I",
+        "SSN3910C",
+        "SSO4409I",
+        "SSN0206E",
+        "SSN3605D",
+        "SSN0206E",
+        "SST0705F",
+        "SST2504E",
+        "SST0705F",
+        "SSU2803I",
+        "SSP2502A",
+        "SSU2803I",
+        "SSS4701A",
+        "SSR0803C",
+        "SSS4701A",
+        "SSQ2903A",
+        "SSO4607T",
+        "SSQ3001C",
+        "SSQ2903A",
+        "SSP4303C",
+        "SSO2506A",
+        "SSP4303C",
+        "SSO0708E",
+        "SSH4202A",
+        "SSO0708E",
+        "SSS0806C",
+        "SSO3212I",
+        "SSS0806C",
+        "SSS1004C",
+        "SSG3605B",
+        "SSO1809C",
+        "SSS1004C"
+    ],
+    "slottedSKUs": {
+        "07-019KCD": {
+            "rawLocCurrent": "SSJ1402A",
+            "rawLocOriginal": "SSF3505A"
+        },
+        "110PAL000017": {
+            "rawLocCurrent": "SSO1809C",
+            "rawLocOriginal": "SSG3605B"
+        },
+        "110PAL000035": {
+            "rawLocCurrent": "SSP4303C",
+            "rawLocOriginal": "SSO2506A"
+        },
+        "110PAL001459": {
+            "rawLocCurrent": "SSN3605D",
+            "rawLocOriginal": "SSN0206E"
+        },
+        "110PAL001698": {
+            "rawLocCurrent": "SSU2803I",
+            "rawLocOriginal": "SSP2502A"
+        },
+        "110PAL001801": {
+            "rawLocCurrent": "SSS0806C",
+            "rawLocOriginal": "SSO3212I"
+        },
+        "110PAL007150": {
+            "rawLocCurrent": "SSH4202A",
+            "rawLocOriginal": "SSO0708E"
+        },
+        "110PAL007590": {
+            "rawLocCurrent": "SST0705F",
+            "rawLocOriginal": "SST2504E"
+        },
+        "110PAL007875": {
+            "rawLocCurrent": "SSO4607T",
+            "rawLocOriginal": "SSQ2903A"
+        },
+        "110PAL009091": {
+            "rawLocCurrent": "SSN3910C",
+            "rawLocOriginal": "SSO4409I"
+        },
+        "110PAL009103": {
+            "rawLocCurrent": "SSG4705F",
+            "rawLocOriginal": "SSO0601F"
+        },
+        "110PAL009231": {
+            "rawLocCurrent": "SSR0803C",
+            "rawLocOriginal": "SSS4701A"
+        },
+        "110PAL009242": {
+            "rawLocCurrent": "SSS4701A",
+            "rawLocOriginal": "SSR0803C"
+        },
+        "110PAL009701": {
+            "rawLocCurrent": "SSO2905E",
+            "rawLocOriginal": "SSF3405E"
+        },
+        "110PAL009970": {
+            "rawLocCurrent": "SSO2506A",
+            "rawLocOriginal": "SSP4303C"
+        },
+        "154241": {
+            "rawLocCurrent": "SSS1004C",
+            "rawLocOriginal": "SSO1809C"
+        },
+        "2034324SBG": {
+            "rawLocCurrent": "SSI1805B",
+            "rawLocOriginal": "SSO0806I"
+        },
+        "22444": {
+            "rawLocCurrent": "SSP2502A",
+            "rawLocOriginal": "SSU2803I"
+        },
+        "252611": {
+            "rawLocCurrent": "SSO0601F",
+            "rawLocOriginal": "SSJ1402A"
+        },
+        "29770": {
+            "rawLocCurrent": "SSF3505A",
+            "rawLocOriginal": "SSG4705F"
+        },
+        "56112FSSQ471": {
+            "rawLocCurrent": "SSQ3001C",
+            "rawLocOriginal": "SSO4607T"
+        },
+        "565903676071": {
+            "rawLocCurrent": "SSO3212I",
+            "rawLocOriginal": "SSS0806C"
+        },
+        "56641N317071": {
+            "rawLocCurrent": "SSF3405E",
+            "rawLocOriginal": "SSO2905E"
+        },
+        "56710FPA2071": {
+            "rawLocCurrent": "SSG3605B",
+            "rawLocOriginal": "SSS1004C"
+        },
+        "7534034": {
+            "rawLocCurrent": "SSQ2903A",
+            "rawLocOriginal": "SSQ3001C"
+        },
+        "7592058": {
+            "rawLocCurrent": "SSO0708E",
+            "rawLocOriginal": "SSH4202A"
+        },
+        "7623069": {
+            "rawLocCurrent": "SSO0806I",
+            "rawLocOriginal": "SSI1805B"
+        },
+        "7650840": {
+            "rawLocCurrent": "SSO4409I",
+            "rawLocOriginal": "SSN3910C"
+        },
+        "7680757": {
+            "rawLocCurrent": "SSN0206E",
+            "rawLocOriginal": "SSN3605D"
+        },
+        "BE1PAL000321": {
+            "rawLocCurrent": "SST2504E",
+            "rawLocOriginal": "SST0705F"
+        }
+    }
+}

@@ -1,0 +1,45 @@
+{
+ "_meta": {
+  "warehouse": {
+   "tag": "TOYO-W",
+   "uuid": "TOYO-W_pro_uuid"
+  },
+  "demoTimeStamp": "1970-01-01 00:00:00.020221"
+ },
+ "requestType": "pickroute",
+ "version": {},
+ "requestData": {
+  "origin": "TOYO-W_START",
+  "destination": "TOYO-W_START",
+  "returnPickerHints": false,
+  "mobileUnitId": null,
+  "pickRoundId": 7024149168,
+  "userId": null,
+  "picksInfo": {
+   "locations": [
+    "SSD0702C",
+    "SSG4705F",
+    "SSO0507A",
+    "SSO2006C",
+    "SSU2803I"
+   ],
+   "SKUs": [
+    "7582374",
+    "29770",
+    "7645703",
+    "263068-002",
+    "22444"
+   ],
+   "originalSorting": [
+    "91604",
+    "91855",
+    "92157",
+    "92335",
+    "92633"
+   ]
+  },
+  "isClockwise": false,
+  "demoTimeCurrent": ""
+ },
+ "warehouseManagementSystemControl": {}
+}
